@@ -1,0 +1,10 @@
+Colors:
+Light shade:
+    Shade 1(very light): F1F1F1 rgb(241,241,241)
+    Shade 2(light): E7E7E7 rgb(231,231,231)
+    Shade 3(little dark): D4D4D4 rgb(212,212,212)
+Dark Shade
+    Shade 1(Dark): 3B5998 rgb(59,89,152)
+    Shade 2(Dark 2): 3C5898 rgb(60,80,152)
+Font:
+    Main: Gill Sans

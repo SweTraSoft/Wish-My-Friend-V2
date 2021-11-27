@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D38F596271DF1A2005178BE /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D38F595271DF1A2005178BE /* Contacts.framework */; };
+		2D38F59C271DFD55005178BE /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38F59A271DFD55005178BE /* ContactTableViewCell.swift */; };
+		2D38F59D271DFD55005178BE /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D38F59B271DFD55005178BE /* ContactTableViewCell.xib */; };
+		2D476D1B273B0FC500794D13 /* WishControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D476D1A273B0FC500794D13 /* WishControllerViewController.swift */; };
+		2D476D1D2741465000794D13 /* wishes.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D476D1C2741465000794D13 /* wishes.json */; };
+		2D476D20274146EE00794D13 /* WishesStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D476D1F274146EE00794D13 /* WishesStructure.swift */; };
+		2D476D222741471F00794D13 /* WishesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D476D212741471F00794D13 /* WishesLoader.swift */; };
+		2D476D2427415E4D00794D13 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D476D2327415E4D00794D13 /* CalenderViewController.swift */; };
+		2D476D2A27418CF100794D13 /* CalendarDayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D476D2927418CF100794D13 /* CalendarDayCollectionViewCell.swift */; };
 		2D53DE89271C452E0068B606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DE88271C452E0068B606 /* AppDelegate.swift */; };
 		2D53DE8B271C452E0068B606 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DE8A271C452E0068B606 /* SceneDelegate.swift */; };
 		2D53DE8D271C452E0068B606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DE8C271C452E0068B606 /* ViewController.swift */; };
@@ -15,6 +24,9 @@
 		2D53DE95271C45300068B606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D53DE93271C45300068B606 /* LaunchScreen.storyboard */; };
 		2D53DEA0271C45300068B606 /* Wish_My_FriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DE9F271C45300068B606 /* Wish_My_FriendTests.swift */; };
 		2D53DEAB271C45300068B606 /* Wish_My_FriendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DEAA271C45300068B606 /* Wish_My_FriendUITests.swift */; };
+		2D8D23D227253BEC00C1E434 /* Info in Resources */ = {isa = PBXBuildFile; fileRef = 2D8D23D127253BEC00C1E434 /* Info */; };
+		2DCA743D274D7E6600B8F698 /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA743C274D7E6600B8F698 /* Week.swift */; };
+		2DCA743F274D93D300B8F698 /* ColumnFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA743E274D93D300B8F698 /* ColumnFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D38F595271DF1A2005178BE /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		2D38F59A271DFD55005178BE /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		2D38F59B271DFD55005178BE /* ContactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		2D476D1A273B0FC500794D13 /* WishControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishControllerViewController.swift; sourceTree = "<group>"; };
+		2D476D1C2741465000794D13 /* wishes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wishes.json; sourceTree = "<group>"; };
+		2D476D1F274146EE00794D13 /* WishesStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishesStructure.swift; sourceTree = "<group>"; };
+		2D476D212741471F00794D13 /* WishesLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishesLoader.swift; sourceTree = "<group>"; };
+		2D476D2327415E4D00794D13 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		2D476D2927418CF100794D13 /* CalendarDayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalendarDayCollectionViewCell.swift; path = Controllers/CalendarDayCollectionViewCell.swift; sourceTree = "<group>"; };
 		2D53DE85271C452E0068B606 /* Wish My Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wish My Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D53DE88271C452E0068B606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D53DE8A271C452E0068B606 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +70,9 @@
 		2D53DEA6271C45300068B606 /* Wish My FriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wish My FriendUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D53DEAA271C45300068B606 /* Wish_My_FriendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wish_My_FriendUITests.swift; sourceTree = "<group>"; };
 		2D53DEAC271C45300068B606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D8D23D127253BEC00C1E434 /* Info */ = {isa = PBXFileReference; lastKnownFileType = text; path = Info; sourceTree = "<group>"; };
+		2DCA743C274D7E6600B8F698 /* Week.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week.swift; sourceTree = "<group>"; };
+		2DCA743E274D93D300B8F698 /* ColumnFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D38F596271DF1A2005178BE /* Contacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +101,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D38F594271DF1A2005178BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D38F595271DF1A2005178BE /* Contacts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D38F597271DFAF9005178BE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D476D2327415E4D00794D13 /* CalenderViewController.swift */,
+				2D476D1A273B0FC500794D13 /* WishControllerViewController.swift */,
+				2D53DE8C271C452E0068B606 /* ViewController.swift */,
+				2D38F59A271DFD55005178BE /* ContactTableViewCell.swift */,
+				2D38F59B271DFD55005178BE /* ContactTableViewCell.xib */,
+				2DCA743E274D93D300B8F698 /* ColumnFlowLayout.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2D476D1E274146BF00794D13 /* Wishes */ = {
+			isa = PBXGroup;
+			children = (
+				2D476D1C2741465000794D13 /* wishes.json */,
+				2D476D1F274146EE00794D13 /* WishesStructure.swift */,
+				2D476D212741471F00794D13 /* WishesLoader.swift */,
+			);
+			path = Wishes;
+			sourceTree = "<group>";
+		};
 		2D53DE7C271C452E0068B606 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +139,7 @@
 				2D53DE9E271C45300068B606 /* Wish My FriendTests */,
 				2D53DEA9271C45300068B606 /* Wish My FriendUITests */,
 				2D53DE86271C452E0068B606 /* Products */,
+				2D38F594271DF1A2005178BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +156,17 @@
 		2D53DE87271C452E0068B606 /* Wish My Friend */ = {
 			isa = PBXGroup;
 			children = (
+				2D476D1E274146BF00794D13 /* Wishes */,
+				2D8D23D32725467700C1E434 /* DataTypes */,
+				2D38F597271DFAF9005178BE /* Controllers */,
 				2D53DE88271C452E0068B606 /* AppDelegate.swift */,
 				2D53DE8A271C452E0068B606 /* SceneDelegate.swift */,
-				2D53DE8C271C452E0068B606 /* ViewController.swift */,
 				2D53DE8E271C452E0068B606 /* Main.storyboard */,
+				2D476D2927418CF100794D13 /* CalendarDayCollectionViewCell.swift */,
 				2D53DE91271C45300068B606 /* Assets.xcassets */,
 				2D53DE93271C45300068B606 /* LaunchScreen.storyboard */,
 				2D53DE96271C45300068B606 /* Info.plist */,
+				2D8D23D127253BEC00C1E434 /* Info */,
 			);
 			path = "Wish My Friend";
 			sourceTree = "<group>";
@@ -126,6 +187,14 @@
 				2D53DEAC271C45300068B606 /* Info.plist */,
 			);
 			path = "Wish My FriendUITests";
+			sourceTree = "<group>";
+		};
+		2D8D23D32725467700C1E434 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				2DCA743C274D7E6600B8F698 /* Week.swift */,
+			);
+			path = DataTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +300,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D476D1D2741465000794D13 /* wishes.json in Resources */,
+				2D38F59D271DFD55005178BE /* ContactTableViewCell.xib in Resources */,
 				2D53DE95271C45300068B606 /* LaunchScreen.storyboard in Resources */,
 				2D53DE92271C45300068B606 /* Assets.xcassets in Resources */,
+				2D8D23D227253BEC00C1E434 /* Info in Resources */,
 				2D53DE90271C452E0068B606 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +330,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D476D2A27418CF100794D13 /* CalendarDayCollectionViewCell.swift in Sources */,
+				2D38F59C271DFD55005178BE /* ContactTableViewCell.swift in Sources */,
+				2D476D1B273B0FC500794D13 /* WishControllerViewController.swift in Sources */,
+				2D476D222741471F00794D13 /* WishesLoader.swift in Sources */,
+				2D476D20274146EE00794D13 /* WishesStructure.swift in Sources */,
+				2D476D2427415E4D00794D13 /* CalenderViewController.swift in Sources */,
 				2D53DE8D271C452E0068B606 /* ViewController.swift in Sources */,
+				2DCA743F274D93D300B8F698 /* ColumnFlowLayout.swift in Sources */,
+				2DCA743D274D7E6600B8F698 /* Week.swift in Sources */,
 				2D53DE89271C452E0068B606 /* AppDelegate.swift in Sources */,
 				2D53DE8B271C452E0068B606 /* SceneDelegate.swift in Sources */,
 			);
@@ -437,6 +517,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GTU2S6FVW9;
 				INFOPLIST_FILE = "Wish My Friend/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +536,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GTU2S6FVW9;
 				INFOPLIST_FILE = "Wish My Friend/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
