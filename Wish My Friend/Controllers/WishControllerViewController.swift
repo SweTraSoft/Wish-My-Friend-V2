@@ -16,6 +16,8 @@ class WishControllerViewController: UIViewController {
     @IBOutlet weak var zodiacImage: UIImageView!
     @IBOutlet weak var zodiacLabel: UILabel!
     @IBOutlet var wishTableView: UITableView!
+    @IBOutlet weak var chineseZodiac: UIImageView!
+    @IBOutlet weak var chineseZodiacLabel: UILabel!
     
     var selectedContact : FetchedContact?
     var json_wishes = [WishesStructure]()
@@ -36,7 +38,8 @@ class WishControllerViewController: UIViewController {
         
         json_wishes = WishesLoader().wishes
         result_wishes = json_wishes
-        print("number of wishes loaded are "+String(result_wishes.count))
+        
+        setChineseZodiac(year: selectedContact?.birthYear ?? 0)
     }
     
     func setZodiac(month: Int, date: Int)
@@ -103,15 +106,75 @@ class WishControllerViewController: UIViewController {
             }
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    func setChineseZodiac(year: Int)
+        {
+            if(year == 0)
+            {
+                chineseZodiacLabel.text = ""
+                chineseZodiac.image = UIImage(named: "notAvailable")
+            }
+            else if(year % 12 == 0)
+            {
+                chineseZodiac.image = UIImage(named: "monkey")
+                chineseZodiacLabel.text = "Year of Monkey - \(year)"
+            }
+            else if(year % 12 == 1)
+            {
+                chineseZodiac.image = UIImage(named: "rooster")
+                chineseZodiacLabel.text = "Year of Rooster - \(year)"
+            }
+            else if(year % 12 == 2)
+            {
+                chineseZodiac.image = UIImage(named: "dog")
+                chineseZodiacLabel.text = "Year of Dog - \(year)"
+            }
+            else if(year % 12 == 3)
+            {
+                chineseZodiac.image = UIImage(named: "pig")
+                chineseZodiacLabel.text = "Year of Pig - \(year)"
+            }
+            else if(year % 12 == 4)
+            {
+                chineseZodiac.image = UIImage(named: "rat")
+                chineseZodiacLabel.text = "Year of Rat - \(year)"
+            }
+            else if(year % 12 == 5)
+            {
+                chineseZodiac.image = UIImage(named: "ox")
+                chineseZodiacLabel.text = "Year of Ox - \(year)"
+            }
+            else if(year % 12 == 6)
+            {
+                chineseZodiac.image = UIImage(named: "tiger")
+                chineseZodiacLabel.text = "Year of Tiger - \(year)"
+            }
+            else if(year % 12 == 7)
+            {
+                chineseZodiac.image = UIImage(named: "rabbit")
+                chineseZodiacLabel.text = "Year of rabbit - \(year)"
+            }
+            else if(year % 12 == 8)
+            {
+                chineseZodiac.image = UIImage(named: "dragon")
+                chineseZodiacLabel.text = "Year of dragon - \(year)"
+            }
+            else if(year % 12 == 9)
+            {
+                chineseZodiac.image = UIImage(named: "snake")
+                chineseZodiacLabel.text = "Year of Snake - \(year)"
+            }
+            else if(year % 12 == 10)
+            {
+                chineseZodiac.image = UIImage(named: "horse")
+                chineseZodiacLabel.text = "Year of Horse - \(year)"
+            }
+            else if(year % 12 == 11)
+            {
+                chineseZodiac.image = UIImage(named: "goat")
+                chineseZodiacLabel.text = "Year of Goat - \(year)"
+            }
+            print("setChineseZodiac \(year)")
+        }
 
 }
 
