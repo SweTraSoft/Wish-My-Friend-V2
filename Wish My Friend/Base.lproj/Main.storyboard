@@ -378,7 +378,7 @@
                                                                 <constraint firstAttribute="width" constant="30" id="j4h-Sb-Bl1"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leo (July 22 - Aug 22)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wF3-Rz-PAP">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leo (July 22 - Aug 22)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="wF3-Rz-PAP">
                                                             <rect key="frame" x="40" y="5" width="195" height="30"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="XPR-H2-BA2"/>
@@ -409,12 +409,44 @@
                                                         <constraint firstAttribute="height" constant="100" id="n0w-kT-jF5"/>
                                                     </constraints>
                                                 </imageView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DPq-ZF-owV">
+                                                    <rect key="frame" x="67" y="175.5" width="240" height="40"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tiger" translatesAutoresizingMaskIntoConstraints="NO" id="KjA-ze-bTR">
+                                                            <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="40" id="3n9-H7-QbP"/>
+                                                                <constraint firstAttribute="width" constant="40" id="yqb-ir-cOT"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Year of Tiger (1998)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7Q-ZX-i2X">
+                                                            <rect key="frame" x="40" y="5" width="195" height="30"/>
+                                                            <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstItem="KjA-ze-bTR" firstAttribute="leading" secondItem="DPq-ZF-owV" secondAttribute="leading" id="50s-sb-ATd"/>
+                                                        <constraint firstAttribute="trailing" secondItem="q7Q-ZX-i2X" secondAttribute="trailing" constant="5" id="6E0-Fm-L4r"/>
+                                                        <constraint firstAttribute="bottom" secondItem="q7Q-ZX-i2X" secondAttribute="bottom" constant="5" id="ZW8-NJ-D7u"/>
+                                                        <constraint firstAttribute="height" constant="40" id="bcs-Gw-yHi"/>
+                                                        <constraint firstItem="q7Q-ZX-i2X" firstAttribute="leading" secondItem="KjA-ze-bTR" secondAttribute="trailing" id="eJR-le-IRg"/>
+                                                        <constraint firstAttribute="bottom" secondItem="KjA-ze-bTR" secondAttribute="bottom" id="enA-51-6Yd"/>
+                                                        <constraint firstItem="KjA-ze-bTR" firstAttribute="top" secondItem="DPq-ZF-owV" secondAttribute="top" id="oHG-eV-O1w"/>
+                                                        <constraint firstItem="q7Q-ZX-i2X" firstAttribute="top" secondItem="DPq-ZF-owV" secondAttribute="top" constant="5" id="wGe-fm-k1c"/>
+                                                        <constraint firstAttribute="width" constant="240" id="xrT-aV-kAq"/>
+                                                    </constraints>
+                                                </view>
                                             </subviews>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
+                                                <constraint firstItem="DPq-ZF-owV" firstAttribute="top" secondItem="gKN-nu-wdr" secondAttribute="bottom" constant="5" id="0pk-uG-RvA"/>
                                                 <constraint firstItem="ah8-TP-aRr" firstAttribute="top" secondItem="GJK-GU-gOG" secondAttribute="top" constant="57.5" id="B4g-5z-kiX"/>
                                                 <constraint firstItem="ah8-TP-aRr" firstAttribute="top" secondItem="IWE-Qa-1DE" secondAttribute="bottom" constant="8.5" id="K62-Lx-iZM"/>
                                                 <constraint firstItem="gKN-nu-wdr" firstAttribute="top" secondItem="vH9-qC-WY7" secondAttribute="bottom" constant="5" id="QLB-sk-oiy"/>
+                                                <constraint firstItem="DPq-ZF-owV" firstAttribute="centerX" secondItem="GJK-GU-gOG" secondAttribute="centerX" id="esL-jv-My1"/>
                                                 <constraint firstItem="vH9-qC-WY7" firstAttribute="top" secondItem="ah8-TP-aRr" secondAttribute="bottom" constant="7.5" id="gpn-A9-iXj"/>
                                                 <constraint firstItem="gKN-nu-wdr" firstAttribute="leading" secondItem="GJK-GU-gOG" secondAttribute="leading" constant="67" id="hin-JT-jpa"/>
                                                 <constraint firstItem="IWE-Qa-1DE" firstAttribute="centerX" secondItem="vH9-qC-WY7" secondAttribute="centerX" id="jIO-tN-Rbk"/>
@@ -448,6 +480,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="Wish" id="N7N-Xn-ntL"/>
                     <connections>
+                        <outlet property="chineseZodiac" destination="KjA-ze-bTR" id="WuJ-ML-iWg"/>
+                        <outlet property="chineseZodiacLabel" destination="q7Q-ZX-i2X" id="1Gd-lp-nA0"/>
                         <outlet property="profileBirthday" destination="vH9-qC-WY7" id="I36-ls-OCh"/>
                         <outlet property="profileImage" destination="IWE-Qa-1DE" id="kig-HH-l5K"/>
                         <outlet property="profileName" destination="ah8-TP-aRr" id="fmJ-d4-LCH"/>
@@ -538,6 +572,7 @@
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="person.2" catalog="system" width="128" height="81"/>
         <image name="person.2.fill" catalog="system" width="128" height="80"/>
+        <image name="tiger" width="467" height="338"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
