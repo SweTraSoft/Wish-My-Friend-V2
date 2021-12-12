@@ -7,6 +7,7 @@
 
 import UIKit
 import Contacts
+import UserNotifications
 
 struct FetchedContact {
     var firstName: String
@@ -29,6 +30,7 @@ struct GlobalVariables
 {
     static var monthSections = [MonthSection]()
 }
+
 class ViewController: UIViewController{
 
     var contacts = [FetchedContact]()
@@ -90,6 +92,20 @@ class ViewController: UIViewController{
         {
             print("Contacts request is denied previously")
         }
+        
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert,.badge
+                                                                          ,.sound], completionHandler: {success, error in
+            if success
+            {
+                
+            }
+            else if let error = error
+            {
+                print("error occured")
+            }
+        })
+        
+        scheduleNotification()
     }
     
     //    Sorting the dates with respect to the current dates
@@ -322,6 +338,38 @@ extension ViewController: UITableViewDataSource
         if(temp_section_contacts.count != 0)
         {
             GlobalVariables.monthSections.append(MonthSection(month: temp_section_contacts[0].birthMonth, cells: temp_section_contacts))
+        }
+    }
+    
+    func scheduleNotification()
+    {
+        //Step 1: Remove all the previous scheduled notifications
+        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+        
+        //Step 2: Add new notifications
+        for con in sortedContacts
+        {
+            let content = UNMutableNotificationContent()
+            
+            content.title = con.firstName+"'s birthday"
+            content.sound = .default
+            content.body = con.firstName+"'s birthday is today, send wishes now"
+            
+            var notificationTriggerDateComp = DateComponents()
+            notificationTriggerDateComp.month = con.birthMonth
+            notificationTriggerDateComp.day = con.birthday
+            notificationTriggerDateComp.hour = 21
+            notificationTriggerDateComp.minute = 14
+            notificationTriggerDateComp.second = 30
+            let trigger = UNCalendarNotificationTrigger(dateMatching: notificationTriggerDateComp, repeats: false)
+            
+            let request = UNNotificationRequest(identifier: con.firstName, content: content, trigger: trigger)
+            
+            UNUserNotificationCenter.current().add(request, withCompletionHandler: {error in
+                if error != nil{
+                 print("some thing went wrong")
+                }
+            })
         }
     }
 }
