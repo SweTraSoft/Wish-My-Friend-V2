@@ -18,6 +18,7 @@ struct FetchedContact {
     var birthYear: Int
     var contactImage: UIImage
     var birthdayDate: Date
+    var ramainingDays: Int
 }
 
 struct MonthSection
@@ -111,6 +112,7 @@ class ViewController: UIViewController{
     //    Sorting the dates with respect to the current dates
     func sortDatesWithRespectToCurDay()
     {
+        let calendar = Calendar.current
         let date = Date()
         let cur_day = date.get(.day)
         let cur_month = date.get(.month)
@@ -118,11 +120,23 @@ class ViewController: UIViewController{
         let temp_contacts_sorted = sortedContacts
         for each_contact in temp_contacts_sorted
         {
-            if((each_contact.birthMonth < cur_month) || each_contact.birthMonth == cur_month && each_contact.birthday < cur_day)
+            //If birthday is before current day then move to back of the list
+            //WMF-15 if birthday is before 2 days of current day then display on top of list
+            if each_contact.ramainingDays <= 0
+            {
+                break
+            }
+            else
             {
                 sortedContacts.append(each_contact)
                 number_of_days_removed = number_of_days_removed+1
             }
+            
+            /*if((each_contact.birthMonth < cur_month) || each_contact.birthMonth == cur_month && each_contact.birthday < cur_day)
+            {
+                sortedContacts.append(each_contact)
+                number_of_days_removed = number_of_days_removed+1
+            }*/
         }
             
         for i in 0..<number_of_days_removed
@@ -214,8 +228,9 @@ class ViewController: UIViewController{
                                                                    birthMonth: contact.birthday?.month ?? 0,
                                                                    birthYear: contact.birthday?.year ?? 0,
                                                                    contactImage: contactImage!,
-                                                                   birthdayDate: (contact.birthday?.date)!
-                                                                   ))
+                                                                   birthdayDate: (contact.birthday?.date)!,
+                                                                   ramainingDays: self.calculateRemainingDays(day: contact.birthday?.day ?? 0, month: contact.birthday?.month ?? 0))
+                                                )
                                             }
                 
                         })
@@ -278,7 +293,7 @@ extension ViewController: UITableViewDataSource
         eachContactCell.personImagee.image = GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].contactImage
         eachContactCell.personImagee?.layer.cornerRadius = (eachContactCell.personImagee?.frame.size.width)! / 2
         eachContactCell.personImagee?.layer.masksToBounds = true
-        eachContactCell.numberOfDays.text = String(calculateRemainingDays(day: GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthday, month: GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthMonth))
+        eachContactCell.numberOfDays.text = String(GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].ramainingDays)
         return eachContactCell
     }
     
@@ -304,7 +319,7 @@ extension ViewController: UITableViewDataSource
             var components = calender.dateComponents([.day], from: to_day as DateComponents, to: birthday_components as DateComponents)
              
             //if birthday for current year is already completed then remaining number for next birthday will be calculated
-            if(components.day ?? 0 < 0)
+            if(components.day ?? 0 < -2)
             {
                 birthday_components.year = cur_glb_year + 1
                 components = calender.dateComponents([.day], from: to_day as DateComponents, to: birthday_components as DateComponents)
@@ -402,6 +417,14 @@ extension Date
 
     func get(_ component: Calendar.Component, calendar: Calendar = Calendar.current) -> Int {
         return calendar.component(component, from: self)
+    }
+    
+    var dayBefore: Date{
+        return Calendar.current.date(byAdding: .day, value: -1, to: self)!
+    }
+    
+    var dayBeforeYesterday: Date{
+        return Calendar.current.date(byAdding: .day, value: -2, to: self)!
     }
 }
 
