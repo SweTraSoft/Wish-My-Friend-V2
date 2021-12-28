@@ -9,7 +9,7 @@ import UIKit
 
 
 class CalenderViewController: UIViewController {
-    let months = ["January", "February", "March", "April", "May", "June", "July", "August","September", "October", "November", "Decemeber"]
+    let months = ["January", "February", "March", "April", "May", "June", "July", "August","September", "October", "November", "December"]
     @IBOutlet weak var MonthSwitchRight: UIView!
     @IBOutlet weak var CurrentMonthShow: UILabel!
     @IBOutlet weak var MonthSwitchLeft: UIView!

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D2D9B07276F59BC001D9F2D /* WishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D9B05276F59BC001D9F2D /* WishTableViewCell.swift */; };
+		2D2D9B08276F59BC001D9F2D /* WishTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D2D9B06276F59BC001D9F2D /* WishTableViewCell.xib */; };
 		2D38F596271DF1A2005178BE /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D38F595271DF1A2005178BE /* Contacts.framework */; };
 		2D38F59C271DFD55005178BE /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D38F59A271DFD55005178BE /* ContactTableViewCell.swift */; };
 		2D38F59D271DFD55005178BE /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D38F59B271DFD55005178BE /* ContactTableViewCell.xib */; };
@@ -46,7 +48,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2DA7C6C8276CE69500175F93 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2D2D9B05276F59BC001D9F2D /* WishTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishTableViewCell.swift; sourceTree = "<group>"; };
+		2D2D9B06276F59BC001D9F2D /* WishTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WishTableViewCell.xib; sourceTree = "<group>"; };
 		2D38F595271DF1A2005178BE /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 		2D38F59A271DFD55005178BE /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		2D38F59B271DFD55005178BE /* ContactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
@@ -71,6 +88,10 @@
 		2D53DEAA271C45300068B606 /* Wish_My_FriendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wish_My_FriendUITests.swift; sourceTree = "<group>"; };
 		2D53DEAC271C45300068B606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D8D23D127253BEC00C1E434 /* Info */ = {isa = PBXFileReference; lastKnownFileType = text; path = Info; sourceTree = "<group>"; };
+		2DA7C6B9276CE69500175F93 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		2DA7C6BC276CE69500175F93 /* AccountAuthenticationModificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountAuthenticationModificationViewController.swift; sourceTree = "<group>"; };
+		2DA7C6BF276CE69500175F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		2DA7C6C1276CE69500175F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DCA743C274D7E6600B8F698 /* Week.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week.swift; sourceTree = "<group>"; };
 		2DCA743E274D93D300B8F698 /* ColumnFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				2D38F595271DF1A2005178BE /* Contacts.framework */,
+				2DA7C6B9276CE69500175F93 /* AuthenticationServices.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,6 +140,8 @@
 				2D38F59A271DFD55005178BE /* ContactTableViewCell.swift */,
 				2D38F59B271DFD55005178BE /* ContactTableViewCell.xib */,
 				2DCA743E274D93D300B8F698 /* ColumnFlowLayout.swift */,
+				2D2D9B05276F59BC001D9F2D /* WishTableViewCell.swift */,
+				2D2D9B06276F59BC001D9F2D /* WishTableViewCell.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -138,6 +162,7 @@
 				2D53DE87271C452E0068B606 /* Wish My Friend */,
 				2D53DE9E271C45300068B606 /* Wish My FriendTests */,
 				2D53DEA9271C45300068B606 /* Wish My FriendUITests */,
+				2DA7C6BB276CE69500175F93 /* Good Friend */,
 				2D53DE86271C452E0068B606 /* Products */,
 				2D38F594271DF1A2005178BE /* Frameworks */,
 			);
@@ -197,6 +222,16 @@
 			path = DataTypes;
 			sourceTree = "<group>";
 		};
+		2DA7C6BB276CE69500175F93 /* Good Friend */ = {
+			isa = PBXGroup;
+			children = (
+				2DA7C6BC276CE69500175F93 /* AccountAuthenticationModificationViewController.swift */,
+				2DA7C6BE276CE69500175F93 /* MainInterface.storyboard */,
+				2DA7C6C1276CE69500175F93 /* Info.plist */,
+			);
+			path = "Good Friend";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -207,6 +242,7 @@
 				2D53DE81271C452E0068B606 /* Sources */,
 				2D53DE82271C452E0068B606 /* Frameworks */,
 				2D53DE83271C452E0068B606 /* Resources */,
+				2DA7C6C8276CE69500175F93 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -259,7 +295,7 @@
 		2D53DE7D271C452E0068B606 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					2D53DE84271C452E0068B606 = {
@@ -300,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2D9B08276F59BC001D9F2D /* WishTableViewCell.xib in Resources */,
 				2D476D1D2741465000794D13 /* wishes.json in Resources */,
 				2D38F59D271DFD55005178BE /* ContactTableViewCell.xib in Resources */,
 				2D53DE95271C45300068B606 /* LaunchScreen.storyboard in Resources */,
@@ -330,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2D9B07276F59BC001D9F2D /* WishTableViewCell.swift in Sources */,
 				2D476D2A27418CF100794D13 /* CalendarDayCollectionViewCell.swift in Sources */,
 				2D38F59C271DFD55005178BE /* ContactTableViewCell.swift in Sources */,
 				2D476D1B273B0FC500794D13 /* WishControllerViewController.swift in Sources */,
@@ -390,6 +428,14 @@
 				2D53DE94271C45300068B606 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2DA7C6BE276CE69500175F93 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DA7C6BF276CE69500175F93 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -514,16 +560,18 @@
 		2D53DEB0271C45300068B606 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GTU2S6FVW9;
+				DEVELOPMENT_TEAM = N7VP27WV27;
 				INFOPLIST_FILE = "Wish My Friend/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Damineni.Wish-My-Friend";
+				MARKETING_VERSION = 0.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swetrasoft.goodfriend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -533,16 +581,18 @@
 		2D53DEB1271C45300068B606 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GTU2S6FVW9;
+				DEVELOPMENT_TEAM = N7VP27WV27;
 				INFOPLIST_FILE = "Wish My Friend/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Damineni.Wish-My-Friend";
+				MARKETING_VERSION = 0.1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swetrasoft.goodfriend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
