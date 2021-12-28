@@ -36,6 +36,8 @@ class WishControllerViewController: UIViewController {
         wishTableView.delegate = self
         wishTableView.dataSource = self
         
+        let nib = UINib(nibName: "WishTableViewCell", bundle: nil)
+        wishTableView.register(nib, forCellReuseIdentifier: "WishTableViewCell")
         json_wishes = WishesLoader().wishes
         result_wishes = json_wishes
         
@@ -192,8 +194,8 @@ extension WishControllerViewController: UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let eachWishCell = wishTableView.dequeueReusableCell(withIdentifier: "wishCell", for: indexPath)
-        eachWishCell.textLabel?.text = result_wishes[indexPath.row].text
+        let eachWishCell = wishTableView.dequeueReusableCell(withIdentifier: "WishTableViewCell", for: indexPath) as! WishTableViewCell
+        eachWishCell.wishText.text = result_wishes[indexPath.row].text
         return eachWishCell
     }
 }
