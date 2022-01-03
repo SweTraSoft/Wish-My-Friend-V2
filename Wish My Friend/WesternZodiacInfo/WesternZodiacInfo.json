@@ -1,0 +1,110 @@
+[
+   {
+      "id":1,
+      "Name":"Aquarius",
+      "Strengths":"Progressive, original, independent",
+      "Weaknesses":"emotional, temperamental, uncompromising",
+      "Likes":"friends, risks, fighting for causes",
+      "Dislikes":"Limitations, broken promises, loneliness",
+      "Text":"Aquarius is a sign different from the rest of the zodiac and people born in this zodiac feel special. This makes them eccentric and energetic in their fight for freedom, or at times shy and quiet, afraid to express their true personality. In both cases, they are deep thinkers and highly intellectual people who love to fight for idealistic causes. They can see people without prejudice and this makes them truly special. Although they can easily adapt to the energy that surrounds them, Aquarius representatives have a deep need to have some time alone and away from everything to restore power."
+   },
+   {
+      "id":2,
+      "Name":"Pisces",
+      "Strengths":"Compassionate, artistic, intuitive, gentle",
+      "Weaknesses":"Fearful, overly trusting, sad",
+      "Likes":"Being alone, love, sleeping, music, romance, swimming",
+      "Dislikes":"Know-it-all, being criticized, the past coming back to haunt, cruelty of any kind",
+      "Text":"Pisces are very friendly and often find themselves in the company of very different people. They are selfless and always willing to help others, a very fine intent for as long as they don’t expect anything much in return. People born in Pisces have an intuitive understanding of the life cycle and form incredible emotional relationships with other humans based on natural order and senses guiding them."
+   },
+   {
+      "id":3,
+      "Name":"Aries",
+      "Strengths":"Courageous, determined, confident",
+      "Weaknesses":"Impatient, moody, short-tempered",
+      "Likes":"Comfortable clothes, leadership, physical challenges, sports",
+      "Dislikes":"Inactivity, delays",
+      "Text":"As the first sign in the zodiac, the presence of Aries always marks the beginning of something energetic and turbulent. They are continuously looking for dynamic, speed and competition, always being the first in everything - from work to social gatherings. Thanks to its ruling planet Mars and the fact it belongs to the element of Fire (just like Leo and Sagittarius), Aries is one of the most active zodiac signs. It is in their nature to take action, sometimes before they think about it."
+   },
+   {
+      "id":4,
+      "Name":"Taurus",
+      "Strengths":"Reliable, patient, practical",
+      "Weaknesses":"Stubborn, possessive, uncompromising",
+      "Likes":"Gardening, cooking, music, romance",
+      "Dislikes":"Sudden changes, complications, insecureness",
+      "Text":"Practical and well-grounded, Taurus is the sign that harvests the fruits of labor. They feel the need to always be surrounded by love and beauty, turned to the material world, hedonism, and physical pleasures. People born with their Sun in Taurus are sensual and tactile, considering touch and taste the most important of all senses. Stable and conservative, this is one of the most reliable signs of the zodiac, ready to endure and stick to their choices until they reach the point of personal satisfaction."
+   },
+   {
+      "id":5,
+      "Name":"Gemini",
+      "Strengths":"Gentle, affectionate, curious",
+      "Weaknesses":"Nervous, inconsistent, indecisive",
+      "Likes":"Music, books, magazines, friendly chats",
+      "Dislikes":"Loneliness, being confined, repetition",
+      "Text":"Expressive and quick-witted, Gemini represents two different personalities in one and you will never be sure which one you will face. They are sociable, communicative and ready for fun, with a tendency to suddenly get serious, thoughtful and restless. They are fascinated with the world itself, extremely curious, with a constant feeling that there is not enough time to experience everything they want to see."
+   },
+   {
+      "id":6,
+      "Name":"Cancer",
+      "Strengths":"Tenacious, imaginary, loyal, emotional",
+      "Weaknesses":"Moody, pessimistic, suspicious",
+      "Likes":"Art, swimming, helping loved ones, friends",
+      "Dislikes":"Strangers, criticism of Mom, revealing of personal life",
+      "Text":"Deeply intuitive and sentimental, Cancer can be one of the most challenging zodiac signs to get to know. They are very emotional and sensitive and care deeply about matters of the family and their home. Cancer is sympathetic and attached to people they keep close. Those born with their Sun in Cancer are very loyal and able to empathize with other people's pain and suffering."
+   },
+   {
+      "id":7,
+      "Name":"Leo",
+      "Strengths":"Creative, passionate, generous",
+      "Weaknesses":"Arrogant, stubborn, self-centered",
+      "Likes":"Theater, holidays, admiration, colors, friends",
+      "Dislikes":"Being ignored, facing difficult reality",
+      "Text":"People born under the sign of Leo are natural-born leaders. They are dramatic, creative, self-confident, dominant and extremely difficult to resist, able to achieve anything they want to in any area of life they commit to. There is a specific strength to a Leo and their king of the jungle status. Leo often has many friends for they are generous and loyal. Self-confident and attractive, this is a Sun sign capable of uniting different groups of people and leading them as one towards a shared cause, and their healthy sense of humor makes collaboration with other people even easier."
+   },
+   {
+      "id":8,
+      "Name":"Virgo",
+      "Strengths":"Loyal, analytical, kind, hardworking",
+      "Weaknesses":"Shyness, worry, all work and no play",
+      "Likes":"Animals, healthy food, books",
+      "Dislikes":"Rudeness, asking for help, taking center stage",
+      "Text":"Virgos are always paying attention to the smallest details and their deep sense of humanity makes them one of the most careful signs of the zodiac. Their methodical approach to life ensures that nothing is left to chance, and although they are often tender, their heart might be closed for the outer world. This is a sign often misunderstood, not because they cannot express it, but because they won’t accept their feelings as valid, true, or even relevant when opposed to reason. The symbolism behind the name speaks well of their nature, born with a feeling they are experiencing everything for the first time."
+   },
+   {
+      "id":9,
+      "Name":"Libra",
+      "Strengths":"Cooperative,diplomatic, gracious",
+      "Weaknesses":"Indecisive, avoids confrontations",
+      "Likes":"Harmony, gentleness, sharing, outdoors",
+      "Dislikes":"Violence, injustice, loudmouths",
+      "Text":"People born under the sign of Libra are peaceful, fair, and they hate being alone. A partnership is very important for them, seeking someone with the ability to be the mirror to themselves. These individuals are fascinated by balance and symmetry, they are in a constant chase for justice and equality, realizing through life that the only thing that should be truly important to themselves in their inner core of personality. This is someone ready to do nearly anything to avoid conflict, keeping the peace whenever possible."
+   },
+   {
+      "id":10,
+      "Name":"Scorpio",
+      "Strengths":"Resourceful, powerful, brave",
+      "Weaknesses":"Distrusting, jealous, manipulative",
+      "Likes":"Truth, facts, being right, talents",
+      "Dislikes":"Dishonesty, revealing secrets, superficiality",
+      "Text":"Scorpios are passionate and assertive people with determination and focus you rarely see in other zodiac signs. They will turn to in-depth research to reach the truth behind anything they find important. Great leaders and guides, Scorpios are resourceful, dedicated and fearless when there is a challenge to be overcome. They will hold on to other people’s secrets, even when they aren’t very fond of them to begin with and do anything they can for those they tie themselves to."
+   },
+   {
+      "id":11,
+      "Name":"Sagittarius",
+      "Strengths":"Generous, idealistic, humor",
+      "Weaknesses":"Promises , impatient, undiplomatic",
+      "Likes":"Freedom, travel, philosophy",
+      "Dislikes":"Clingy people, theories, details",
+      "Text":"Curious and energetic, Sagittarius are the travelers of the zodiac. Their open mind and philosophical view motivate them to wander around the world in search of the meaning of life. Sagittarius is an extrovert, always optimistic, full of enthusiasm, and ready for changes. This is a Sun sign of individuals who are often preoccupied with mental work, but when they find grounding, they show their ability to transform visions and thoughts into concrete actions and circumstances."
+   },
+   {
+      "id":12,
+      "Name":"Capricorn",
+      "Strengths":"Responsible, disciplined, self-control",
+      "Weaknesses":"Know-it-all, unforgiving, condescending",
+      "Likes":"Family, tradition, music, understated status",
+      "Dislikes":"Almost everything at some point",
+      "Text":"Capricorn is a sign that represents time and responsibility, and its representatives are traditional and often very serious by nature. These individuals possess an inner state of independence that enables significant progress both in their personal and professional lives. They are masters of self-control and have the ability to lead the way, make solid and realistic plans, and manage many people who work for them at any time. They will learn from their mistakes and get to the top based solely on their experience and expertise. "
+   }
+]
