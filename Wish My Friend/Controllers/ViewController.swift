@@ -245,7 +245,8 @@ class ViewController: UIViewController{
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let svc = segue.destination as! WishControllerViewController
+        //let svc = segue.destination as! WishControllerViewController
+        let svc = segue.destination as! ProfileViewController
         svc.selectedContact = contactSelected
     }
     
@@ -255,7 +256,8 @@ extension ViewController: UITableViewDelegate
 {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         contactSelected = GlobalVariables.monthSections[indexPath.section].cells[indexPath.row]
-        performSegue(withIdentifier: "WishViewController", sender: contactSelected)
+        //performSegue(withIdentifier: "WishViewController", sender: contactSelected)
+        performSegue(withIdentifier: "ProfileViewController", sender: contactSelected)
     }
     
 }
@@ -287,8 +289,20 @@ extension ViewController: UITableViewDataSource
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let eachContactCell = tableView.dequeueReusableCell(withIdentifier: "ContactTableViewCell", for: indexPath) as! ContactTableViewCell
-        eachContactCell.firstName.text = GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].firstName + " " +
-                                         GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].lastName+" ("+String(cur_glb_year-GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthYear)+")"
+        
+        
+        //if the year is not available then age is not displayed after the name
+        if GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthYear == 0
+        {
+            eachContactCell.firstName.text = GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].firstName + " " +
+                                             GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].lastName
+        }
+        else
+        {
+            eachContactCell.firstName.text = GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].firstName + " " +
+                                             GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].lastName+" ("+String(cur_glb_year-GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthYear)+")"
+        }
+        
         eachContactCell.phoneNumber.text = "Celebrates on "+self.getMonthText(month: GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthMonth)+"-"+String(GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthday)
         eachContactCell.personImagee.image = GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].contactImage
         eachContactCell.personImagee?.layer.cornerRadius = (eachContactCell.personImagee?.frame.size.width)! / 2
