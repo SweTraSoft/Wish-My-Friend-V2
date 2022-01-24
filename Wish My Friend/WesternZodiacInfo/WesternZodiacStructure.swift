@@ -11,6 +11,7 @@ struct WesternZodiacStructure: Codable
 {
     var id: Int
     var Name: String
+    var Date: String
     var Strengths: String
     var Weaknesses: String
     var Likes: String
