@@ -267,105 +267,31 @@
             </objects>
             <point key="canvasLocation" x="756.52173913043487" y="-1073.4375"/>
         </scene>
-        <!--Settings View Controller-->
+        <!--Contacts View Controller-->
         <scene sceneID="ViA-yR-jxt">
             <objects>
-                <viewController id="rsS-UF-KnR" customClass="SettingsViewController" customModule="Wish_My_Friend" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rsS-UF-KnR" customClass="ContactsViewController" customModule="Wish_My_Friend" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v2q-xg-4ZR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sarath Chandra" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hna-LL-QyA">
-                                <rect key="frame" x="0.0" y="88" width="414" height="21"/>
-                                <color key="backgroundColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GPn-xC-3oK">
-                                <rect key="frame" x="0.0" y="109" width="414" height="90"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sarath Chandra" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PP3-wc-wxo">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
-                                        <color key="backgroundColor" red="0.99607843139999996" green="0.94509803920000002" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="0Lb-Nu-RAc"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Damineni" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u67-Db-eIU">
-                                        <rect key="frame" x="0.0" y="40" width="414" height="40"/>
-                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="8Ji-QL-keF"/>
-                                            <constraint firstAttribute="height" constant="40" id="w4q-cz-Wj5"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBrownColor"/>
-                                <constraints>
-                                    <constraint firstItem="u67-Db-eIU" firstAttribute="top" secondItem="PP3-wc-wxo" secondAttribute="bottom" id="CKp-IO-Z6t"/>
-                                    <constraint firstItem="u67-Db-eIU" firstAttribute="leading" secondItem="GPn-xC-3oK" secondAttribute="leading" id="FZG-5f-LJS"/>
-                                    <constraint firstAttribute="trailing" secondItem="u67-Db-eIU" secondAttribute="trailing" id="Uif-bg-cQq"/>
-                                    <constraint firstItem="PP3-wc-wxo" firstAttribute="top" secondItem="GPn-xC-3oK" secondAttribute="top" id="Uz1-p8-DfG"/>
-                                    <constraint firstAttribute="trailing" secondItem="PP3-wc-wxo" secondAttribute="trailing" id="YX8-8R-rX0"/>
-                                    <constraint firstItem="PP3-wc-wxo" firstAttribute="leading" secondItem="GPn-xC-3oK" secondAttribute="leading" id="f1D-xM-pwD"/>
-                                    <constraint firstAttribute="height" constant="90" id="wWx-aO-c0Y"/>
-                                </constraints>
-                            </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dg2-m5-ZxM">
-                                <rect key="frame" x="0.0" y="199" width="414" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="0ax-VJ-wJb"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Collapse button"/>
-                                <connections>
-                                    <action selector="buttonTap:" destination="rsS-UF-KnR" eventType="touchUpInside" id="wrl-Il-X5k"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dk5-Cm-CzH">
-                                <rect key="frame" x="0.0" y="229" width="414" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="FJn-g5-jLj"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Expand button"/>
-                                <connections>
-                                    <action selector="expandView:" destination="rsS-UF-KnR" eventType="touchUpInside" id="ag0-ue-ENT"/>
-                                </connections>
-                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="f1Y-dZ-BhT">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="I63-jf-gvG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dg2-m5-ZxM" firstAttribute="top" secondItem="GPn-xC-3oK" secondAttribute="bottom" id="3fP-c8-Ssl"/>
-                            <constraint firstItem="hna-LL-QyA" firstAttribute="top" secondItem="I63-jf-gvG" secondAttribute="top" id="4FE-So-fd7"/>
-                            <constraint firstItem="GPn-xC-3oK" firstAttribute="top" secondItem="hna-LL-QyA" secondAttribute="bottom" id="EVp-pO-U3v"/>
-                            <constraint firstItem="hna-LL-QyA" firstAttribute="leading" secondItem="I63-jf-gvG" secondAttribute="leading" id="WCi-Le-oeN"/>
-                            <constraint firstItem="GPn-xC-3oK" firstAttribute="leading" secondItem="I63-jf-gvG" secondAttribute="leading" id="YOQ-RT-IPn"/>
-                            <constraint firstItem="I63-jf-gvG" firstAttribute="trailing" secondItem="dk5-Cm-CzH" secondAttribute="trailing" id="Zxn-OL-g77"/>
-                            <constraint firstItem="dg2-m5-ZxM" firstAttribute="leading" secondItem="I63-jf-gvG" secondAttribute="leading" id="cdo-Jo-CeL"/>
-                            <constraint firstItem="I63-jf-gvG" firstAttribute="trailing" secondItem="GPn-xC-3oK" secondAttribute="trailing" id="m0h-pI-Mgg"/>
-                            <constraint firstItem="dg2-m5-ZxM" firstAttribute="trailing" secondItem="I63-jf-gvG" secondAttribute="trailing" id="sXe-Uw-bfj"/>
-                            <constraint firstItem="dk5-Cm-CzH" firstAttribute="top" secondItem="dg2-m5-ZxM" secondAttribute="bottom" id="tOC-uI-P0S"/>
-                            <constraint firstItem="I63-jf-gvG" firstAttribute="trailing" secondItem="hna-LL-QyA" secondAttribute="trailing" id="xR1-Ys-oap"/>
-                            <constraint firstItem="dk5-Cm-CzH" firstAttribute="leading" secondItem="I63-jf-gvG" secondAttribute="leading" id="z0J-Vj-WIZ"/>
+                            <constraint firstItem="I63-jf-gvG" firstAttribute="bottom" secondItem="f1Y-dZ-BhT" secondAttribute="bottom" id="Th7-QX-D3f"/>
+                            <constraint firstItem="f1Y-dZ-BhT" firstAttribute="leading" secondItem="I63-jf-gvG" secondAttribute="leading" id="lrP-GA-PfG"/>
+                            <constraint firstItem="I63-jf-gvG" firstAttribute="trailing" secondItem="f1Y-dZ-BhT" secondAttribute="trailing" id="rGO-HV-wni"/>
+                            <constraint firstItem="f1Y-dZ-BhT" firstAttribute="top" secondItem="I63-jf-gvG" secondAttribute="top" id="rw0-dN-GHg"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="a9U-rc-7Ay"/>
                     <connections>
-                        <outlet property="button" destination="dg2-m5-ZxM" id="MJR-fm-YV9"/>
-                        <outlet property="expandButton" destination="dk5-Cm-CzH" id="rYc-HW-N9J"/>
-                        <outlet property="firstNamem" destination="PP3-wc-wxo" id="d9H-sO-JQw"/>
-                        <outlet property="generalView" destination="GPn-xC-3oK" id="UUs-7M-vV4"/>
-                        <outlet property="heightAdjustment" destination="wWx-aO-c0Y" id="ONB-aU-D7x"/>
-                        <outlet property="lastName" destination="u67-Db-eIU" id="4Sb-gj-6W6"/>
+                        <outlet property="allContactsTableView" destination="f1Y-dZ-BhT" id="qaW-qZ-5Mk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rft-Gu-UfC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -758,7 +684,7 @@
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nbj-0D-M6W">
                                                         <rect key="frame" x="5" y="5" width="384" height="240"/>
-                                                        <mutableString key="text">Aquarius is a sign different from the rest of the zodiac and people born in this zodiac feel special. This makes them eccentric and energetic in their fight for freedom, or at times shy and quiet, afraid to express their true personality. In both cases, they are deep thinkers and highly intellectual people who love to fight for idealistic causes. They can see people without prejudice and this makes them truly special. Although they can easily adapt to the energy that surrounds them, Aquarius representatives have a deep need to have some time alone and away from everything to restore power</mutableString>
+                                                        <string key="text">Aquarius is a sign different from the rest of the zodiac and people born in this zodiac feel special. This makes them eccentric and energetic in their fight for freedom, or at times shy and quiet, afraid to express their true personality. In both cases, they are deep thinkers and highly intellectual people who love to fight for idealistic causes. They can see people without prejudice and this makes them truly special. Although they can easily adapt to the energy that surrounds them, Aquarius representatives have a deep need to have some time alone and away from everything to restore power</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -1219,14 +1145,8 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemBrownColor">
-            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
