@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import Contacts
 
 struct FetchedContact
 {
@@ -19,4 +20,5 @@ struct FetchedContact
     var contactImage: UIImage
     var birthdayDate: Date
     var ramainingDays: Int
+    var contact: CNContact
 }

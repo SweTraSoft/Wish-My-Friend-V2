@@ -10,6 +10,7 @@ import UIKit
 class ContactsTableViewCell: UITableViewCell {
 
     @IBOutlet var firstName: UILabel!
+    @IBOutlet var birthday: UILabel!
     @IBOutlet weak var contactPicture: UIImageView!
     
     override func awakeFromNib() {

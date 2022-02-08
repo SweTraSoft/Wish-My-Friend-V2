@@ -219,7 +219,8 @@ class ViewController: UIViewController{
                                                                  // if dob is not available then current day is taken as dob
                                                                  birthdayDate: (contact.birthday?.date) ?? Date(),
                                                                  
-                                                                 ramainingDays: self.calculateRemainingDays(day: contact.birthday?.day ?? 0, month: contact.birthday?.month ?? 0)))
+                                                                 ramainingDays: self.calculateRemainingDays(day: contact.birthday?.day ?? 0, month: contact.birthday?.month ?? 0),
+                                                                contact: contact))
                 
                 //Further collect only contacts that has birthday associated with it
                                             if(contact.birthday != nil)
@@ -234,7 +235,8 @@ class ViewController: UIViewController{
                                                                    birthYear: contact.birthday?.year ?? 0,
                                                                    contactImage: contactImage!,
                                                                    birthdayDate: (contact.birthday?.date)!,
-                                                                   ramainingDays: self.calculateRemainingDays(day: contact.birthday?.day ?? 0, month: contact.birthday?.month ?? 0))
+                                                                   ramainingDays: self.calculateRemainingDays(day: contact.birthday?.day ?? 0, month: contact.birthday?.month ?? 0),
+                                                                  contact: contact)
                                                 )
                                             }
                 
