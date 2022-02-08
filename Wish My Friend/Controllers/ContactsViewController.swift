@@ -78,11 +78,23 @@ class ContactsViewController: UIViewController, UITableViewDelegate, UITableView
         return true
     }
     
+    private func configureTapGeusture()
+    {
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(ContactsViewController.handleTap))
+        view.addGestureRecognizer(tapGesture)
+    }
+    
+    @objc func handleTap()
+    {
+        print("screen tapped")
+        view.endEditing(true)
+    }
     
     func filterContactsData(_ query: String)
     {
         //Removing all content from filterContacts
         filterContacts.removeAll()
+        filterInitials.removeAll()
 
         for eachContactGroup in contactsSorted
         {
@@ -90,7 +102,7 @@ class ContactsViewController: UIViewController, UITableViewDelegate, UITableView
             
             for eachContact in eachContactGroup
             {
-                let contactName = String(eachContact.givenName ?? "")+String(eachContact.familyName ?? "").lowercased()
+                let contactName = String(eachContact.givenName)+" "+String(eachContact.middleName)+" "+String(eachContact.familyName)
                 
                 if contactName.lowercased().contains(query.lowercased())
                 {
@@ -170,7 +182,7 @@ class ContactsViewController: UIViewController, UITableViewDelegate, UITableView
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = allContactsTableView.dequeueReusableCell(withIdentifier: "ContactsTableViewCell", for: indexPath) as! ContactsTableViewCell
-        cell.firstName?.text = filterContacts[indexPath.section][indexPath.row].givenName+" "+filterContacts[indexPath.section][indexPath.row].familyName ?? ""
+        cell.firstName?.text = filterContacts[indexPath.section][indexPath.row].givenName+" "+filterContacts[indexPath.section][indexPath.row].middleName+" "+filterContacts[indexPath.section][indexPath.row].familyName
     
         
         if filterContacts[indexPath.section][indexPath.row].birthday != nil
