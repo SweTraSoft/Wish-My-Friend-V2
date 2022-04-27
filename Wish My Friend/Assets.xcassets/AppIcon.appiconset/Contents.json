@@ -121,12 +121,6 @@
       "size" : "83.5x83.5"
     },
     {
-      "filename" : "ios-marketing.png",
-      "idiom" : "ios-marketing",
-      "scale" : "1x",
-      "size" : "1024x1024"
-    },
-    {
       "filename" : "icon-512.png",
       "idiom" : "mac",
       "scale" : "1x",
@@ -135,6 +129,12 @@
     {
       "filename" : "icon-1024.png",
       "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "1024x1024"
+    },
+    {
+      "filename" : "icon-1025.png",
+      "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
     }
