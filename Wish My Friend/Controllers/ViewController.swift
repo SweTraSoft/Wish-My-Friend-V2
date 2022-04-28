@@ -56,20 +56,25 @@ class ViewController: UIViewController{
         
         if authorize == .notDetermined
         {
+            print("log:: Requesting acces from user for contacts")
             store.requestAccess(for: .contacts){ [self] (chk, error) in
-                
                 if error == nil
                 {
+                    print("log:: First time access authorized by user")
                     getContactsData()
+                    sortedContacts = sortFetchedContacts()
+                    sortDatesWithRespectToCurDay()
+                    createSections()
                 }
                 else
                 {
-                    print("Contacts request is not accepted")
+                    print("log:: Contacts request is not accepted")
                 }
             }
         }
         else if authorize == .authorized
         {
+            print("log:: Access is already given and fetching the contacts again")
             getContactsData()
             sortedContacts = sortFetchedContacts()
             sortDatesWithRespectToCurDay()
@@ -160,29 +165,29 @@ class ViewController: UIViewController{
     {
         switch month {
         case 1:
-            return "Jan"
+            return "January"
         case 2:
-             return "Feb"
+             return "February"
         case 3:
-             return "Mar"
+             return "March"
         case 4:
-             return "Apr"
+             return "April"
         case 5:
              return "May"
         case 6:
-             return "Jun"
+             return "June"
         case 7:
-             return "Jul"
+             return "July"
         case 8:
-             return "Aug"
+             return "August"
         case 9:
-             return "Sep"
+             return "September"
         case 10:
-             return "Oct"
+             return "October"
         case 11:
-             return "Nov"
+             return "November"
         case 12:
-             return "Dec"
+             return "December"
         default:
             return "NAN"
         }
@@ -352,6 +357,8 @@ extension ViewController: UITableViewDataSource
     //    to create the sections of months for the contacts sorted
     func createSections()
     {
+        print("Log:: Creating monthly sections for all fetched contacts")
+        
         var prev_month = sortedContacts[0].birthMonth
         var temp_section_contacts:[FetchedContact] = []
             
@@ -375,6 +382,14 @@ extension ViewController: UITableViewDataSource
         if(temp_section_contacts.count != 0)
         {
             GlobalVariables.monthSections.append(MonthSection(month: temp_section_contacts[0].birthMonth, cells: temp_section_contacts))
+        }
+        
+        //Reload content in table view
+        //Issue: When app downloaded for time, we can't show info in table because of delay in fetching
+        //By reloading table we can avoid this issue
+        //Fixed in WMF-33
+        DispatchQueue.main.async {
+            self.contactsTableView.reloadData()
         }
     }
     
