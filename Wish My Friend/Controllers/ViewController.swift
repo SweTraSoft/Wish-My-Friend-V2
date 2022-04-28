@@ -27,6 +27,7 @@ class ViewController: UIViewController{
     @IBOutlet var contactsTableView: UITableView!
     let names = ["Sarath","Chandra","Damineni"]
     
+    
     //global variables for the date
     var cur_glb_date: Date? = nil
     var cur_glb_day: Int = 0
@@ -56,11 +57,11 @@ class ViewController: UIViewController{
         
         if authorize == .notDetermined
         {
-            print("log:: Requesting acces from user for contacts")
             store.requestAccess(for: .contacts){ [self] (chk, error) in
+                
                 if error == nil
                 {
-                    print("log:: First time access authorized by user")
+                    //print("logs:: requesting and want to display contacts for first time")
                     getContactsData()
                     sortedContacts = sortFetchedContacts()
                     sortDatesWithRespectToCurDay()
@@ -68,13 +69,13 @@ class ViewController: UIViewController{
                 }
                 else
                 {
-                    print("log:: Contacts request is not accepted")
+                    print("Contacts request is not accepted")
                 }
             }
         }
         else if authorize == .authorized
         {
-            print("log:: Access is already given and fetching the contacts again")
+           // print("logs:: already authorized and now will only display")
             getContactsData()
             sortedContacts = sortFetchedContacts()
             sortDatesWithRespectToCurDay()
@@ -85,16 +86,14 @@ class ViewController: UIViewController{
             print("Contacts request is denied previously")
         }
         
+        
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert,.badge
                                                                           ,.sound], completionHandler: {success, error in
-            if success
-            {
-                
-            }
-            else if let error = error
+            if !success
             {
                 print("error occured")
             }
+            
         })
         
         scheduleNotification()
@@ -103,6 +102,7 @@ class ViewController: UIViewController{
     //    Sorting the dates with respect to the current dates
     func sortDatesWithRespectToCurDay()
     {
+        //print("logs:: sortDatesWRTCurrDays")
         let calendar = Calendar.current
         let date = Date()
         let cur_day = date.get(.day)
@@ -123,22 +123,21 @@ class ViewController: UIViewController{
                 number_of_days_removed = number_of_days_removed+1
             }
             
-            /*if((each_contact.birthMonth < cur_month) || each_contact.birthMonth == cur_month && each_contact.birthday < cur_day)
-            {
-                sortedContacts.append(each_contact)
-                number_of_days_removed = number_of_days_removed+1
-            }*/
         }
             
         for i in 0..<number_of_days_removed
         {
             sortedContacts.remove(at: 0)
         }
+        
+        //print("logs:: length of sorted contacts "+String(sortedContacts.count))
     }
     
     // sort all the dae of births here
     func sortFetchedContacts() -> [FetchedContact]
     {
+        //print("logs:: sortFetchedContacts()")
+        //print("logs:: contacts lenght is "+String(contacts.count))
         let contact_unsorted = contacts
         var contact_sorted_temp: [FetchedContact] = []
             
@@ -158,6 +157,8 @@ class ViewController: UIViewController{
                 }
             }
         }
+        
+        print("logs:: sorted contacts lenght is "+String(contact_sorted_temp.count))
         return contact_sorted_temp
     }
     
@@ -165,29 +166,29 @@ class ViewController: UIViewController{
     {
         switch month {
         case 1:
-            return "January"
+            return "Jan"
         case 2:
-             return "February"
+             return "Feb"
         case 3:
-             return "March"
+             return "Mar"
         case 4:
-             return "April"
+             return "Apr"
         case 5:
              return "May"
         case 6:
-             return "June"
+             return "Jun"
         case 7:
-             return "July"
+             return "Jul"
         case 8:
-             return "August"
+             return "Aug"
         case 9:
-             return "September"
+             return "Sep"
         case 10:
-             return "October"
+             return "Oct"
         case 11:
-             return "November"
+             return "Nov"
         case 12:
-             return "December"
+             return "Dec"
         default:
             return "NAN"
         }
@@ -195,6 +196,7 @@ class ViewController: UIViewController{
     
     func getContactsData()
     {
+        //print("logs:: getContactsData()")
         let keys = [CNContactGivenNameKey, CNContactFamilyNameKey, CNContactPhoneNumbersKey, CNContactBirthdayKey, CNContactImageDataKey, CNContactImageDataAvailableKey]
         
         let request = CNContactFetchRequest(keysToFetch: keys as [CNKeyDescriptor])
@@ -276,22 +278,13 @@ extension ViewController: UITableViewDelegate
 
 extension ViewController: UITableViewDataSource
 {
-//    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-//        let contactsTableHeader = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.size.width , height: 25))
-//        contactsTableHeader.backgroundColor = UIColor(red: 212, green: 212, blue: 212)
-//        let headerText = UILabel(frame: CGRect(x: 10, y: 0, width: view.frame.size.width-10, height: 25))
-//        headerText.text = getMonthText(month: monthSections[section].month)
-//        headerText.backgroundColor = .red
-//        headerText.font = UIFont(name: "Gill Sans", size: 20)
-//        headerText.textColor = UIColor.black
-//        contactsTableHeader.addSubview(headerText)
-//        return contactsTableHeader
-//    }
+
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         getMonthText(month: GlobalVariables.monthSections[section].month)
     }
     func numberOfSections(in tableView: UITableView) -> Int
     {
+        //print("logs:: number of sections "+String(GlobalVariables.monthSections.count))
         return GlobalVariables.monthSections.count
     }
     
@@ -357,8 +350,7 @@ extension ViewController: UITableViewDataSource
     //    to create the sections of months for the contacts sorted
     func createSections()
     {
-        print("Log:: Creating monthly sections for all fetched contacts")
-        
+        //print("logs:: createSections()")
         var prev_month = sortedContacts[0].birthMonth
         var temp_section_contacts:[FetchedContact] = []
             
@@ -384,13 +376,15 @@ extension ViewController: UITableViewDataSource
             GlobalVariables.monthSections.append(MonthSection(month: temp_section_contacts[0].birthMonth, cells: temp_section_contacts))
         }
         
-        //Reload content in table view
-        //Issue: When app downloaded for time, we can't show info in table because of delay in fetching
-        //By reloading table we can avoid this issue
-        //Fixed in WMF-33
+        
+        //Updating the table view for the first time when app is downloaded
+        //When the app is downloaded for the first time it table view is updating before fetching the contact
+        //So table view is updated after creating sections so all the data is collected
+        //Moreover DispathQueue makes the table view to be updated in main thread
         DispatchQueue.main.async {
             self.contactsTableView.reloadData()
         }
+        
     }
     
     func scheduleNotification()

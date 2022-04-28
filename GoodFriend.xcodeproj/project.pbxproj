@@ -18,6 +18,8 @@
 		2D476D222741471F00794D13 /* WishesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D476D212741471F00794D13 /* WishesLoader.swift */; };
 		2D476D2427415E4D00794D13 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D476D2327415E4D00794D13 /* CalenderViewController.swift */; };
 		2D476D2A27418CF100794D13 /* CalendarDayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D476D2927418CF100794D13 /* CalendarDayCollectionViewCell.swift */; };
+		2D52A27527D270B1004208B0 /* TextWishSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D52A27427D270B1004208B0 /* TextWishSortViewController.swift */; };
+		2D52A27727D27F47004208B0 /* WishButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D52A27627D27F47004208B0 /* WishButtonCollectionViewCell.swift */; };
 		2D53DE89271C452E0068B606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DE88271C452E0068B606 /* AppDelegate.swift */; };
 		2D53DE8B271C452E0068B606 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DE8A271C452E0068B606 /* SceneDelegate.swift */; };
 		2D53DE8D271C452E0068B606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DE8C271C452E0068B606 /* ViewController.swift */; };
@@ -27,6 +29,10 @@
 		2D53DEA0271C45300068B606 /* Wish_My_FriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DE9F271C45300068B606 /* Wish_My_FriendTests.swift */; };
 		2D53DEAB271C45300068B606 /* Wish_My_FriendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DEAA271C45300068B606 /* Wish_My_FriendUITests.swift */; };
 		2D8D23D227253BEC00C1E434 /* Info in Resources */ = {isa = PBXBuildFile; fileRef = 2D8D23D127253BEC00C1E434 /* Info */; };
+		2D99D14C27CB9C5A0002F392 /* TextWishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D99D14A27CB9C5A0002F392 /* TextWishTableViewCell.swift */; };
+		2D99D14D27CB9C5A0002F392 /* TextWishTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D99D14B27CB9C5A0002F392 /* TextWishTableViewCell.xib */; };
+		2D99D14F27CBD40C0002F392 /* TextWishCategorySelection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D99D14E27CBD40C0002F392 /* TextWishCategorySelection.xib */; };
+		2D99D15127CBDAD30002F392 /* TextWishCategorySelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D99D15027CBDAD30002F392 /* TextWishCategorySelection.swift */; };
 		2DAABBE8277B5D4600057A31 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAABBE7277B5D4600057A31 /* ProfileViewController.swift */; };
 		2DB97738277C440F00CCB0E4 /* ChineseZodiacInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DB97737277C440F00CCB0E4 /* ChineseZodiacInfo.json */; };
 		2DB9773C277C4B0D00CCB0E4 /* WesternZodiacInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DB9773B277C4B0C00CCB0E4 /* WesternZodiacInfo.json */; };
@@ -89,7 +95,9 @@
 		2D476D212741471F00794D13 /* WishesLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishesLoader.swift; sourceTree = "<group>"; };
 		2D476D2327415E4D00794D13 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
 		2D476D2927418CF100794D13 /* CalendarDayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalendarDayCollectionViewCell.swift; path = Controllers/CalendarDayCollectionViewCell.swift; sourceTree = "<group>"; };
-		2D53DE85271C452E0068B606 /* Wish My Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wish My Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D52A27427D270B1004208B0 /* TextWishSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWishSortViewController.swift; sourceTree = "<group>"; };
+		2D52A27627D27F47004208B0 /* WishButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		2D53DE85271C452E0068B606 /* GoodFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D53DE88271C452E0068B606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D53DE8A271C452E0068B606 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2D53DE8C271C452E0068B606 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,13 +105,17 @@
 		2D53DE91271C45300068B606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D53DE94271C45300068B606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D53DE96271C45300068B606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D53DE9B271C45300068B606 /* Wish My FriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wish My FriendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D53DE9B271C45300068B606 /* GoodFriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodFriendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D53DE9F271C45300068B606 /* Wish_My_FriendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wish_My_FriendTests.swift; sourceTree = "<group>"; };
 		2D53DEA1271C45300068B606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D53DEA6271C45300068B606 /* Wish My FriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wish My FriendUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D53DEA6271C45300068B606 /* GoodFriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodFriendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D53DEAA271C45300068B606 /* Wish_My_FriendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wish_My_FriendUITests.swift; sourceTree = "<group>"; };
 		2D53DEAC271C45300068B606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D8D23D127253BEC00C1E434 /* Info */ = {isa = PBXFileReference; lastKnownFileType = text; path = Info; sourceTree = "<group>"; };
+		2D99D14A27CB9C5A0002F392 /* TextWishTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWishTableViewCell.swift; sourceTree = "<group>"; };
+		2D99D14B27CB9C5A0002F392 /* TextWishTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextWishTableViewCell.xib; sourceTree = "<group>"; };
+		2D99D14E27CBD40C0002F392 /* TextWishCategorySelection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextWishCategorySelection.xib; sourceTree = "<group>"; };
+		2D99D15027CBDAD30002F392 /* TextWishCategorySelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWishCategorySelection.swift; sourceTree = "<group>"; };
 		2DA7C6B9276CE69500175F93 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		2DA7C6BC276CE69500175F93 /* AccountAuthenticationModificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountAuthenticationModificationViewController.swift; sourceTree = "<group>"; };
 		2DA7C6BF276CE69500175F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -166,9 +178,13 @@
 		2D38F597271DFAF9005178BE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2D99D14E27CBD40C0002F392 /* TextWishCategorySelection.xib */,
+				2D99D15027CBDAD30002F392 /* TextWishCategorySelection.swift */,
 				2D476D2327415E4D00794D13 /* CalenderViewController.swift */,
 				2D476D1A273B0FC500794D13 /* WishControllerViewController.swift */,
 				2DAABBE7277B5D4600057A31 /* ProfileViewController.swift */,
+				2D99D14A27CB9C5A0002F392 /* TextWishTableViewCell.swift */,
+				2D99D14B27CB9C5A0002F392 /* TextWishTableViewCell.xib */,
 				2DB97749279DCE1A00CCB0E4 /* ChineseZodiacViewController.swift */,
 				2D53DE8C271C452E0068B606 /* ViewController.swift */,
 				2D38F59A271DFD55005178BE /* ContactTableViewCell.swift */,
@@ -180,6 +196,8 @@
 				2DB9775A27AD7F6700CCB0E4 /* EditContactViewController.swift */,
 				2DB9775327A73A9100CCB0E4 /* ContactsTableViewCell.xib */,
 				2DB97747279DA49400CCB0E4 /* ZodiacViewController.swift */,
+				2D52A27427D270B1004208B0 /* TextWishSortViewController.swift */,
+				2D52A27627D27F47004208B0 /* WishButtonCollectionViewCell.swift */,
 				2D2D9B06276F59BC001D9F2D /* WishTableViewCell.xib */,
 				2DB9775627AC325800CCB0E4 /* ContactsController.swift */,
 			);
@@ -211,9 +229,9 @@
 		2D53DE86271C452E0068B606 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D53DE85271C452E0068B606 /* Wish My Friend.app */,
-				2D53DE9B271C45300068B606 /* Wish My FriendTests.xctest */,
-				2D53DEA6271C45300068B606 /* Wish My FriendUITests.xctest */,
+				2D53DE85271C452E0068B606 /* GoodFriend.app */,
+				2D53DE9B271C45300068B606 /* GoodFriendTests.xctest */,
+				2D53DEA6271C45300068B606 /* GoodFriendUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -221,6 +239,7 @@
 		2D53DE87271C452E0068B606 /* Wish My Friend */ = {
 			isa = PBXGroup;
 			children = (
+				2D99D15227CBDB230002F392 /* CustomView */,
 				2DB9774D27A70D7D00CCB0E4 /* Structures */,
 				2DB9773A277C443900CCB0E4 /* EnglishZodiacInfo */,
 				2DAABBE9277B7E5500057A31 /* ChineseZodiacInfo */,
@@ -265,6 +284,13 @@
 			path = DataTypes;
 			sourceTree = "<group>";
 		};
+		2D99D15227CBDB230002F392 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		2DA7C6BB276CE69500175F93 /* Good Friend */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,9 +333,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D53DE84271C452E0068B606 /* Wish My Friend */ = {
+		2D53DE84271C452E0068B606 /* GoodFriend */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D53DEAF271C45300068B606 /* Build configuration list for PBXNativeTarget "Wish My Friend" */;
+			buildConfigurationList = 2D53DEAF271C45300068B606 /* Build configuration list for PBXNativeTarget "GoodFriend" */;
 			buildPhases = (
 				2D53DE81271C452E0068B606 /* Sources */,
 				2D53DE82271C452E0068B606 /* Frameworks */,
@@ -320,14 +346,14 @@
 			);
 			dependencies = (
 			);
-			name = "Wish My Friend";
+			name = GoodFriend;
 			productName = "Wish My Friend";
-			productReference = 2D53DE85271C452E0068B606 /* Wish My Friend.app */;
+			productReference = 2D53DE85271C452E0068B606 /* GoodFriend.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D53DE9A271C45300068B606 /* Wish My FriendTests */ = {
+		2D53DE9A271C45300068B606 /* GoodFriendTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D53DEB2271C45300068B606 /* Build configuration list for PBXNativeTarget "Wish My FriendTests" */;
+			buildConfigurationList = 2D53DEB2271C45300068B606 /* Build configuration list for PBXNativeTarget "GoodFriendTests" */;
 			buildPhases = (
 				2D53DE97271C45300068B606 /* Sources */,
 				2D53DE98271C45300068B606 /* Frameworks */,
@@ -338,14 +364,14 @@
 			dependencies = (
 				2D53DE9D271C45300068B606 /* PBXTargetDependency */,
 			);
-			name = "Wish My FriendTests";
+			name = GoodFriendTests;
 			productName = "Wish My FriendTests";
-			productReference = 2D53DE9B271C45300068B606 /* Wish My FriendTests.xctest */;
+			productReference = 2D53DE9B271C45300068B606 /* GoodFriendTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2D53DEA5271C45300068B606 /* Wish My FriendUITests */ = {
+		2D53DEA5271C45300068B606 /* GoodFriendUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D53DEB5271C45300068B606 /* Build configuration list for PBXNativeTarget "Wish My FriendUITests" */;
+			buildConfigurationList = 2D53DEB5271C45300068B606 /* Build configuration list for PBXNativeTarget "GoodFriendUITests" */;
 			buildPhases = (
 				2D53DEA2271C45300068B606 /* Sources */,
 				2D53DEA3271C45300068B606 /* Frameworks */,
@@ -356,9 +382,9 @@
 			dependencies = (
 				2D53DEA8271C45300068B606 /* PBXTargetDependency */,
 			);
-			name = "Wish My FriendUITests";
+			name = GoodFriendUITests;
 			productName = "Wish My FriendUITests";
-			productReference = 2D53DEA6271C45300068B606 /* Wish My FriendUITests.xctest */;
+			productReference = 2D53DEA6271C45300068B606 /* GoodFriendUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -383,7 +409,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2D53DE80271C452E0068B606 /* Build configuration list for PBXProject "Wish My Friend" */;
+			buildConfigurationList = 2D53DE80271C452E0068B606 /* Build configuration list for PBXProject "GoodFriend" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -396,9 +422,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D53DE84271C452E0068B606 /* Wish My Friend */,
-				2D53DE9A271C45300068B606 /* Wish My FriendTests */,
-				2D53DEA5271C45300068B606 /* Wish My FriendUITests */,
+				2D53DE84271C452E0068B606 /* GoodFriend */,
+				2D53DE9A271C45300068B606 /* GoodFriendTests */,
+				2D53DEA5271C45300068B606 /* GoodFriendUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -408,8 +434,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D99D14D27CB9C5A0002F392 /* TextWishTableViewCell.xib in Resources */,
 				2D2D9B08276F59BC001D9F2D /* WishTableViewCell.xib in Resources */,
 				2D476D1D2741465000794D13 /* wishes.json in Resources */,
+				2D99D14F27CBD40C0002F392 /* TextWishCategorySelection.xib in Resources */,
 				2D38F59D271DFD55005178BE /* ContactTableViewCell.xib in Resources */,
 				2DB97738277C440F00CCB0E4 /* ChineseZodiacInfo.json in Resources */,
 				2DB9775527A73A9100CCB0E4 /* ContactsTableViewCell.xib in Resources */,
@@ -450,6 +478,7 @@
 				2D476D1B273B0FC500794D13 /* WishControllerViewController.swift in Sources */,
 				2DB9774F27A70DA300CCB0E4 /* FetchedContact.swift in Sources */,
 				2DAABBE8277B5D4600057A31 /* ProfileViewController.swift in Sources */,
+				2D52A27527D270B1004208B0 /* TextWishSortViewController.swift in Sources */,
 				2D476D222741471F00794D13 /* WishesLoader.swift in Sources */,
 				2D476D20274146EE00794D13 /* WishesStructure.swift in Sources */,
 				2DB9774C27A70BC100CCB0E4 /* ContactsViewController.swift in Sources */,
@@ -459,12 +488,15 @@
 				2DB9774A279DCE1A00CCB0E4 /* ChineseZodiacViewController.swift in Sources */,
 				2DB97746277C5D6000CCB0E4 /* ChineseZodiacStructure.swift in Sources */,
 				2DB9775427A73A9100CCB0E4 /* ContactsTableViewCell.swift in Sources */,
+				2D99D14C27CB9C5A0002F392 /* TextWishTableViewCell.swift in Sources */,
 				2DB9775127A70E5500CCB0E4 /* MonthSection.swift in Sources */,
 				2DCA743F274D93D300B8F698 /* ColumnFlowLayout.swift in Sources */,
+				2D99D15127CBDAD30002F392 /* TextWishCategorySelection.swift in Sources */,
 				2DCA743D274D7E6600B8F698 /* Week.swift in Sources */,
 				2DB9775B27AD7F6700CCB0E4 /* EditContactViewController.swift in Sources */,
 				2DB97742277C4C8100CCB0E4 /* WesternZodiacLoader.swift in Sources */,
 				2D53DE89271C452E0068B606 /* AppDelegate.swift in Sources */,
+				2D52A27727D27F47004208B0 /* WishButtonCollectionViewCell.swift in Sources */,
 				2DB9775727AC325800CCB0E4 /* ContactsController.swift in Sources */,
 				2D53DE8B271C452E0068B606 /* SceneDelegate.swift in Sources */,
 			);
@@ -491,12 +523,12 @@
 /* Begin PBXTargetDependency section */
 		2D53DE9D271C45300068B606 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D53DE84271C452E0068B606 /* Wish My Friend */;
+			target = 2D53DE84271C452E0068B606 /* GoodFriend */;
 			targetProxy = 2D53DE9C271C45300068B606 /* PBXContainerItemProxy */;
 		};
 		2D53DEA8271C45300068B606 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D53DE84271C452E0068B606 /* Wish My Friend */;
+			target = 2D53DE84271C452E0068B606 /* GoodFriend */;
 			targetProxy = 2D53DEA7271C45300068B606 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -706,7 +738,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wish My Friend.app/Wish My Friend";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodFriend.app/GoodFriend";
 			};
 			name = Debug;
 		};
@@ -727,7 +759,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wish My Friend.app/Wish My Friend";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodFriend.app/GoodFriend";
 			};
 			name = Release;
 		};
@@ -772,7 +804,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D53DE80271C452E0068B606 /* Build configuration list for PBXProject "Wish My Friend" */ = {
+		2D53DE80271C452E0068B606 /* Build configuration list for PBXProject "GoodFriend" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D53DEAD271C45300068B606 /* Debug */,
@@ -781,7 +813,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D53DEAF271C45300068B606 /* Build configuration list for PBXNativeTarget "Wish My Friend" */ = {
+		2D53DEAF271C45300068B606 /* Build configuration list for PBXNativeTarget "GoodFriend" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D53DEB0271C45300068B606 /* Debug */,
@@ -790,7 +822,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D53DEB2271C45300068B606 /* Build configuration list for PBXNativeTarget "Wish My FriendTests" */ = {
+		2D53DEB2271C45300068B606 /* Build configuration list for PBXNativeTarget "GoodFriendTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D53DEB3271C45300068B606 /* Debug */,
@@ -799,7 +831,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D53DEB5271C45300068B606 /* Build configuration list for PBXNativeTarget "Wish My FriendUITests" */ = {
+		2D53DEB5271C45300068B606 /* Build configuration list for PBXNativeTarget "GoodFriendUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D53DEB6271C45300068B606 /* Debug */,

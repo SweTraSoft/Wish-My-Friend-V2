@@ -12,5 +12,5 @@ struct WishesStructure: Codable
     var id: Int
     var group: String
     var relation: String
-    var text: String
+    var text: String?
 }

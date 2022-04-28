@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class ProfileViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var selectedContact : FetchedContact?
     var zodiacId: Int = -1
@@ -26,6 +26,15 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var westernZodiacInfo: UIButton!
     @IBOutlet weak var chineseZodiacInfo: UIButton!
     
+    //Table view for text wishes
+    @IBOutlet weak var textWishesTableView: UITableView!
+    
+    //Select the category of relations to sort the text wishes
+    @IBOutlet weak var selectCategory: UIButton!
+    
+    //variable for all text wishes
+    var textWishes = [WishesStructure]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -42,20 +51,91 @@ class ProfileViewController: UIViewController {
         
         westernZodiacInfo.setTitle("", for: .normal)
         chineseZodiacInfo.setTitle("", for: .normal)
+        
+        let nib = UINib(nibName: "TextWishTableViewCell", bundle: nil)
+        textWishesTableView.register(nib, forCellReuseIdentifier: "TextWish")
+        textWishesTableView.delegate = self
+        textWishesTableView.dataSource = self
+        
+        //Extracting all json wishes
+        textWishes = WishesLoader().wishes
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Need to implement functionality to share the text")
+        let ac = UIActivityViewController(activityItems: [textWishes[indexPath.row].text ?? "Default text wishes"], applicationActivities: nil)
+        present(ac, animated: true)
+    }
+    
+    @IBAction func selectCategory(_ sender: Any) {
+        
+        //TextWishCategorySelection.instance.showFilters()
+       // showAlertToSelectCategory()
+    }
+    
+    
+    func showAlertToSelectCategory()
+    {
+        let alert = UIAlertController(title: "select categories", message: "please select to category to filter the wishes", preferredStyle: .alert)
+        
+        alert.addAction(UIAlertAction(title: "Select", style: .default, handler: {
+            action in print("select tapped")
+        }))
+        
+        alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: {action in
+            print("Selected dismiss")
+        }))
+        
+        alert.addAction(UIAlertAction(title: "Cancel", style: .destructive, handler: {
+            action in print("Selected cancel")
+        }))
+        
+        alert.view.addSubview(createSwitchForCategory())
+        present(alert, animated: true)
+    }
+    
+    
+    func createSwitchForCategory() -> UISwitch
+    {
+        let switchControl = UISwitch(frame: CGRect(x: 10,y: 20,width: 0,height: 0))
+        switchControl.isOn = false
+        switchControl.setOn(true, animated: false)
+        switchControl.addTarget(self, action: Selector(("switchValueDidChange")), for: .valueChanged)
+        return switchControl
+    }
+    
+    @objc func switchValueDidChange(sender: UISwitch!)
+    {
+        //print("Switch value is : \(sender.isOn)")
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return textWishes.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "TextWish", for: indexPath) as! TextWishTableViewCell
+        cell.textWish?.text = textWishes[indexPath.row].text
+        cell.layer.cornerRadius = 5
+        return cell
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
-        //let svc = segue.destination as! WishControllerViewController
+        
         if segue.destination is ZodiacViewController
         {
             let svc = segue.destination as! ZodiacViewController
             svc.zodiacId = zodiacId
         }
-        else
+        else if segue.destination is ChineseZodiacViewController
         {
             let svc = segue.destination as! ChineseZodiacViewController
             svc.zodiacContentIndex = chineseZodiacContent
+        }
+        else
+        {
+            print("Hi")
         }
     }
     
