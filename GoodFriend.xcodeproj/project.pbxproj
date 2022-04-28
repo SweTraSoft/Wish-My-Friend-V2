@@ -28,6 +28,15 @@
 		2D53DE95271C45300068B606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D53DE93271C45300068B606 /* LaunchScreen.storyboard */; };
 		2D53DEA0271C45300068B606 /* Wish_My_FriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DE9F271C45300068B606 /* Wish_My_FriendTests.swift */; };
 		2D53DEAB271C45300068B606 /* Wish_My_FriendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DEAA271C45300068B606 /* Wish_My_FriendUITests.swift */; };
+		2D67B2FA281AFBFA00DEA29F /* WesternZodiacStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D67B2F9281AFBFA00DEA29F /* WesternZodiacStructure.swift */; };
+		2D67B2FB281AFBFA00DEA29F /* WesternZodiacStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D67B2F9281AFBFA00DEA29F /* WesternZodiacStructure.swift */; };
+		2D67B2FC281AFBFA00DEA29F /* WesternZodiacStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D67B2F9281AFBFA00DEA29F /* WesternZodiacStructure.swift */; };
+		2D67B2FE281AFC1300DEA29F /* WesternZodiacLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D67B2FD281AFC1300DEA29F /* WesternZodiacLoader.swift */; };
+		2D67B2FF281AFC1300DEA29F /* WesternZodiacLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D67B2FD281AFC1300DEA29F /* WesternZodiacLoader.swift */; };
+		2D67B300281AFC1300DEA29F /* WesternZodiacLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D67B2FD281AFC1300DEA29F /* WesternZodiacLoader.swift */; };
+		2D67B302281AFC3900DEA29F /* WesternZodiacInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D67B301281AFC3900DEA29F /* WesternZodiacInfo.json */; };
+		2D67B303281AFC3900DEA29F /* WesternZodiacInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D67B301281AFC3900DEA29F /* WesternZodiacInfo.json */; };
+		2D67B304281AFC3900DEA29F /* WesternZodiacInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D67B301281AFC3900DEA29F /* WesternZodiacInfo.json */; };
 		2D8D23D227253BEC00C1E434 /* Info in Resources */ = {isa = PBXBuildFile; fileRef = 2D8D23D127253BEC00C1E434 /* Info */; };
 		2D99D14C27CB9C5A0002F392 /* TextWishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D99D14A27CB9C5A0002F392 /* TextWishTableViewCell.swift */; };
 		2D99D14D27CB9C5A0002F392 /* TextWishTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D99D14B27CB9C5A0002F392 /* TextWishTableViewCell.xib */; };
@@ -35,9 +44,6 @@
 		2D99D15127CBDAD30002F392 /* TextWishCategorySelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D99D15027CBDAD30002F392 /* TextWishCategorySelection.swift */; };
 		2DAABBE8277B5D4600057A31 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAABBE7277B5D4600057A31 /* ProfileViewController.swift */; };
 		2DB97738277C440F00CCB0E4 /* ChineseZodiacInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DB97737277C440F00CCB0E4 /* ChineseZodiacInfo.json */; };
-		2DB9773C277C4B0D00CCB0E4 /* WesternZodiacInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DB9773B277C4B0C00CCB0E4 /* WesternZodiacInfo.json */; };
-		2DB97740277C4BAE00CCB0E4 /* WesternZodiacStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB9773F277C4BAE00CCB0E4 /* WesternZodiacStructure.swift */; };
-		2DB97742277C4C8100CCB0E4 /* WesternZodiacLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB97741277C4C8100CCB0E4 /* WesternZodiacLoader.swift */; };
 		2DB97744277C5D4800CCB0E4 /* ChineseZodiacLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB97743277C5D4800CCB0E4 /* ChineseZodiacLoader.swift */; };
 		2DB97746277C5D6000CCB0E4 /* ChineseZodiacStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB97745277C5D6000CCB0E4 /* ChineseZodiacStructure.swift */; };
 		2DB97748279DA49400CCB0E4 /* ZodiacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB97747279DA49400CCB0E4 /* ZodiacViewController.swift */; };
@@ -111,6 +117,9 @@
 		2D53DEA6271C45300068B606 /* GoodFriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodFriendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D53DEAA271C45300068B606 /* Wish_My_FriendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wish_My_FriendUITests.swift; sourceTree = "<group>"; };
 		2D53DEAC271C45300068B606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D67B2F9281AFBFA00DEA29F /* WesternZodiacStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WesternZodiacStructure.swift; path = ../../../Duplicate/WesternZodiacInfo/WesternZodiacStructure.swift; sourceTree = "<group>"; };
+		2D67B2FD281AFC1300DEA29F /* WesternZodiacLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WesternZodiacLoader.swift; path = ../../../Duplicate/WesternZodiacInfo/WesternZodiacLoader.swift; sourceTree = "<group>"; };
+		2D67B301281AFC3900DEA29F /* WesternZodiacInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = WesternZodiacInfo.json; path = ../../../Duplicate/WesternZodiacInfo/WesternZodiacInfo.json; sourceTree = "<group>"; };
 		2D8D23D127253BEC00C1E434 /* Info */ = {isa = PBXFileReference; lastKnownFileType = text; path = Info; sourceTree = "<group>"; };
 		2D99D14A27CB9C5A0002F392 /* TextWishTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWishTableViewCell.swift; sourceTree = "<group>"; };
 		2D99D14B27CB9C5A0002F392 /* TextWishTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextWishTableViewCell.xib; sourceTree = "<group>"; };
@@ -122,9 +131,6 @@
 		2DA7C6C1276CE69500175F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DAABBE7277B5D4600057A31 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2DB97737277C440F00CCB0E4 /* ChineseZodiacInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ChineseZodiacInfo.json; sourceTree = "<group>"; };
-		2DB9773B277C4B0C00CCB0E4 /* WesternZodiacInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = WesternZodiacInfo.json; path = "Wish My Friend/WesternZodiacInfo/WesternZodiacInfo.json"; sourceTree = SOURCE_ROOT; };
-		2DB9773F277C4BAE00CCB0E4 /* WesternZodiacStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WesternZodiacStructure.swift; path = "Wish My Friend/WesternZodiacInfo/WesternZodiacStructure.swift"; sourceTree = SOURCE_ROOT; };
-		2DB97741277C4C8100CCB0E4 /* WesternZodiacLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WesternZodiacLoader.swift; path = "Wish My Friend/WesternZodiacInfo/WesternZodiacLoader.swift"; sourceTree = SOURCE_ROOT; };
 		2DB97743277C5D4800CCB0E4 /* ChineseZodiacLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseZodiacLoader.swift; sourceTree = "<group>"; };
 		2DB97745277C5D6000CCB0E4 /* ChineseZodiacStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseZodiacStructure.swift; sourceTree = "<group>"; };
 		2DB97747279DA49400CCB0E4 /* ZodiacViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacViewController.swift; sourceTree = "<group>"; };
@@ -217,9 +223,9 @@
 		2D53DE7C271C452E0068B606 = {
 			isa = PBXGroup;
 			children = (
-				2D53DE87271C452E0068B606 /* Wish My Friend */,
-				2D53DE9E271C45300068B606 /* Wish My FriendTests */,
-				2D53DEA9271C45300068B606 /* Wish My FriendUITests */,
+				2D53DE87271C452E0068B606 /* GoodFriend */,
+				2D53DE9E271C45300068B606 /* GoodFriendTests */,
+				2D53DEA9271C45300068B606 /* GoodFriendUITests */,
 				2DA7C6BB276CE69500175F93 /* Good Friend */,
 				2D53DE86271C452E0068B606 /* Products */,
 				2D38F594271DF1A2005178BE /* Frameworks */,
@@ -236,17 +242,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D53DE87271C452E0068B606 /* Wish My Friend */ = {
+		2D53DE87271C452E0068B606 /* GoodFriend */ = {
 			isa = PBXGroup;
 			children = (
 				2D99D15227CBDB230002F392 /* CustomView */,
 				2DB9774D27A70D7D00CCB0E4 /* Structures */,
-				2DB9773A277C443900CCB0E4 /* EnglishZodiacInfo */,
 				2DAABBE9277B7E5500057A31 /* ChineseZodiacInfo */,
 				2D476D1E274146BF00794D13 /* Wishes */,
 				2D8D23D32725467700C1E434 /* DataTypes */,
 				2D38F597271DFAF9005178BE /* Controllers */,
 				2D53DE88271C452E0068B606 /* AppDelegate.swift */,
+				2D67B2F9281AFBFA00DEA29F /* WesternZodiacStructure.swift */,
+				2D67B301281AFC3900DEA29F /* WesternZodiacInfo.json */,
+				2D67B2FD281AFC1300DEA29F /* WesternZodiacLoader.swift */,
 				2D53DE8A271C452E0068B606 /* SceneDelegate.swift */,
 				2D53DE8E271C452E0068B606 /* Main.storyboard */,
 				2D476D2927418CF100794D13 /* CalendarDayCollectionViewCell.swift */,
@@ -255,25 +263,25 @@
 				2D53DE96271C45300068B606 /* Info.plist */,
 				2D8D23D127253BEC00C1E434 /* Info */,
 			);
-			path = "Wish My Friend";
+			path = GoodFriend;
 			sourceTree = "<group>";
 		};
-		2D53DE9E271C45300068B606 /* Wish My FriendTests */ = {
+		2D53DE9E271C45300068B606 /* GoodFriendTests */ = {
 			isa = PBXGroup;
 			children = (
 				2D53DE9F271C45300068B606 /* Wish_My_FriendTests.swift */,
 				2D53DEA1271C45300068B606 /* Info.plist */,
 			);
-			path = "Wish My FriendTests";
+			path = GoodFriendTests;
 			sourceTree = "<group>";
 		};
-		2D53DEA9271C45300068B606 /* Wish My FriendUITests */ = {
+		2D53DEA9271C45300068B606 /* GoodFriendUITests */ = {
 			isa = PBXGroup;
 			children = (
 				2D53DEAA271C45300068B606 /* Wish_My_FriendUITests.swift */,
 				2D53DEAC271C45300068B606 /* Info.plist */,
 			);
-			path = "Wish My FriendUITests";
+			path = GoodFriendUITests;
 			sourceTree = "<group>";
 		};
 		2D8D23D32725467700C1E434 /* DataTypes */ = {
@@ -309,16 +317,6 @@
 				2DB97745277C5D6000CCB0E4 /* ChineseZodiacStructure.swift */,
 			);
 			path = ChineseZodiacInfo;
-			sourceTree = "<group>";
-		};
-		2DB9773A277C443900CCB0E4 /* EnglishZodiacInfo */ = {
-			isa = PBXGroup;
-			children = (
-				2DB9773B277C4B0C00CCB0E4 /* WesternZodiacInfo.json */,
-				2DB97741277C4C8100CCB0E4 /* WesternZodiacLoader.swift */,
-				2DB9773F277C4BAE00CCB0E4 /* WesternZodiacStructure.swift */,
-			);
-			path = EnglishZodiacInfo;
 			sourceTree = "<group>";
 		};
 		2DB9774D27A70D7D00CCB0E4 /* Structures */ = {
@@ -442,7 +440,7 @@
 				2DB97738277C440F00CCB0E4 /* ChineseZodiacInfo.json in Resources */,
 				2DB9775527A73A9100CCB0E4 /* ContactsTableViewCell.xib in Resources */,
 				2D53DE95271C45300068B606 /* LaunchScreen.storyboard in Resources */,
-				2DB9773C277C4B0D00CCB0E4 /* WesternZodiacInfo.json in Resources */,
+				2D67B302281AFC3900DEA29F /* WesternZodiacInfo.json in Resources */,
 				2D53DE92271C45300068B606 /* Assets.xcassets in Resources */,
 				2D8D23D227253BEC00C1E434 /* Info in Resources */,
 				2D53DE90271C452E0068B606 /* Main.storyboard in Resources */,
@@ -453,6 +451,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D67B303281AFC3900DEA29F /* WesternZodiacInfo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +459,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D67B304281AFC3900DEA29F /* WesternZodiacInfo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,8 +473,8 @@
 				2D2D9B07276F59BC001D9F2D /* WishTableViewCell.swift in Sources */,
 				2D476D2A27418CF100794D13 /* CalendarDayCollectionViewCell.swift in Sources */,
 				2DB97744277C5D4800CCB0E4 /* ChineseZodiacLoader.swift in Sources */,
+				2D67B2FE281AFC1300DEA29F /* WesternZodiacLoader.swift in Sources */,
 				2D38F59C271DFD55005178BE /* ContactTableViewCell.swift in Sources */,
-				2DB97740277C4BAE00CCB0E4 /* WesternZodiacStructure.swift in Sources */,
 				2D476D1B273B0FC500794D13 /* WishControllerViewController.swift in Sources */,
 				2DB9774F27A70DA300CCB0E4 /* FetchedContact.swift in Sources */,
 				2DAABBE8277B5D4600057A31 /* ProfileViewController.swift in Sources */,
@@ -494,10 +494,10 @@
 				2D99D15127CBDAD30002F392 /* TextWishCategorySelection.swift in Sources */,
 				2DCA743D274D7E6600B8F698 /* Week.swift in Sources */,
 				2DB9775B27AD7F6700CCB0E4 /* EditContactViewController.swift in Sources */,
-				2DB97742277C4C8100CCB0E4 /* WesternZodiacLoader.swift in Sources */,
 				2D53DE89271C452E0068B606 /* AppDelegate.swift in Sources */,
 				2D52A27727D27F47004208B0 /* WishButtonCollectionViewCell.swift in Sources */,
 				2DB9775727AC325800CCB0E4 /* ContactsController.swift in Sources */,
+				2D67B2FA281AFBFA00DEA29F /* WesternZodiacStructure.swift in Sources */,
 				2D53DE8B271C452E0068B606 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,7 +506,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D67B2FB281AFBFA00DEA29F /* WesternZodiacStructure.swift in Sources */,
 				2D53DEA0271C45300068B606 /* Wish_My_FriendTests.swift in Sources */,
+				2D67B2FF281AFC1300DEA29F /* WesternZodiacLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,7 +516,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D67B2FC281AFBFA00DEA29F /* WesternZodiacStructure.swift in Sources */,
 				2D53DEAB271C45300068B606 /* Wish_My_FriendUITests.swift in Sources */,
+				2D67B300281AFC1300DEA29F /* WesternZodiacLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,7 +690,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = N7VP27WV27;
-				INFOPLIST_FILE = "Wish My Friend/Info.plist";
+				INFOPLIST_FILE = GoodFriend/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -708,7 +712,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = N7VP27WV27;
-				INFOPLIST_FILE = "Wish My Friend/Info.plist";
+				INFOPLIST_FILE = GoodFriend/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -727,7 +731,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Wish My FriendTests/Info.plist";
+				INFOPLIST_FILE = GoodFriendTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -748,7 +752,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Wish My FriendTests/Info.plist";
+				INFOPLIST_FILE = GoodFriendTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -768,17 +772,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Wish My FriendUITests/Info.plist";
+				INFOPLIST_FILE = GoodFriendUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Damineni.Wish-My-FriendUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = Damineni.GoodFriendUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Wish My Friend";
+				TEST_TARGET_NAME = GoodFriend;
 			};
 			name = Debug;
 		};
@@ -787,17 +791,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Wish My FriendUITests/Info.plist";
+				INFOPLIST_FILE = GoodFriendUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Damineni.Wish-My-FriendUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = Damineni.GoodFriendUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Wish My Friend";
+				TEST_TARGET_NAME = GoodFriend;
 			};
 			name = Release;
 		};
