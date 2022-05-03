@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Wish_My_Friend
+@testable import GoodFriend
 
 class Wish_My_FriendTests: XCTestCase {
 

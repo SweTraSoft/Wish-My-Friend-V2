@@ -1,8 +1,8 @@
 //
 //  WesternZodiacLoader.swift
-//  Wish My Friend
+//  GoodFriend
 //
-//  Created by Sarath Chandra Damineni on 2021-12-29.
+//  Created by Sarath Chandra Damineni on 2022-05-03.
 //
 
 import Foundation
