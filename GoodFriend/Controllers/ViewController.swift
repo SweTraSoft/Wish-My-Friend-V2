@@ -166,29 +166,29 @@ class ViewController: UIViewController{
     {
         switch month {
         case 1:
-            return "Jan"
+            return "January"
         case 2:
-             return "Feb"
+             return "February"
         case 3:
-             return "Mar"
+             return "March"
         case 4:
-             return "Apr"
+             return "April"
         case 5:
              return "May"
         case 6:
-             return "Jun"
+             return "June"
         case 7:
-             return "Jul"
+             return "July"
         case 8:
-             return "Aug"
+             return "August"
         case 9:
-             return "Sep"
+             return "September"
         case 10:
-             return "Oct"
+             return "October"
         case 11:
-             return "Nov"
+             return "November"
         case 12:
-             return "Dec"
+             return "December"
         default:
             return "NAN"
         }
@@ -206,7 +206,7 @@ class ViewController: UIViewController{
                                         usingBlock: { (contact, stopPointer) in
                   
                 //Creating default image for contact
-                var contactImage = UIImage(systemName: "person")
+                var contactImage = UIImage(named: "ProfilePic")
                 
                 //If contact has image then take the image of contact else show default image
                 if contact.imageDataAvailable
