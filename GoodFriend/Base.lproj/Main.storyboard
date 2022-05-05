@@ -632,7 +632,7 @@
                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMH-Cg-Byg">
                                                                                 <rect key="frame" x="10" y="10" width="172" height="40"/>
                                                                                 <state key="normal" title="Button"/>
-                                                                                <buttonConfiguration key="configuration" style="filled" title="Other"/>
+                                                                                <buttonConfiguration key="configuration" style="filled" title="delete"/>
                                                                                 <connections>
                                                                                     <action selector="otherFamilyButtonPress:" destination="Qfh-te-KXA" eventType="touchUpInside" id="zPe-PG-Xzh"/>
                                                                                 </connections>
@@ -772,7 +772,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Vx-cH-SD0" userLabel="FriendsView">
                                                 <rect key="frame" x="5" y="355" width="404" height="230"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friends" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Egc-1M-tNC">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Relationship" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Egc-1M-tNC">
                                                         <rect key="frame" x="5" y="5" width="100" height="40"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
@@ -804,7 +804,7 @@
                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJb-SG-dfV">
                                                                                 <rect key="frame" x="10" y="10" width="177" height="40"/>
                                                                                 <state key="normal" title="Button"/>
-                                                                                <buttonConfiguration key="configuration" style="filled" title="Girl Friend"/>
+                                                                                <buttonConfiguration key="configuration" style="filled" title="Girlfriend"/>
                                                                                 <connections>
                                                                                     <action selector="girlFriendButtonPress:" destination="Qfh-te-KXA" eventType="touchUpInside" id="R0O-yM-IxW"/>
                                                                                 </connections>
@@ -818,13 +818,13 @@
                                                                             <constraint firstAttribute="bottom" secondItem="qJb-SG-dfV" secondAttribute="bottom" constant="10" id="q6V-LD-XI9"/>
                                                                         </constraints>
                                                                     </view>
-                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TWs-Zi-O6Y" userLabel="BestFriendView">
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TWs-Zi-O6Y" userLabel="delete">
                                                                         <rect key="frame" x="0.0" y="60" width="197" height="60"/>
                                                                         <subviews>
-                                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTO-sd-A8P">
+                                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTO-sd-A8P" userLabel="delete">
                                                                                 <rect key="frame" x="10" y="10" width="177" height="40"/>
                                                                                 <state key="normal" title="Button"/>
-                                                                                <buttonConfiguration key="configuration" style="filled" title="Best Friend"/>
+                                                                                <buttonConfiguration key="configuration" style="filled" title="delete"/>
                                                                                 <connections>
                                                                                     <action selector="bestFriendButtonPress:" destination="Qfh-te-KXA" eventType="touchUpInside" id="w9k-4u-Lla"/>
                                                                                 </connections>
@@ -844,7 +844,7 @@
                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l61-YB-YcO">
                                                                                 <rect key="frame" x="10" y="10" width="177" height="40"/>
                                                                                 <state key="normal" title="Button"/>
-                                                                                <buttonConfiguration key="configuration" style="filled" title="Classmate"/>
+                                                                                <buttonConfiguration key="configuration" style="filled" title="delete"/>
                                                                                 <connections>
                                                                                     <action selector="classMateButtonPress:" destination="Qfh-te-KXA" eventType="touchUpInside" id="ARs-vp-g2P"/>
                                                                                 </connections>
@@ -873,7 +873,7 @@
                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJE-T5-a4v">
                                                                                 <rect key="frame" x="10" y="10" width="177" height="40"/>
                                                                                 <state key="normal" title="Button"/>
-                                                                                <buttonConfiguration key="configuration" style="filled" title="Boy Friend"/>
+                                                                                <buttonConfiguration key="configuration" style="filled" title="Boyfriend"/>
                                                                                 <connections>
                                                                                     <action selector="boyFriendButtonPress:" destination="Qfh-te-KXA" eventType="touchUpInside" id="wMG-kN-75z"/>
                                                                                 </connections>
@@ -893,7 +893,7 @@
                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cvc-d0-lnh">
                                                                                 <rect key="frame" x="10" y="10" width="177" height="40"/>
                                                                                 <state key="normal" title="Button"/>
-                                                                                <buttonConfiguration key="configuration" style="filled" title="Casual Friend"/>
+                                                                                <buttonConfiguration key="configuration" style="filled" title="delete"/>
                                                                                 <connections>
                                                                                     <action selector="casualFriendButtonPress:" destination="Qfh-te-KXA" eventType="touchUpInside" id="9V9-tY-QGY"/>
                                                                                 </connections>
@@ -987,7 +987,7 @@
                                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0y5-Hu-nJy">
                                                                                 <rect key="frame" x="10" y="10" width="172" height="40"/>
                                                                                 <state key="normal" title="Button"/>
-                                                                                <buttonConfiguration key="configuration" style="filled" title="Others"/>
+                                                                                <buttonConfiguration key="configuration" style="filled" title="delete"/>
                                                                                 <connections>
                                                                                     <action selector="otherWorkButtonPress:" destination="Qfh-te-KXA" eventType="touchUpInside" id="BjS-xG-2Es"/>
                                                                                 </connections>
@@ -1043,8 +1043,8 @@
                                                             <constraint firstItem="bVm-zq-Fad" firstAttribute="width" secondItem="4aK-bu-fsY" secondAttribute="width" id="hTM-B5-j8s"/>
                                                         </constraints>
                                                     </stackView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Work" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aaa-8V-Bfe">
-                                                        <rect key="frame" x="5" y="5" width="42" height="40"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Formal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aaa-8V-Bfe">
+                                                        <rect key="frame" x="5" y="5" width="55.5" height="40"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="2S9-x5-nbw"/>
                                                         </constraints>
@@ -1784,19 +1784,19 @@
     </scenes>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
-        <image name="calendar.circle" catalog="system" width="128" height="121"/>
-        <image name="calendar.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="chevron.left" catalog="system" width="96" height="128"/>
-        <image name="chevron.right" catalog="system" width="96" height="128"/>
-        <image name="ellipsis.circle" catalog="system" width="128" height="121"/>
-        <image name="ellipsis.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="gearshape" catalog="system" width="128" height="121"/>
-        <image name="gearshape.fill" catalog="system" width="128" height="121"/>
-        <image name="info.circle" catalog="system" width="128" height="121"/>
+        <image name="calendar.circle" catalog="system" width="32" height="32"/>
+        <image name="calendar.circle.fill" catalog="system" width="32" height="32"/>
+        <image name="chevron.left" catalog="system" width="32" height="32"/>
+        <image name="chevron.right" catalog="system" width="32" height="32"/>
+        <image name="ellipsis.circle" catalog="system" width="32" height="32"/>
+        <image name="ellipsis.circle.fill" catalog="system" width="32" height="32"/>
+        <image name="gearshape" catalog="system" width="32" height="32"/>
+        <image name="gearshape.fill" catalog="system" width="32" height="32"/>
+        <image name="info.circle" catalog="system" width="32" height="32"/>
         <image name="leo" width="550" height="510"/>
-        <image name="person" catalog="system" width="128" height="117"/>
-        <image name="person.2" catalog="system" width="128" height="81"/>
-        <image name="person.2.fill" catalog="system" width="128" height="80"/>
+        <image name="person" catalog="system" width="32" height="32"/>
+        <image name="person.2" catalog="system" width="32" height="32"/>
+        <image name="person.2.fill" catalog="system" width="32" height="32"/>
         <image name="tiger" width="490" height="410"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
