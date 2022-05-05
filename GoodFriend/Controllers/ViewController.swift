@@ -68,7 +68,7 @@ class ViewController: UIViewController{
                     createSections()
                 }
                 else
-                {
+                      {
                     print("Contacts request is not accepted")
                 }
             }
@@ -78,6 +78,7 @@ class ViewController: UIViewController{
            // print("logs:: already authorized and now will only display")
             getContactsData()
             sortedContacts = sortFetchedContacts()
+            printContacts(contactsList: sortedContacts)
             sortDatesWithRespectToCurDay()
             createSections()
         }
@@ -99,6 +100,13 @@ class ViewController: UIViewController{
         scheduleNotification()
     }
     
+    func printContacts(contactsList: [FetchedContact])
+    {
+        for i in contactsList
+        {
+            print("Log:: contactsName "+i.firstName+" "+i.lastName)
+        }
+    }
     //    Sorting the dates with respect to the current dates
     func sortDatesWithRespectToCurDay()
     {
@@ -109,17 +117,36 @@ class ViewController: UIViewController{
         let cur_month = date.get(.month)
         var number_of_days_removed:Int = 0
         let temp_contacts_sorted = sortedContacts
+        
         for each_contact in temp_contacts_sorted
         {
             //If birthday is before current day then move to back of the list
             //WMF-15 if birthday is before 2 days of current day then display on top of list
+            print("Log:: "+each_contact.firstName+" remaining days: "+String(each_contact.ramainingDays))
+            
             if each_contact.ramainingDays <= 0
             {
-                break
-            }
-            else
-            {
-                sortedContacts.append(each_contact)
+                //creating object for current day and month
+                let to_day = NSDateComponents()
+                to_day.day = cur_glb_day
+                to_day.month = cur_glb_month
+                to_day.year = cur_glb_year
+                
+                //creating the birthday components
+                var birthday_components = NSDateComponents()
+                birthday_components.day = each_contact.birthday
+                birthday_components.month = each_contact.birthMonth
+                //give the birthday year as current year since we are calculating the difference of days
+                birthday_components.year = cur_glb_year + 1
+                
+                //calculating the number of days remained
+                let calender = Calendar.current
+                
+                var tempContactChangeBirthday = each_contact
+                
+                tempContactChangeBirthday.ramainingDays = calender.dateComponents([.day], from: to_day as DateComponents, to: birthday_components as DateComponents).day ?? 999
+                
+                sortedContacts.append(tempContactChangeBirthday)
                 number_of_days_removed = number_of_days_removed+1
             }
             
@@ -161,6 +188,7 @@ class ViewController: UIViewController{
         print("logs:: sorted contacts lenght is "+String(contact_sorted_temp.count))
         return contact_sorted_temp
     }
+    
     
     func getMonthText(month: Int) -> String
     {
@@ -338,11 +366,12 @@ extension ViewController: UITableViewDataSource
             var components = calender.dateComponents([.day], from: to_day as DateComponents, to: birthday_components as DateComponents)
              
             //if birthday for current year is already completed then remaining number for next birthday will be calculated
-            if(components.day ?? 0 < -2)
+            /*if(components.day ?? 0 < -2)
             {
                 birthday_components.year = cur_glb_year + 1
                 components = calender.dateComponents([.day], from: to_day as DateComponents, to: birthday_components as DateComponents)
-            }
+            }*/
+            
             return components.day ?? 999
             
         }
