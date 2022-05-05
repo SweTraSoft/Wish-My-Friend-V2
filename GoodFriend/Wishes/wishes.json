@@ -300,13 +300,13 @@
     },
     {
         "id": 51,
-        "group":"",
+        "group":"family, friends",
         "relation":"",
         "text":"May you be gifted with life’s biggest joys and never-ending bliss. After all, you yourself are a gift to earth, so you deserve the best. Happy birthday."
     },
     {
         "id": 52,
-        "group":"",
+        "group":"family, friends",
         "relation":"",
         "text":"Count not the candles…see the lights they give. Count not the years, but the life you live. Wishing you a wonderful time ahead. Happy birthday."
     },
@@ -418,16 +418,19 @@
         "relation":"",
         "text":"Hope your birthday is just like you…totally freaking awesome!!"
     },
+    {
         "id": 72,
         "group":"family",
         "relation":"sister",
         "text":"I wish a very happy birthday for the second much loved child of my parents. Happy birthday [First_name]. You are not only the greatest sister in the world, but also the best friend of mine."
-},
+        },
+    {
         "id": 73,
         "group":"family",
         "relation":"brother",
         "text":"Wishing happy birthday to the best person I've ever met in this world. Thank you for all the memories we have. Without you the world would have been colorless to me. It's an honor for me that the best man in this world is my brother. Happy birthday."
 },
+    {
         "id": 74,
         "group":"family",
         "relation":"sister",
