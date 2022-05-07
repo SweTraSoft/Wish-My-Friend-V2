@@ -28,6 +28,7 @@
 		2D53DE95271C45300068B606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D53DE93271C45300068B606 /* LaunchScreen.storyboard */; };
 		2D53DEA0271C45300068B606 /* Wish_My_FriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DE9F271C45300068B606 /* Wish_My_FriendTests.swift */; };
 		2D53DEAB271C45300068B606 /* Wish_My_FriendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DEAA271C45300068B606 /* Wish_My_FriendUITests.swift */; };
+		2D629D1D2826ACB10048C69D /* DateFormatChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629D1C2826ACB10048C69D /* DateFormatChange.swift */; };
 		2D8D23D227253BEC00C1E434 /* Info in Resources */ = {isa = PBXBuildFile; fileRef = 2D8D23D127253BEC00C1E434 /* Info */; };
 		2D99D14C27CB9C5A0002F392 /* TextWishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D99D14A27CB9C5A0002F392 /* TextWishTableViewCell.swift */; };
 		2D99D14D27CB9C5A0002F392 /* TextWishTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D99D14B27CB9C5A0002F392 /* TextWishTableViewCell.xib */; };
@@ -111,6 +112,7 @@
 		2D53DEA6271C45300068B606 /* GoodFriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodFriendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D53DEAA271C45300068B606 /* Wish_My_FriendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wish_My_FriendUITests.swift; sourceTree = "<group>"; };
 		2D53DEAC271C45300068B606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D629D1C2826ACB10048C69D /* DateFormatChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatChange.swift; sourceTree = "<group>"; };
 		2D8D23D127253BEC00C1E434 /* Info */ = {isa = PBXFileReference; lastKnownFileType = text; path = Info; sourceTree = "<group>"; };
 		2D99D14A27CB9C5A0002F392 /* TextWishTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWishTableViewCell.swift; sourceTree = "<group>"; };
 		2D99D14B27CB9C5A0002F392 /* TextWishTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextWishTableViewCell.xib; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				2D52A27627D27F47004208B0 /* WishButtonCollectionViewCell.swift */,
 				2D2D9B06276F59BC001D9F2D /* WishTableViewCell.xib */,
 				2DB9775627AC325800CCB0E4 /* ContactsController.swift */,
+				2D629D1C2826ACB10048C69D /* DateFormatChange.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -488,6 +491,7 @@
 				2DB9774A279DCE1A00CCB0E4 /* ChineseZodiacViewController.swift in Sources */,
 				2DB97746277C5D6000CCB0E4 /* ChineseZodiacStructure.swift in Sources */,
 				2DB9775427A73A9100CCB0E4 /* ContactsTableViewCell.swift in Sources */,
+				2D629D1D2826ACB10048C69D /* DateFormatChange.swift in Sources */,
 				2D99D14C27CB9C5A0002F392 /* TextWishTableViewCell.swift in Sources */,
 				2DB9775127A70E5500CCB0E4 /* MonthSection.swift in Sources */,
 				2DCA743F274D93D300B8F698 /* ColumnFlowLayout.swift in Sources */,

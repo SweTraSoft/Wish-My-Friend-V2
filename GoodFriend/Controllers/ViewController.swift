@@ -22,7 +22,7 @@ class ViewController: UIViewController{
     var contacts = [FetchedContact]()
     
     let store = CNContactStore()
-    
+    var dateFormatChange = DateFormatChange()
     
     @IBOutlet var contactsTableView: UITableView!
     let names = ["Sarath","Chandra","Damineni"]
@@ -65,6 +65,7 @@ class ViewController: UIViewController{
                     getContactsData()
                     sortedContacts = sortFetchedContacts()
                     sortDatesWithRespectToCurDay()
+                    sortedContacts = getWeekDayFromBirthDay()
                     createSections()
                 }
                 else
@@ -78,7 +79,8 @@ class ViewController: UIViewController{
            // print("logs:: already authorized and now will only display")
             getContactsData()
             sortedContacts = sortFetchedContacts()
-            printContacts(contactsList: sortedContacts)
+            //printContacts(contactsList: sortedContacts)
+            sortedContacts = getWeekDayFromBirthDay()
             sortDatesWithRespectToCurDay()
             createSections()
         }
@@ -124,7 +126,7 @@ class ViewController: UIViewController{
             //WMF-15 if birthday is before 2 days of current day then display on top of list
             print("Log:: "+each_contact.firstName+" remaining days: "+String(each_contact.ramainingDays))
             
-            if each_contact.ramainingDays <= 0
+            if each_contact.ramainingDays < -2
             {
                 //creating object for current day and month
                 let to_day = NSDateComponents()
@@ -134,6 +136,7 @@ class ViewController: UIViewController{
                 
                 //creating the birthday components
                 var birthday_components = NSDateComponents()
+                
                 birthday_components.day = each_contact.birthday
                 birthday_components.month = each_contact.birthMonth
                 //give the birthday year as current year since we are calculating the difference of days
@@ -141,10 +144,12 @@ class ViewController: UIViewController{
                 
                 //calculating the number of days remained
                 let calender = Calendar.current
-                
                 var tempContactChangeBirthday = each_contact
                 
                 tempContactChangeBirthday.ramainingDays = calender.dateComponents([.day], from: to_day as DateComponents, to: birthday_components as DateComponents).day ?? 999
+                
+                //upcoming birthday is next year flag set true
+                tempContactChangeBirthday.upcomingBirthdayNextYear = true
                 
                 sortedContacts.append(tempContactChangeBirthday)
                 number_of_days_removed = number_of_days_removed+1
@@ -255,7 +260,9 @@ class ViewController: UIViewController{
                                                                  birthdayDate: (contact.birthday?.date) ?? Date(),
                                                                  
                                                                  ramainingDays: self.calculateRemainingDays(day: contact.birthday?.day ?? 0, month: contact.birthday?.month ?? 0),
-                                                                contact: contact))
+                                                                contact: contact,
+                                                                weekDay: "Default",
+                                                                upcomingBirthdayNextYear: false))
                 
                 //Further collect only contacts that has birthday associated with it
                                             if(contact.birthday != nil)
@@ -271,13 +278,13 @@ class ViewController: UIViewController{
                                                                    contactImage: contactImage!,
                                                                    birthdayDate: (contact.birthday?.date)!,
                                                                    ramainingDays: self.calculateRemainingDays(day: contact.birthday?.day ?? 0, month: contact.birthday?.month ?? 0),
-                                                                  contact: contact)
+                                                                  contact: contact,
+                                                                  weekDay: "Default",
+                                                                  upcomingBirthdayNextYear: false)
                                                 )
                                             }
                 
                         })
-            
-            
         }
         catch let error
         {
@@ -336,12 +343,49 @@ extension ViewController: UITableViewDataSource
                                              GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].lastName+" ("+String(cur_glb_year-GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthYear)+")"
         }
         
-        eachContactCell.phoneNumber.text = "Celebrates on "+self.getMonthText(month: GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthMonth)+"-"+String(GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthday)
+        eachContactCell.phoneNumber.text = "Celebrates on "+dateFormatChange.monthShortHand(month: GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthMonth)+" "+dateFormatChange.dateSuperscript(date:  GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthday)+"("+dateFormatChange.shortWeekday(weekDay: GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].weekDay)+")"
+        
         eachContactCell.personImagee.image = GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].contactImage
         eachContactCell.personImagee?.layer.cornerRadius = (eachContactCell.personImagee?.frame.size.width)! / 2
         eachContactCell.personImagee?.layer.masksToBounds = true
         eachContactCell.numberOfDays.text = String(GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].ramainingDays)
         return eachContactCell
+    }
+    
+    func getWeekDayFromBirthDay() -> [FetchedContact]
+    {
+        //creating object for current day and month
+        let to_day = NSDateComponents()
+        to_day.year = cur_glb_year
+        var weekDayCalculatedContacts = [FetchedContact]()
+        
+        for eachContactSorted in sortedContacts
+        {
+            var eachContact = eachContactSorted
+            
+            let contactBirthday = eachContact.birthday
+            let contactBirthMonth = eachContact.birthMonth
+            let contactBirthYear = cur_glb_year
+            
+            if eachContact.upcomingBirthdayNextYear == true
+            {
+                let contactBirthYear = cur_glb_year + 1
+            }
+            
+            var dateComponents = DateComponents()
+            dateComponents.day = contactBirthday
+            dateComponents.month = contactBirthMonth
+            dateComponents.year = contactBirthYear
+            // Create date from components
+            let userCalendar = Calendar(identifier: .gregorian) // since the components above (like year 1980) are for Gregorian
+            let dateTime = userCalendar.date(from: dateComponents)
+            let dateFormatter = DateFormatter()
+            eachContact.weekDay = dateFormatter.weekdaySymbols[Calendar.current.component(.weekday, from: dateTime!) - 1]
+            
+            print("Log:: "+eachContact.firstName+" Weekday: "+eachContact.weekDay)
+            weekDayCalculatedContacts.append(eachContact)
+        }
+        return weekDayCalculatedContacts
     }
     
     func calculateRemainingDays(day: Int, month: Int) -> Int
@@ -486,4 +530,3 @@ extension Date
         return Calendar.current.date(byAdding: .day, value: -2, to: self)!
     }
 }
-

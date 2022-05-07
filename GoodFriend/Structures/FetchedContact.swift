@@ -21,4 +21,6 @@ struct FetchedContact
     var birthdayDate: Date
     var ramainingDays: Int
     var contact: CNContact
+    var weekDay: String //Weekday for the next upcoming birthday
+    var upcomingBirthdayNextYear: Bool //If upcoming birthday is in next year
 }
