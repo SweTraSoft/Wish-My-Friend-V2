@@ -343,7 +343,7 @@ extension ViewController: UITableViewDataSource
                                              GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].lastName+" ("+String(cur_glb_year-GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthYear)+")"
         }
         
-        eachContactCell.phoneNumber.text = "Celebrates on "+dateFormatChange.monthShortHand(month: GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthMonth)+" "+dateFormatChange.dateSuperscript(date:  GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthday)+"("+dateFormatChange.shortWeekday(weekDay: GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].weekDay)+")"
+        eachContactCell.phoneNumber.text = GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].weekDay+", "+self.getMonthText(month: GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthMonth)+" "+dateFormatChange.dateSuperscript(date:  GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthday)
         
         eachContactCell.personImagee.image = GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].contactImage
         eachContactCell.personImagee?.layer.cornerRadius = (eachContactCell.personImagee?.frame.size.width)! / 2
