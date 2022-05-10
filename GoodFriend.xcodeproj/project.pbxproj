@@ -28,6 +28,7 @@
 		2D53DE95271C45300068B606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D53DE93271C45300068B606 /* LaunchScreen.storyboard */; };
 		2D53DEA0271C45300068B606 /* Wish_My_FriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DE9F271C45300068B606 /* Wish_My_FriendTests.swift */; };
 		2D53DEAB271C45300068B606 /* Wish_My_FriendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DEAA271C45300068B606 /* Wish_My_FriendUITests.swift */; };
+		2D60E65F282AC9B9006AB98C /* EnglishZodiacInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D60E65E282AC9B9006AB98C /* EnglishZodiacInfo.json */; };
 		2D629D1D2826ACB10048C69D /* DateFormatChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629D1C2826ACB10048C69D /* DateFormatChange.swift */; };
 		2D629D20282AC1230048C69D /* EnglishZodiacInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D629D1F282AC1230048C69D /* EnglishZodiacInfo.json */; };
 		2D629D22282AC14C0048C69D /* EnglishZodiacLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629D21282AC14C0048C69D /* EnglishZodiacLoader.swift */; };
@@ -112,6 +113,7 @@
 		2D53DEA6271C45300068B606 /* GoodFriendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodFriendUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D53DEAA271C45300068B606 /* Wish_My_FriendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wish_My_FriendUITests.swift; sourceTree = "<group>"; };
 		2D53DEAC271C45300068B606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D60E65E282AC9B9006AB98C /* EnglishZodiacInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EnglishZodiacInfo.json; sourceTree = "<group>"; };
 		2D629D1C2826ACB10048C69D /* DateFormatChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatChange.swift; sourceTree = "<group>"; };
 		2D629D1F282AC1230048C69D /* EnglishZodiacInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EnglishZodiacInfo.json; sourceTree = "<group>"; };
 		2D629D21282AC14C0048C69D /* EnglishZodiacLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishZodiacLoader.swift; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 				2D629D1F282AC1230048C69D /* EnglishZodiacInfo.json */,
 				2D629D21282AC14C0048C69D /* EnglishZodiacLoader.swift */,
 				2D629D23282AC1730048C69D /* EnglishZodiacStructure.swift */,
+				2D60E65E282AC9B9006AB98C /* EnglishZodiacInfo.json */,
 			);
 			path = EnglishZodiacInfo;
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 				2DB9775527A73A9100CCB0E4 /* ContactsTableViewCell.xib in Resources */,
 				2D53DE95271C45300068B606 /* LaunchScreen.storyboard in Resources */,
 				2D53DE92271C45300068B606 /* Assets.xcassets in Resources */,
+				2D60E65F282AC9B9006AB98C /* EnglishZodiacInfo.json in Resources */,
 				2D8D23D227253BEC00C1E434 /* Info in Resources */,
 				2D53DE90271C452E0068B606 /* Main.storyboard in Resources */,
 			);
