@@ -10,7 +10,7 @@ import UIKit
 class ZodiacViewController: UIViewController {
     
     var zodiacId:Int = -1
-    var westernZodiacInfo = [WesternZodiacStructure]()
+    var westernZodiacInfo = [EnglishZodiacStructure]()
     var chineseZodiacInfo = [ChineseZodiacStructure]()
     
     @IBOutlet weak var strengthsView: UIView!
@@ -36,7 +36,7 @@ class ZodiacViewController: UIViewController {
         textView.layer.cornerRadius = 5
         
         //Load western zodiac info from Json
-        westernZodiacInfo = WesternZodiacLoader().westernZodiac
+        westernZodiacInfo = EnglishZodiacLoader().englishZodiac
         
         //Load chinese zodiac info from Json
         chineseZodiacInfo = ChineseZodiacLoader().chineseZodiac

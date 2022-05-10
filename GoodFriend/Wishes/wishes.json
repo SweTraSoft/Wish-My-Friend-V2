@@ -1,440 +1,440 @@
 [
-    {
-        "id": 1,
-        "group":"family",
-        "relation": "mom",
-        "text": "Happy birthday, Ma! My hope is to be the amazing role model for my own family one day as you have been for ours. Your love is the best!"
-    },
-    {
-        "id": 2,
-        "group":"family",
-        "relation": "mom",
-        "text": "You're not just a mom, you're the greatest woman I know"
-    },
-    {
-        "id": 3,
-        "group":"family",
-        "relation": "mom",
-        "text": "So grateful to be able to grow with you, Happy birthday mom"
-    },
-    {
-        "id": 4,
-        "group":"family",
-        "relation": "mom",
-        "text": "Happy birthday mamma, Cheers to a woman full of grace, love, and compassion"
-    },
-    {
-        "id": 5,
-        "group":"family",
-        "relation": "mom",
-        "text": "Mom, thanks for all your support and your invaluable life lessons. Cheers to your best birthday yet!"
-    },
-    {
-        "id": 6,
-        "group":"family",
-        "relation": "mom",
-        "text": "Hope your day is full of relaxation, an abundance of love, and your favorite type of cake."
-    },
-    {
-        "id": 7,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], Have a wonderful birthday. I wish your every day to be filled with lots of love, laughter, happiness and the warmth of sunshine."
-    },
-    {
-        "id": 8,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], May your coming year surprise you with the happiness of smiles, the feeling of love and so on. I hope you will find plenty of sweet memories to cherish forever. Happy birthday."
-    },
-    {
-        "id": 9,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], On your special day, I wish you good luck. Ihope this wonderful day will fill up your heart with joy and blessings. Have a fantastic birthday, celebrate the happiness on every day of your life. Happy Birthday ! !"
-    },
-    {
-        "id": 10,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], may this birthday be filled with lots of happy hours and also your life with many happy birthdays, that are yet to come. Happy birthday."
-    },
-    {
-        "id": 11,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], Let's light the candles and celebrate this special day of your life. Happy birthday."
-    },
-    {
-        "id": 12,
-        "group":"",
-        "relation":"",
-        "text":"Dear [First_name], You are very special and that's why you need to float with lots of smiles on your lovely face. Happy birthday."
-    },
-    {
-        "id": 13,
-        "group":"Family",
-        "relation":"sister",
-        "text":"Sister, can you remember all those childhood memories of us? Many more wonderful memories are yet to come. You are the greatest sis in the world. Happy birthday."
-    },
-    {
-        "id": 14,
-        "group":"",
-        "relation":"",
-        "text":"Dear [First_name], You are the one who helped me a lot, guided me a lot and never given up when even I was not confident. Thanks for being all the way with me. Happy birthday."
-    },
-    {
-        "id": 15,
-        "group":"family",
-        "relation":"brother",
-        "text":"lt's an honor for me that the best man in this world is my brother. Happy birthday."
-    },
-    {
-        "id": 16,
-        "group":"family",
-        "relation":"sister",
-        "text":"I feel proud when I call you my sister. I want to feel this today and every day."
-    },
-    {
-        "id": 17,
-        "group":"family",
-        "relation":"dad",
-        "text":"Dad, you have always been a good friend to me and I hope we will remain forever. Happy birthday."
-    },
-    {
-        "id": 18,
-        "group":"family",
-        "relation":"brother",
-        "text":"Dear [First_name], I wish a very happy birthday for the second much loved child of my parents. Happy birthday [First_name]. You are not only the greatest brother in the world, but also the best friend of mine."
-    },
-    {
-        "id": 19,
-        "group":"family",
-        "relation":"mom",
-        "text":"Mom, there is no one who can come even closer to your winning ways. Happy Birthday to my great mom."
-    },
-    {
-        "id": 20,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], Another birthday, so you are growing older gradually. But I find no change in you. You look perfect like before. Happy birthday. "
-    },
-    {
-        "id": 21,
-        "group":"",
-        "relation":"",
-        "text":"Dear [First_name], May all the best things of the world happen in your life because you are definitely one of the best people too. I always wished to be a great friend like you. But there is no way to be a better friend than you in the world. Happy birthday."
-    },
-    {
-        "id": 22,
-        "group":"",
-        "relation":"",
-        "text":"Dear [First_name], Soon you' re going to start a new year of your life and I hope this coming year will bring every success you deserve. Happy birthday."
-    },
-    {
-        "id": 23,
-        "group":"",
-        "relation":"",
-        "text":"Dear [First_name], It's a wonderful day and I've brought a beautiful and delicious cake for you. Now it's time to celebrate and make this special day more colorful. Happy birthday."
-    },
-    {
-        "id": 24,
-        "group":"family, friends",
-        "relation":"wife, husband, boyfriend, girlfriend",
-        "text":"Dear [First_name], Wishing happy birthday to the best person I've ever met in this world. Thank you for all the memories we have. Without you the world would have been colorless to me. Happy birthday."
-    },
-    {
-        "id": 25,
-        "group":"friends",
-        "relation":"",
-        "text":"Dear [First_name], Special day, special person and special celebration. May all your dreams and desires come true in this coming year. Happy birthday."
-    },
-    {
-        "id": 26,
-        "group":"",
-        "relation":"",
-        "text":"Dear [First_name], You are my true friend. You were always with me, you supported me, you boosted me up when I was down. Thanks for being such a friend of mine. Happy birthday."
-    },
-    {
-        "id": 27,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], Let all your the dreams to be on fire and light your birthday candles with that. Have a gorgeous birthday. It's your birthday. Now you've more grown up. Every year you're becoming more perfect. Wishing my friend a very happy birthday and you don't need to speak it out loud that I'm your best friend too."
-    },
-    {
-        "id": 28,
-        "group":"family",
-        "relation":"dad",
-        "text":"There are so many important things that I've learnt from you. Happy Birthday, dad."
-    },
-    {
-        "id": 29,
-        "group":"family",
-        "relation":"sister",
-        "text":"Sis, we are a great pair because we always look gorgeous in our photos! Happy Birthday."
-    },
-    {
-        "id": 30,
-        "group":"friends",
-        "relation":"",
-        "text":"Dear [First_name], The years we shared while growing up are like treasures to me. I can remember our every moment of laughter. Happy Birthday, my dear friend."
-    },
-    {
-        "id": 31,
-        "group":"",
-        "relation":"",
-        "text":"Dear [First_name], I want your birthday to be celebrated as a national holiday because then I'd get a day off. Happy Birthday."
-    },
-    {
-        "id": 32,
-        "group":"family",
-        "relation":"mom",
-        "text":"Mom, there is no other person who can take the place of yours in my heart. I'm so lucky that I've found the best mother in this world. Happy birthday."
-    },
-    {
-        "id": 33,
-        "group":"family",
-        "relation":"mom",
-        "text":"Every morning when I wake up, I always thank you. You are the one who loves me unconditionally. You are always my lovely mom, wishing you a happy birthday."
-    },
-    {
-        "id": 34,
-        "group":"family",
-        "relation":"mom",
-        "text":"Mom, you are my angel. My heartfelt greetings to you on this special day. Happy Birthday."
-    },
-    {
-        "id": 35,
-        "group":"family",
-        "relation":"mom",
-        "text":"Mom, you are my strength that always helps me to fight against all odds of my life. I love you and Happy birthday."
-    },
-    {
-        "id": 36,
-        "group":"family",
-        "relation":"brother",
-        "text":"No matter how much I grow up, still it seems that we were young yesterday. Love you so much bro. Happy birthday."
-    },
-    {
-        "id": 37,
-        "group":"family",
-        "relation":"brother",
-        "text":"Bro, I love you so much. May all the best blessings rain upon you today and always. Happy birthday."
-    },
-    {
-        "id": 38,
-        "group":"family",
-        "relation":"brother",
-        "text":"Take all the best wishes on this special day and become a great man in life. Love you so much, brother."
-    },
-    {
-        "id": 39,
-        "group":"friends",
-        "relation":"",
-        "text":"Dear [First_name], though the list of our fights is way too long, but still I want to wish a wonderful birthday."
-    },
-    {
-        "id": 40,
-        "group":"family",
-        "relation":"dad",
-        "text":"Dad, you never did any big wrongs in your life so you deserve all the good things in the world. Have a gorgeous celebration on your special day."
-    },
-    {
-        "id": 41,
-        "group":"family",
-        "relation":"dad",
-        "text":"You are not only the very best dad, you are like a role model to me. Happy birthday."
-    },
-    {
-        "id": 42,
-        "group":"friends",
-        "relation":"",
-        "text":"Dear [First_name], Your birthday is more special to me than mine because you are the the most precious friend of my entire life. Happy Birthday."
-    },{
-        "id": 43,
-        "group":"family",
-        "relation":"sister",
-        "text":"I want to thank you my sis, for being the most loving and caring sister in the world. No one understands me better than you. Wish you a Happy Birthday."
-    },
-    {
-        "id": 44,
-        "group":"friends",
-        "relation":"",
-        "text":"Dear [First_name], A birthday cake is always good, but to me a friend like you is undoubtedly great. Happy Birthday."
-    },
-    {
-        "id": 45,
-        "group":"family",
-        "relation":"brother",
-        "text":"Brother, I'm really thankful to you for being an excellent friend of mine. I'm wishing you a Happy Birthday."
-    },
-    {
-        "id": 46,
-        "group":"family",
-        "relation":"mother",
-        "text":"My warmest wishes for the most wonderful mother for her special day. Happy Birthday."
-    },
-    {
-        "id": 47,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], Count your life by smiles, not tears. Count your age by friends, not years. Happy birthday!"
-    },
-    {
-        "id": 48,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], Happy birthday! I hope all your birthday wishes and dreams come true."
-    },
-    {
-        "id": 49,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], Another adventure filled year awaits you. Welcome it by celebrating your birthday with pomp and splendor. Wishing you a very happy and fun-filled birthday!"
-    },
-    {
-        "id": 50,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], May the joy that you have spread in the past come back to you on this day. Wishing you a very happy birthday!"
-    },
-    {
-        "id": 51,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], May you be gifted with life’s biggest joys and never-ending bliss. After all, you yourself are a gift to earth, so you deserve the best. Happy birthday."
-    },
-    {
-        "id": 52,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], Count not the candles…see the lights they give. Count not the years, but the life you live. Wishing you a wonderful time ahead. Happy birthday."
-    },
-    {
-        "id": 53,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], Forget the past; look forward to the future, for the best things are yet to come."
-    },
-    {
-        "id": 54,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Your birthday is the first day of another 365-day journey. Be the shining thread in the beautiful tapestry of the world to make this year the best ever. Enjoy the ride."
-    },
-    {
-        "id": 55,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], Happy birthday! May your Facebook wall be filled with messages from people you never talk to."
-    },
-    {
-        "id": 57,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Forget about the past, you can’t change it. Forget about the future, you can’t predict it. And forget about the present, I didn’t get you one. Happy birthday!"
-    },
-    {
-        "id": 58,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Happy birthday to one of the few people whose birthday I can remember without a Facebook reminder."
-    },
-    {
-        "id": 59,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Happy birthday to someone who is smart, gorgeous, funny and reminds me a lot of myself :-)."
-    },
-    {
-        "id": 60,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], Don’t get all weird about getting older! Our age is merely the number of years the world has been enjoying us!"
-    },
-    {
-        "id": 61,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], As you get older three things happen. The first is your memory goes, and I can’t remember the other two. Happy birthday!"
-    },
-    {
-        "id": 62,
-        "group":"family, friends",
-        "relation":"",
-        "text":"To quote Shakespeare: ‘Party thine ass off!"
-    },
-    {
-        "id": 63,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], You are only young once, but you can be immature for a lifetime. Happy birthday!"
-    },
-    {
-        "id": 64,
-        "group":"friends",
-        "relation":"girlfriend, boyfriend",
-        "text":"Dear [First_name], On your birthday, I thought of giving you the cutest gift in the world. But then I realized that is not possible because you yourself are the cutest gift in the world."
-    },
-    {
-        "id": 65,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Happy birthday to someone who is forever young!"
-    },
-    {
-        "id": 66,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Congratulations on being even more experienced. I’m not sure what you learned this year, but every experience transforms us into the people we are today. Happy birthday!"
-    },
-    {
-        "id": 67,
-        "group":"family, friends",
-        "relation":"",
-        "text":"Dear [First_name], I may not be by your side celebrating your special day with you, but I want you to know that I’m thinking of you and wishing you a wonderful birthday."
-    },
-    {
-        "id": 68,
-        "group":"family, friends",
-        "relation":"husband, wife, boyfriend, girlfriend",
-        "text":"Dear [First_name], Years ago on this day, God decided to send an angel to earth. The angel was meant to touch lives and that happened! Happy birthday my sweet angel!"
-    },
-    {
-        "id": 69,
-        "group":"family, friends",
-        "relation":"husband, wife, girlfriend, boyfriend",
-        "text":"Dear [First_name], It’s always a treat to wish happy birthday to someone so sweet."
-    },
-    {
-        "id": 70,
-        "group":"family, friend",
-        "relation":"husband, wife, girlfriend, boyfriend",
-        "text":"Dear [First_name], I can’t believe how lucky I am to have found a friend like you. You make every day of my life so special. It’s my goal to make sure your birthday is one of the most special days ever. I can’t wait to celebrate with you!"
-    },
-    {
-        "id": 71,
-        "group":"friends",
-        "relation":"girlfriend, boyfriend",
-        "text":"Hope your birthday is just like you…totally freaking awesome!!"
-    },
-    {
-        "id": 72,
-        "group":"family",
-        "relation":"sister",
-        "text":"I wish a very happy birthday for the second much loved child of my parents. Happy birthday [First_name]. You are not only the greatest sister in the world, but also the best friend of mine."
-        },
-    {
-        "id": 73,
-        "group":"family",
-        "relation":"brother",
-        "text":"Dear [First_name], Wishing happy birthday to the best person I've ever met in this world. Thank you for all the memories we have. Without you the world would have been colorless to me. It's an honor for me that the best man in this world is my brother. Happy birthday."
-},
-    {
-        "id": 74,
-        "group":"family",
-        "relation":"sister",
-        "text":"Wishing happy birthday to the best person I've ever met in this world. Thank you for all the memories we have. Without you the world would have been colorless to me. It's an honor for me that the best man in this world is my sister. Happy birthday."
-},
-
+   {
+      "id":1,
+      "group":"family",
+      "relation":"mom",
+      "text":"Happy birthday, Ma! My hope is to be the amazing role model for my own family one day as you have been for ours. Your love is the best!"
+   },
+   {
+      "id":2,
+      "group":"family",
+      "relation":"mom",
+      "text":"You're not just a mom, you're the greatest woman I know"
+   },
+   {
+      "id":3,
+      "group":"family",
+      "relation":"mom",
+      "text":"So grateful to be able to grow with you, Happy birthday mom"
+   },
+   {
+      "id":4,
+      "group":"family",
+      "relation":"mom",
+      "text":"Happy birthday mamma, Cheers to a woman full of grace, love, and compassion"
+   },
+   {
+      "id":5,
+      "group":"family",
+      "relation":"mom",
+      "text":"Mom, thanks for all your support and your invaluable life lessons. Cheers to your best birthday yet!"
+   },
+   {
+      "id":6,
+      "group":"family",
+      "relation":"mom",
+      "text":"Hope your day is full of relaxation, an abundance of love, and your favorite type of cake."
+   },
+   {
+      "id":7,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], Have a wonderful birthday. I wish your every day to be filled with lots of love, laughter, happiness and the warmth of sunshine."
+   },
+   {
+      "id":8,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], May your coming year surprise you with the happiness of smiles, the feeling of love and so on. I hope you will find plenty of sweet memories to cherish forever. Happy birthday."
+   },
+   {
+      "id":9,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], On your special day, I wish you good luck. Ihope this wonderful day will fill up your heart with joy and blessings. Have a fantastic birthday, celebrate the happiness on every day of your life. Happy Birthday ! !"
+   },
+   {
+      "id":10,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], may this birthday be filled with lots of happy hours and also your life with many happy birthdays, that are yet to come. Happy birthday."
+   },
+   {
+      "id":11,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], Let's light the candles and celebrate this special day of your life. Happy birthday."
+   },
+   {
+      "id":12,
+      "group":"",
+      "relation":"",
+      "text":"Dear [First_name], You are very special and that's why you need to float with lots of smiles on your lovely face. Happy birthday."
+   },
+   {
+      "id":13,
+      "group":"Family",
+      "relation":"sister",
+      "text":"Sister, can you remember all those childhood memories of us? Many more wonderful memories are yet to come. You are the greatest sis in the world. Happy birthday."
+   },
+   {
+      "id":14,
+      "group":"",
+      "relation":"",
+      "text":"Dear [First_name], You are the one who helped me a lot, guided me a lot and never given up when even I was not confident. Thanks for being all the way with me. Happy birthday."
+   },
+   {
+      "id":15,
+      "group":"family",
+      "relation":"brother",
+      "text":"lt's an honor for me that the best man in this world is my brother. Happy birthday."
+   },
+   {
+      "id":16,
+      "group":"family",
+      "relation":"sister",
+      "text":"I feel proud when I call you my sister. I want to feel this today and every day."
+   },
+   {
+      "id":17,
+      "group":"family",
+      "relation":"dad",
+      "text":"Dad, you have always been a good friend to me and I hope we will remain forever. Happy birthday."
+   },
+   {
+      "id":18,
+      "group":"family",
+      "relation":"brother",
+      "text":"Dear [First_name], I wish a very happy birthday for the second much loved child of my parents. Happy birthday [First_name]. You are not only the greatest brother in the world, but also the best friend of mine."
+   },
+   {
+      "id":19,
+      "group":"family",
+      "relation":"mom",
+      "text":"Mom, there is no one who can come even closer to your winning ways. Happy Birthday to my great mom."
+   },
+   {
+      "id":20,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], Another birthday, so you are growing older gradually. But I find no change in you. You look perfect like before. Happy birthday. "
+   },
+   {
+      "id":21,
+      "group":"",
+      "relation":"",
+      "text":"Dear [First_name], May all the best things of the world happen in your life because you are definite ly one of the best people too. I always wished to be a great friend like you. But there is no way to be a better friend than you in the world. Happy birthday."
+   },
+   {
+      "id":22,
+      "group":"",
+      "relation":"",
+      "text":"Dear [First_name], Soon you' re going to start a new year of your life and I hope this coming year will bring every success you deserve. Happy birthday."
+   },
+   {
+      "id":23,
+      "group":"",
+      "relation":"",
+      "text":"Dear [First_name], It's a wonderful day and I've brought a beautiful and delicious cake for you. Now it's time to celebrate and make this special day more colorful. Happy birthday."
+   },
+   {
+      "id":24,
+      "group":"family, friends",
+      "relation":"wife, husband, boyfriend, girlfriend",
+      "text":"Dear [First_name], Wishing happy birthday to the best person I've ever met in this world. Thank you for all the memories we have. Without you the world would have been colorless to me. Happy birthday."
+   },
+   {
+      "id":25,
+      "group":"friends",
+      "relation":"",
+      "text":"Dear [First_name], Special day, special person and special celebration. May all your dreams and desires come true in this coming year. Happy birthday."
+   },
+   {
+      "id":26,
+      "group":"",
+      "relation":"",
+      "text":"Dear [First_name], You are my true friend. You were always with me, you supported me, you boosted me up when I was down. Thanks for being such a friend of mine. Happy birthday."
+   },
+   {
+      "id":27,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], Let all your the dreams to be on fire and light your birthday candles with that. Have a gorgeous birthday. It's your birthday. Now you've more grown up. Every year you're becoming more perfect. Wishing my friend a very happy birthday and you don't need to speak it out loud that I'm your best friend too."
+   },
+   {
+      "id":28,
+      "group":"family",
+      "relation":"dad",
+      "text":"There are so many important things that I've learnt from you. Happy Birthday, dad."
+   },
+   {
+      "id":29,
+      "group":"family",
+      "relation":"sister",
+      "text":"Sis, we are a great pair because we always look gorgeous in our photos! Happy Birthday."
+   },
+   {
+      "id":30,
+      "group":"friends",
+      "relation":"",
+      "text":"Dear [First_name], The years we shared while growing up are like treasures to me. I can remember our every moment of laughter. Happy Birthday, my dear friend."
+   },
+   {
+      "id":31,
+      "group":"",
+      "relation":"",
+      "text":"Dear [First_name], I want your birthday to be celebrated as a national holiday because then I'd get a day off. Happy Birthday."
+   },
+   {
+      "id":32,
+      "group":"family",
+      "relation":"mom",
+      "text":"Mom, there is no other person who can take the place of yours in my heart. I'm so lucky that I've found the best mother in this world. Happy birthday."
+   },
+   {
+      "id":33,
+      "group":"family",
+      "relation":"mom",
+      "text":"Every morning when I wake up, I always thank you. You are the one who loves me unconditionally. You are always my lovely mom, wishing you a happy birthday."
+   },
+   {
+      "id":34,
+      "group":"family",
+      "relation":"mom",
+      "text":"Mom, you are my angel. My heartfelt greetings to you on this special day. Happy Birthday."
+   },
+   {
+      "id":35,
+      "group":"family",
+      "relation":"mom",
+      "text":"Mom, you are my strength that always helps me to fight against all odds of my life. I love you and Happy birthday."
+   },
+   {
+      "id":36,
+      "group":"family",
+      "relation":"brother",
+      "text":"No matter how much I grow up, still it seems that we were young yesterday. Love you so much bro. Happy birthday."
+   },
+   {
+      "id":37,
+      "group":"family",
+      "relation":"brother",
+      "text":"Bro, I love you so much. May all the best blessings rain upon you today and always. Happy birthday."
+   },
+   {
+      "id":38,
+      "group":"family",
+      "relation":"brother",
+      "text":"Take all the best wishes on this special day and become a great man in life. Love you so much, brother."
+   },
+   {
+      "id":39,
+      "group":"friends",
+      "relation":"",
+      "text":"Dear [First_name], though the list of our fights is way too long, but still I want to wish a wonderful birthday."
+   },
+   {
+      "id":40,
+      "group":"family",
+      "relation":"dad",
+      "text":"Dad, you never did any big wrongs in your life so you deserve all the good things in the world. Have a gorgeous celebration on your special day."
+   },
+   {
+      "id":41,
+      "group":"family",
+      "relation":"dad",
+      "text":"You are not only the very best dad, you are like a role model to me. Happy birthday."
+   },
+   {
+      "id":42,
+      "group":"friends",
+      "relation":"",
+      "text":"Dear [First_name], Your birthday is more special to me than mine because you are the the most precious friend of my entire life. Happy Birthday."
+   },
+   {
+      "id":43,
+      "group":"family",
+      "relation":"sister",
+      "text":"I want to thank you my sis, for being the most loving and caring sister in the world. No one understands me better than you. Wish you a Happy Birthday."
+   },
+   {
+      "id":44,
+      "group":"friends",
+      "relation":"",
+      "text":"Dear [First_name], A birthday cake is always good, but to me a friend like you is undoubtedly great. Happy Birthday."
+   },
+   {
+      "id":45,
+      "group":"family",
+      "relation":"brother",
+      "text":"Brother, I'm really thankful to you for being an excellent friend of mine. I'm wishing you a Happy Birthday."
+   },
+   {
+      "id":46,
+      "group":"family",
+      "relation":"mother",
+      "text":"My warmest wishes for the most wonderful mother for her special day. Happy Birthday."
+   },
+   {
+      "id":47,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], Count your life by smiles, not tears. Count your age by friends, not years. Happy birthday!"
+   },
+   {
+      "id":48,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], Happy birthday! I hope all your birthday wishes and dreams come true."
+   },
+   {
+      "id":49,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], Another adventure filled year awaits you. Welcome it by celebrating your birthday with pomp and splendor. Wishing you a very happy and fun-filled birthday!"
+   },
+   {
+      "id":50,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], May the joy that you have spread in the past come back to you on this day. Wishing you a very happy birthday!"
+   },
+   {
+      "id":51,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], May you be gifted with life’s biggest joys and never-ending bliss. After all, you yourself are a gift to earth, so you deserve the best. Happy birthday."
+   },
+   {
+      "id":52,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], Count not the candles…see the lights they give. Count not the years, but the life you live. Wishing you a wonderful time ahead. Happy birthday."
+   },
+   {
+      "id":53,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], Forget the past; look forward to the future, for the best things are yet to come."
+   },
+   {
+      "id":54,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Your birthday is the first day of another 365-day journey. Be the shining thread in the beautiful tapestry of the world to make this year the best ever. Enjoy the ride."
+   },
+   {
+      "id":55,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], Happy birthday! May your Facebook wall be filled with messages from people you never talk to."
+   },
+   {
+      "id":57,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Forget about the past, you can’t change it. Forget about the future, you can’t predict it. And forget about the present, I didn’t get you one. Happy birthday!"
+   },
+   {
+      "id":58,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Happy birthday to one of the few people whose birthday I can remember without a Facebook reminder."
+   },
+   {
+      "id":59,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Happy birthday to someone who is smart, gorgeous, funny and reminds me a lot of myself :-)."
+   },
+   {
+      "id":60,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], Don’t get all weird about getting older! Our age is merely the number of years the world has been enjoying us!"
+   },
+   {
+      "id":61,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], As you get older three things happen. The first is your memory goes, and I can’t remember the other two. Happy birthday!"
+   },
+   {
+      "id":62,
+      "group":"family, friends",
+      "relation":"",
+      "text":"To quote Shakespeare: ‘Party thine ass off!"
+   },
+   {
+      "id":63,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], You are only young once, but you can be immature for a lifetime. Happy birthday!"
+   },
+   {
+      "id":64,
+      "group":"friends",
+      "relation":"girlfriend, boyfriend",
+      "text":"Dear [First_name], On your birthday, I thought of giving you the cutest gift in the world. But then I realized that is not possible because you yourself are the cutest gift in the world."
+   },
+   {
+      "id":65,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Happy birthday to someone who is forever young!"
+   },
+   {
+      "id":66,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Congratulations on being even more experienced. I’m not sure what you learned this year, but every experience transforms us into the people we are today. Happy birthday!"
+   },
+   {
+      "id":67,
+      "group":"family, friends",
+      "relation":"",
+      "text":"Dear [First_name], I may not be by your side celebrating your special day with you, but I want you to know that I’m thinking of you and wishing you a wonderful birthday."
+   },
+   {
+      "id":68,
+      "group":"family, friends",
+      "relation":"husband, wife, boyfriend, girlfriend",
+      "text":"Dear [First_name], Years ago on this day, God decided to send an angel to earth. The angel was meant to touch lives and that happened! Happy birthday my sweet angel!"
+   },
+   {
+      "id":69,
+      "group":"family, friends",
+      "relation":"husband, wife, girlfriend, boyfriend",
+      "text":"Dear [First_name], It’s always a treat to wish happy birthday to someone so sweet."
+   },
+   {
+      "id":70,
+      "group":"family, friend",
+      "relation":"husband, wife, girlfriend, boyfriend",
+      "text":"Dear [First_name], I can’t believe how lucky I am to have found a friend like you. You make every day of my life so special. It’s my goal to make sure your birthday is one of the most special days ever. I can’t wait to celebrate with you!"
+   },
+   {
+      "id":71,
+      "group":"friends",
+      "relation":"girlfriend, boyfriend",
+      "text":"Hope your birthday is just like you…totally freaking awesome!!"
+   },
+   {
+      "id":72,
+      "group":"family",
+      "relation":"sister",
+      "text":"I wish a very happy birthday for the second much loved child of my parents. Happy birthday [First_name]. You are not only the greatest sister in the world, but also the best friend of mine."
+   },
+   {
+      "id":73,
+      "group":"family",
+      "relation":"brother",
+      "text":"Dear [First_name], Wishing happy birthday to the best person I've ever met in this world. Thank you for all the memories we have. Without you the world would have been colorless to me. It's an honor for me that the best man in this world is my brother. Happy birthday."
+   },
+   {
+      "id":74,
+      "group":"family",
+      "relation":"sister",
+      "text":"Wishing happy birthday to the best person I've ever met in this world. Thank you for all the memories we have. Without you the world would have been colorless to me. It's an honor for me that the best man in this world is my sister. Happy birthday."
+   }
 ]

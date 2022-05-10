@@ -29,6 +29,9 @@
 		2D53DEA0271C45300068B606 /* Wish_My_FriendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DE9F271C45300068B606 /* Wish_My_FriendTests.swift */; };
 		2D53DEAB271C45300068B606 /* Wish_My_FriendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D53DEAA271C45300068B606 /* Wish_My_FriendUITests.swift */; };
 		2D629D1D2826ACB10048C69D /* DateFormatChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629D1C2826ACB10048C69D /* DateFormatChange.swift */; };
+		2D629D20282AC1230048C69D /* EnglishZodiacInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D629D1F282AC1230048C69D /* EnglishZodiacInfo.json */; };
+		2D629D22282AC14C0048C69D /* EnglishZodiacLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629D21282AC14C0048C69D /* EnglishZodiacLoader.swift */; };
+		2D629D24282AC1730048C69D /* EnglishZodiacStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D629D23282AC1730048C69D /* EnglishZodiacStructure.swift */; };
 		2D8D23D227253BEC00C1E434 /* Info in Resources */ = {isa = PBXBuildFile; fileRef = 2D8D23D127253BEC00C1E434 /* Info */; };
 		2D99D14C27CB9C5A0002F392 /* TextWishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D99D14A27CB9C5A0002F392 /* TextWishTableViewCell.swift */; };
 		2D99D14D27CB9C5A0002F392 /* TextWishTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D99D14B27CB9C5A0002F392 /* TextWishTableViewCell.xib */; };
@@ -49,9 +52,6 @@
 		2DB9775B27AD7F6700CCB0E4 /* EditContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB9775A27AD7F6700CCB0E4 /* EditContactViewController.swift */; };
 		2DCA743D274D7E6600B8F698 /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA743C274D7E6600B8F698 /* Week.swift */; };
 		2DCA743F274D93D300B8F698 /* ColumnFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA743E274D93D300B8F698 /* ColumnFlowLayout.swift */; };
-		2DD7EF1928218BFF00EEDBAF /* WesternZodiacStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD7EF1828218BFF00EEDBAF /* WesternZodiacStructure.swift */; };
-		2DD7EF1B28218C8100EEDBAF /* WesternZodiacLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD7EF1A28218C8100EEDBAF /* WesternZodiacLoader.swift */; };
-		2DD7EF1E28218E4600EEDBAF /* WesternZodiacInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DD7EF1D28218E4600EEDBAF /* WesternZodiacInfo.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +113,9 @@
 		2D53DEAA271C45300068B606 /* Wish_My_FriendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wish_My_FriendUITests.swift; sourceTree = "<group>"; };
 		2D53DEAC271C45300068B606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D629D1C2826ACB10048C69D /* DateFormatChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatChange.swift; sourceTree = "<group>"; };
+		2D629D1F282AC1230048C69D /* EnglishZodiacInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = EnglishZodiacInfo.json; sourceTree = "<group>"; };
+		2D629D21282AC14C0048C69D /* EnglishZodiacLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishZodiacLoader.swift; sourceTree = "<group>"; };
+		2D629D23282AC1730048C69D /* EnglishZodiacStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishZodiacStructure.swift; sourceTree = "<group>"; };
 		2D8D23D127253BEC00C1E434 /* Info */ = {isa = PBXFileReference; lastKnownFileType = text; path = Info; sourceTree = "<group>"; };
 		2D99D14A27CB9C5A0002F392 /* TextWishTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWishTableViewCell.swift; sourceTree = "<group>"; };
 		2D99D14B27CB9C5A0002F392 /* TextWishTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextWishTableViewCell.xib; sourceTree = "<group>"; };
@@ -137,9 +140,6 @@
 		2DB9775A27AD7F6700CCB0E4 /* EditContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactViewController.swift; sourceTree = "<group>"; };
 		2DCA743C274D7E6600B8F698 /* Week.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week.swift; sourceTree = "<group>"; };
 		2DCA743E274D93D300B8F698 /* ColumnFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnFlowLayout.swift; sourceTree = "<group>"; };
-		2DD7EF1828218BFF00EEDBAF /* WesternZodiacStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesternZodiacStructure.swift; sourceTree = "<group>"; };
-		2DD7EF1A28218C8100EEDBAF /* WesternZodiacLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesternZodiacLoader.swift; sourceTree = "<group>"; };
-		2DD7EF1D28218E4600EEDBAF /* WesternZodiacInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WesternZodiacInfo.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,7 +242,7 @@
 		2D53DE87271C452E0068B606 /* GoodFriend */ = {
 			isa = PBXGroup;
 			children = (
-				2DD7EF1C28218CE000EEDBAF /* WesternZodiacInfo */,
+				2D629D1E282AC0ED0048C69D /* EnglishZodiacInfo */,
 				2D99D15227CBDB230002F392 /* CustomView */,
 				2DB9774D27A70D7D00CCB0E4 /* Structures */,
 				2DAABBE9277B7E5500057A31 /* ChineseZodiacInfo */,
@@ -277,6 +277,16 @@
 				2D53DEAC271C45300068B606 /* Info.plist */,
 			);
 			path = GoodFriendUITests;
+			sourceTree = "<group>";
+		};
+		2D629D1E282AC0ED0048C69D /* EnglishZodiacInfo */ = {
+			isa = PBXGroup;
+			children = (
+				2D629D1F282AC1230048C69D /* EnglishZodiacInfo.json */,
+				2D629D21282AC14C0048C69D /* EnglishZodiacLoader.swift */,
+				2D629D23282AC1730048C69D /* EnglishZodiacStructure.swift */,
+			);
+			path = EnglishZodiacInfo;
 			sourceTree = "<group>";
 		};
 		2D8D23D32725467700C1E434 /* DataTypes */ = {
@@ -321,16 +331,6 @@
 				2DB9775027A70E5500CCB0E4 /* MonthSection.swift */,
 			);
 			path = Structures;
-			sourceTree = "<group>";
-		};
-		2DD7EF1C28218CE000EEDBAF /* WesternZodiacInfo */ = {
-			isa = PBXGroup;
-			children = (
-				2DD7EF1A28218C8100EEDBAF /* WesternZodiacLoader.swift */,
-				2DD7EF1828218BFF00EEDBAF /* WesternZodiacStructure.swift */,
-				2DD7EF1D28218E4600EEDBAF /* WesternZodiacInfo.json */,
-			);
-			path = WesternZodiacInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,8 +445,8 @@
 				2DB97738277C440F00CCB0E4 /* ChineseZodiacInfo.json in Resources */,
 				2DB9775527A73A9100CCB0E4 /* ContactsTableViewCell.xib in Resources */,
 				2D53DE95271C45300068B606 /* LaunchScreen.storyboard in Resources */,
-				2DD7EF1E28218E4600EEDBAF /* WesternZodiacInfo.json in Resources */,
 				2D53DE92271C45300068B606 /* Assets.xcassets in Resources */,
+				2D629D20282AC1230048C69D /* EnglishZodiacInfo.json in Resources */,
 				2D8D23D227253BEC00C1E434 /* Info in Resources */,
 				2D53DE90271C452E0068B606 /* Main.storyboard in Resources */,
 			);
@@ -476,14 +476,15 @@
 				2D2D9B07276F59BC001D9F2D /* WishTableViewCell.swift in Sources */,
 				2D476D2A27418CF100794D13 /* CalendarDayCollectionViewCell.swift in Sources */,
 				2DB97744277C5D4800CCB0E4 /* ChineseZodiacLoader.swift in Sources */,
-				2DD7EF1B28218C8100EEDBAF /* WesternZodiacLoader.swift in Sources */,
 				2D38F59C271DFD55005178BE /* ContactTableViewCell.swift in Sources */,
 				2D476D1B273B0FC500794D13 /* WishControllerViewController.swift in Sources */,
 				2DB9774F27A70DA300CCB0E4 /* FetchedContact.swift in Sources */,
+				2D629D22282AC14C0048C69D /* EnglishZodiacLoader.swift in Sources */,
 				2DAABBE8277B5D4600057A31 /* ProfileViewController.swift in Sources */,
 				2D52A27527D270B1004208B0 /* TextWishSortViewController.swift in Sources */,
 				2D476D222741471F00794D13 /* WishesLoader.swift in Sources */,
 				2D476D20274146EE00794D13 /* WishesStructure.swift in Sources */,
+				2D629D24282AC1730048C69D /* EnglishZodiacStructure.swift in Sources */,
 				2DB9774C27A70BC100CCB0E4 /* ContactsViewController.swift in Sources */,
 				2D476D2427415E4D00794D13 /* CalenderViewController.swift in Sources */,
 				2DB97748279DA49400CCB0E4 /* ZodiacViewController.swift in Sources */,
@@ -501,7 +502,6 @@
 				2D53DE89271C452E0068B606 /* AppDelegate.swift in Sources */,
 				2D52A27727D27F47004208B0 /* WishButtonCollectionViewCell.swift in Sources */,
 				2DB9775727AC325800CCB0E4 /* ContactsController.swift in Sources */,
-				2DD7EF1928218BFF00EEDBAF /* WesternZodiacStructure.swift in Sources */,
 				2D53DE8B271C452E0068B606 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -689,7 +689,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_OPTIMIZATION_PROFILE_FILE = NO;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = N7VP27WV27;
 				INFOPLIST_FILE = GoodFriend/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -711,7 +711,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = N7VP27WV27;
 				INFOPLIST_FILE = GoodFriend/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

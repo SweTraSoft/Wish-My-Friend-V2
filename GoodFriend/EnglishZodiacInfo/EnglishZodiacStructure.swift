@@ -1,15 +1,12 @@
 //
-//  WesternZodiacStructure.swift
+//  EnglishZodiacStructure.swift
 //  GoodFriend
 //
-//  Created by Sarath Chandra Damineni on 2022-05-03.
+//  Created by Sarath Chandra Damineni on 2022-05-10.
 //
 
 import Foundation
-
-import Foundation
-
-struct WesternZodiacStructure: Codable
+struct EnglishZodiacStructure: Codable
 {
     var id: Int
     var Name: String

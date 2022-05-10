@@ -109,6 +109,7 @@ class ViewController: UIViewController{
             print("Log:: contactsName "+i.firstName+" "+i.lastName)
         }
     }
+    
     //    Sorting the dates with respect to the current dates
     func sortDatesWithRespectToCurDay()
     {
@@ -161,7 +162,6 @@ class ViewController: UIViewController{
         {
             sortedContacts.remove(at: 0)
         }
-        
         //print("logs:: length of sorted contacts "+String(sortedContacts.count))
     }
     
@@ -328,8 +328,8 @@ extension ViewController: UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let eachContactCell = tableView.dequeueReusableCell(withIdentifier: "ContactTableViewCell", for: indexPath) as! ContactTableViewCell
         
+        let eachContactCell = tableView.dequeueReusableCell(withIdentifier: "ContactTableViewCell", for: indexPath) as! ContactTableViewCell
         
         //if the year is not available then age is not displayed after the name
         if GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthYear == 0
@@ -343,12 +343,23 @@ extension ViewController: UITableViewDataSource
                                              GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].lastName+" ("+String(cur_glb_year-GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthYear)+")"
         }
         
-        eachContactCell.phoneNumber.text = GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].weekDay+", "+self.getMonthText(month: GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthMonth)+" "+dateFormatChange.dateSuperscript(date:  GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthday)
+        eachContactCell.phoneNumber.text = "Birthday: "+GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].weekDay+", "+self.getMonthText(month: GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthMonth)+" "+dateFormatChange.dateSuperscript(date:  GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].birthday)
         
         eachContactCell.personImagee.image = GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].contactImage
         eachContactCell.personImagee?.layer.cornerRadius = (eachContactCell.personImagee?.frame.size.width)! / 2
         eachContactCell.personImagee?.layer.masksToBounds = true
+        
         eachContactCell.numberOfDays.text = String(GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].ramainingDays)
+        
+        if GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].ramainingDays < 0
+        {
+            eachContactCell.numberOfDays.textColor = UIColor.red
+        }
+        else
+        {
+            eachContactCell.numberOfDays.textColor = UIColor.black
+        }
+        
         return eachContactCell
     }
     
@@ -408,13 +419,6 @@ extension ViewController: UITableViewDataSource
             //calculating the number of days remained
             let calender = Calendar.current
             var components = calender.dateComponents([.day], from: to_day as DateComponents, to: birthday_components as DateComponents)
-             
-            //if birthday for current year is already completed then remaining number for next birthday will be calculated
-            /*if(components.day ?? 0 < -2)
-            {
-                birthday_components.year = cur_glb_year + 1
-                components = calender.dateComponents([.day], from: to_day as DateComponents, to: birthday_components as DateComponents)
-            }*/
             
             return components.day ?? 999
             
