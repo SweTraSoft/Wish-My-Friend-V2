@@ -1403,15 +1403,15 @@
                     <size key="freeformSize" width="414" height="900"/>
                     <connections>
                         <outlet property="dislikesView" destination="TDJ-hx-7dF" id="NAT-p1-zPB"/>
+                        <outlet property="englishZodiacDislikes" destination="rfK-OA-QkC" id="qwA-GQ-Gjt"/>
+                        <outlet property="englishZodiacLikes" destination="DL3-PS-K1M" id="ORD-sh-Bbi"/>
+                        <outlet property="englishZodiacStrengths" destination="seE-47-0e2" id="sxI-Dc-ob3"/>
+                        <outlet property="englishZodiacText" destination="Nbj-0D-M6W" id="snq-Yq-vBc"/>
+                        <outlet property="englishZodiacWeaknesses" destination="AuU-XM-Lqm" id="bmj-Bp-FFJ"/>
                         <outlet property="likesView" destination="jav-Sc-04V" id="M1k-Gq-pxF"/>
                         <outlet property="strengthsView" destination="aF5-9A-dbb" id="524-q3-JLO"/>
                         <outlet property="textView" destination="FLs-hl-JLC" id="0Ha-No-cdh"/>
                         <outlet property="weaknessesView" destination="bI7-tB-XqO" id="1Tp-Gh-77I"/>
-                        <outlet property="westernZodiacDislikes" destination="rfK-OA-QkC" id="WoJ-rW-vWm"/>
-                        <outlet property="westernZodiacLikes" destination="DL3-PS-K1M" id="j6b-tR-qmz"/>
-                        <outlet property="westernZodiacStrengths" destination="seE-47-0e2" id="GaJ-0P-dfg"/>
-                        <outlet property="westernZodiacText" destination="Nbj-0D-M6W" id="Nik-rj-AJM"/>
-                        <outlet property="westernZodiacWeaknesses" destination="AuU-XM-Lqm" id="s8F-Kh-5wG"/>
                         <outlet property="zodiacImage" destination="haM-MY-GTh" id="EuF-Mq-Xmg"/>
                         <outlet property="zodiacLabel" destination="vMD-FL-CrE" id="d7B-I1-tOt"/>
                     </connections>
@@ -1784,19 +1784,19 @@
     </scenes>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
-        <image name="calendar.circle" catalog="system" width="32" height="32"/>
-        <image name="calendar.circle.fill" catalog="system" width="32" height="32"/>
-        <image name="chevron.left" catalog="system" width="32" height="32"/>
-        <image name="chevron.right" catalog="system" width="32" height="32"/>
-        <image name="ellipsis.circle" catalog="system" width="32" height="32"/>
-        <image name="ellipsis.circle.fill" catalog="system" width="32" height="32"/>
-        <image name="gearshape" catalog="system" width="32" height="32"/>
-        <image name="gearshape.fill" catalog="system" width="32" height="32"/>
-        <image name="info.circle" catalog="system" width="32" height="32"/>
+        <image name="calendar.circle" catalog="system" width="128" height="121"/>
+        <image name="calendar.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="chevron.left" catalog="system" width="96" height="128"/>
+        <image name="chevron.right" catalog="system" width="96" height="128"/>
+        <image name="ellipsis.circle" catalog="system" width="128" height="121"/>
+        <image name="ellipsis.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="gearshape" catalog="system" width="128" height="121"/>
+        <image name="gearshape.fill" catalog="system" width="128" height="121"/>
+        <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="leo" width="550" height="510"/>
-        <image name="person" catalog="system" width="32" height="32"/>
-        <image name="person.2" catalog="system" width="32" height="32"/>
-        <image name="person.2.fill" catalog="system" width="32" height="32"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="person.2" catalog="system" width="128" height="81"/>
+        <image name="person.2.fill" catalog="system" width="128" height="80"/>
         <image name="tiger" width="490" height="410"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

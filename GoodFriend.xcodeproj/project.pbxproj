@@ -437,6 +437,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D629D20282AC1230048C69D /* EnglishZodiacInfo.json in Resources */,
 				2D99D14D27CB9C5A0002F392 /* TextWishTableViewCell.xib in Resources */,
 				2D2D9B08276F59BC001D9F2D /* WishTableViewCell.xib in Resources */,
 				2D476D1D2741465000794D13 /* wishes.json in Resources */,
@@ -446,7 +447,6 @@
 				2DB9775527A73A9100CCB0E4 /* ContactsTableViewCell.xib in Resources */,
 				2D53DE95271C45300068B606 /* LaunchScreen.storyboard in Resources */,
 				2D53DE92271C45300068B606 /* Assets.xcassets in Resources */,
-				2D629D20282AC1230048C69D /* EnglishZodiacInfo.json in Resources */,
 				2D8D23D227253BEC00C1E434 /* Info in Resources */,
 				2D53DE90271C452E0068B606 /* Main.storyboard in Resources */,
 			);
