@@ -13,7 +13,7 @@ class ContactTableViewCell: UITableViewCell {
     @IBOutlet var phoneNumber: UILabel!
     @IBOutlet weak var personImagee: UIImageView!
     @IBOutlet var numberOfDays: UILabel!
-    
+    @IBOutlet weak var daysText: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

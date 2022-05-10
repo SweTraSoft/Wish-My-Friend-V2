@@ -354,10 +354,12 @@ extension ViewController: UITableViewDataSource
         if GlobalVariables.monthSections[indexPath.section].cells[indexPath.row].ramainingDays < 0
         {
             eachContactCell.numberOfDays.textColor = UIColor.red
+            eachContactCell.daysText.textColor = UIColor.red
         }
         else
         {
             eachContactCell.numberOfDays.textColor = UIColor.black
+            eachContactCell.daysText.textColor = UIColor.black
         }
         
         return eachContactCell

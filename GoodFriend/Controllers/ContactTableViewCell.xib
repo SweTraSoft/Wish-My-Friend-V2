@@ -90,6 +90,7 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="daysText" destination="cQ9-Y3-ZE3" id="8ff-A8-nuh"/>
                 <outlet property="firstName" destination="3FE-D9-Zwa" id="ZrU-9M-Cww"/>
                 <outlet property="numberOfDays" destination="u0y-2R-6Mb" id="5ru-P5-bVJ"/>
                 <outlet property="personImagee" destination="UvE-fN-6Oc" id="UqT-dz-B94"/>

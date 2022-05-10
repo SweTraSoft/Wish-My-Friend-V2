@@ -292,7 +292,7 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
             }
             else if(year % 12 == 3)
             {
-                chineseZodiac.image = UIImage(named: "pig")
+                chineseZodiac.image = UIImage(named: "roar")
                 chineseZodiacLabel.text = "Year of Pig - \(year)"
                 return 11
             }
