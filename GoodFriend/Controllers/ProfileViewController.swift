@@ -37,14 +37,14 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let dateFormatChange=DateFormatChange()
         profileImage.layer.cornerRadius = 10
         profileImage.layer.cornerRadius = profileImage.frame.size.width/2
         
         profileImage.image = selectedContact?.contactImage
         profileName.text = selectedContact?.firstName
         
-        profileBirthday.text = "celebrates birthday on "+getMonthText(month: selectedContact!.birthMonth)+" "+String(selectedContact!.birthday)
+        profileBirthday.text = "Birthday: "+selectedContact!.weekDay+", "+String(selectedContact!.birthMonth)+" "+dateFormatChange.dateSuperscript(date: selectedContact!.birthday)
         
         zodiacId = setZodiac(month: selectedContact!.birthMonth, date: selectedContact!.birthday)
         chineseZodiacContent = setChineseZodiac(year: selectedContact?.birthYear ?? 0)
