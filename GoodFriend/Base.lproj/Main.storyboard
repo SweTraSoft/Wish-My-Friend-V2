@@ -275,7 +275,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="52" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="f1Y-dZ-BhT">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="52" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="f1Y-dZ-BhT">
                                 <rect key="frame" x="0.0" y="140" width="414" height="673"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
@@ -1516,7 +1516,7 @@
                         <viewLayoutGuide key="safeArea" id="SAn-ff-07D"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="ellipsis.circle" catalog="system" selectedImage="ellipsis.circle.fill" id="grt-Sk-eY4"/>
+                    <tabBarItem key="tabBarItem" title="" image="gearshape.fill" catalog="system" selectedImage="gearshape.fill" id="grt-Sk-eY4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wVP-N7-3Jd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1725,7 +1725,7 @@
         <scene sceneID="o91-bH-kIw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="D9T-5O-QS3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="person.2" catalog="system" selectedImage="person.2.fill" id="tkD-0E-svg"/>
+                    <tabBarItem key="tabBarItem" title="" image="house.fill" catalog="system" selectedImage="house.fill" id="tkD-0E-svg"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qp2-SY-Vn4">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -1766,7 +1766,7 @@
         <scene sceneID="1vp-GT-DU0">
             <objects>
                 <navigationController title="Contacts" automaticallyAdjustsScrollViewInsets="NO" id="mhT-dn-uoB" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="gearshape" catalog="system" selectedImage="gearshape.fill" id="cXB-du-Dhi"/>
+                    <tabBarItem key="tabBarItem" title="" image="person.2.fill" catalog="system" selectedImage="person.2.fill" id="cXB-du-Dhi"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cdd-e6-ahJ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -1788,14 +1788,11 @@
         <image name="calendar.circle.fill" catalog="system" width="128" height="121"/>
         <image name="chevron.left" catalog="system" width="96" height="128"/>
         <image name="chevron.right" catalog="system" width="96" height="128"/>
-        <image name="ellipsis.circle" catalog="system" width="128" height="121"/>
-        <image name="ellipsis.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="gearshape.fill" catalog="system" width="128" height="121"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="leo" width="550" height="510"/>
         <image name="person" catalog="system" width="128" height="117"/>
-        <image name="person.2" catalog="system" width="128" height="81"/>
         <image name="person.2.fill" catalog="system" width="128" height="80"/>
         <image name="tiger" width="490" height="410"/>
         <systemColor name="labelColor">

@@ -182,7 +182,8 @@ class ContactsViewController: UIViewController, UITableViewDelegate, UITableView
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = allContactsTableView.dequeueReusableCell(withIdentifier: "ContactsTableViewCell", for: indexPath) as! ContactsTableViewCell
-        cell.firstName?.text = filterContacts[indexPath.section][indexPath.row].givenName+" "+filterContacts[indexPath.section][indexPath.row].middleName+" "+filterContacts[indexPath.section][indexPath.row].familyName
+        cell.contactPicture.layer.cornerRadius = cell.contactPicture.frame.size.width / 2
+        cell.firstName?.text =  filterContacts[indexPath.section][indexPath.row].givenName+" "+filterContacts[indexPath.section][indexPath.row].middleName+" "+filterContacts[indexPath.section][indexPath.row].familyName
     
         
         if filterContacts[indexPath.section][indexPath.row].birthday != nil
