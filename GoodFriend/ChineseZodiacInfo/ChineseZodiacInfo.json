@@ -2,25 +2,25 @@
     {
         "id": 1,
         "name":"Rat",
-        "pred1":"In China and Japan, the rat is a veneered symbol of good luck and wealth, unlike her western gutter-dwelling counterpart. But in both east and west, Rats are most often behind the scenes, curiously observing and then taking opportunities that come their way. Characteristically, Rats are ingenious at overcoming adversity and you are skilled at using your charm and persuasive powers to ensure your own goals are met without ever seeming manipulative. Rats love socialising, and you are at your happiest surrounded by your close-knit clan. To those in your pack you are generous and Uercely loyal, but you are often defensive and uptight with outsiders. Professionally, you detest bureaucracy and tight deadlines reduce you to despair. Luckily, you can usually charm your way around such limitations and your lucky streak generally ensures good fortune Unds you. In love, Rats are adventurous pleasure-seekers and monotony is your worst fear.",
-        "pred2":"Characteristically, Rats are ingenious at overcoming adversity and you are skilled at using your charm and persuasive powers to ensure your own goals are met without ever seeming manipulative.",
-        "pred3":"Rats love socialising, and you are at your happiest surrounded by your close-knit clan. To those in your pack you are generous and Uercely loyal, but you are often defensive and uptight with outsiders.",
-        "pred4":"Professionally, you detest bureaucracy and tight deadlines reduce you to despair. Luckily, you can usually charm your way around such limitations and your lucky streak generally ensures good fortune Unds you.",
-        "pred5":"In love, Rats are adventurous pleasure-seekers and monotony is your worst fear.."
+        "pred1":"In China and Japan, the rat is a symbol of good luck and wealth, unlike the western gutter-dwelling counterpart. But in both east and west, rats are most often behind the scenes, curiously observing and then taking opportunities that come their way.",
+        "pred2":"Characteristically, rats are ingenious at overcoming adversity and are skilled at using charm and persuasive powers to ensure that their own goals are met without seeming manipulative.",
+        "pred3":"Rats love socializing, and are happiest surrounded by close-knit friends. To those in their pack they are generous and  loyal, but are often defensive and uptight with outsiders.",
+        "pred4":"Professionally, rats detest bureaucracy and tight deadlines. Luckily, they can usually charm their way around such limitations.",
+        "pred5":"In love, rats are adventurous pleasure-seekers and monotony is their worst fear."
     },
     {
         "id": 2,
         "name":"Ox",
-        "pred1":"The Chinese ox is sturdy and steadfast, a born leader and a great practical thinker. You are ruled by your head and achieve through hard graft. Unlike the western image of a bull in a china shop, the Chinese Ox is more reUned, and you have a Une eye for the smaller details. Oxen are honorable creatures and, although you can be dogmatic and traditional in your approach to situations, you have a strong moral code. You do not respond well to change and can tend to be obstructive if others force situations upon you. You detest stress, preferring to work or think at your own pace but you are swift to judge. Oxen generally keep their views to themselves, though, and you are more likely to hold silent grudges than air your grievances as you hate public arguments. You are loyal and protective of those dearest to you and would rather work out problems in private, even if that takes time, than move on to new pastures.",
-        "pred2":"Unlike the western image of a bull in a china shop, the Chinese Ox is more reUned, and you have a Une eye for the smaller details. ",
-        "pred3":"Oxen are honorable creatures and, although you can be dogmatic and traditional in your approach to situations, you have a strong moral code. You do not respond well to change and can tend to be obstructive if others force situations upon you. ",
-        "pred4":"You detest stress, preferring to work or think at your own pace but you are swift to judge. Oxen generally keep their views to themselves, though, and you are more likely to hold silent grudges than air your grievances as you hate public arguments. ",
-        "pred5":"You are loyal and protective of those dearest to you and would rather work out problems in private, even if that takes time, than move on to new pastures. "
+        "pred1":"The Chinese ox is sturdy and steadfast, a born leader and a great practical thinker. They are ruled by their head and achieve results through hard work.",
+        "pred2":"Unlike the western image of a bull in a china shop, the Chinese Ox is more refined,and have a good eye for the smaller details. ",
+        "pred3":"Oxen are honorable creatures and have a strong moral code. However, they can be dogmatic and traditional in their approach, respond not well to change and can be obstructive if others force situations upon them. ",
+        "pred4":"Oxen detest stress, preferring to work or think at their own pace but you are swift to judge. Oxen generally keep their views to themselves, though, and are more likely to hold silent grudges than air grievances as they dislike public arguments. ",
+        "pred5":"Oxen are loyal and protective of those near them and would rather work out problems in private, even if that takes time, than move on to new pastures. "
     },
     {
         "id": 3,
         "name":"Tiger",
-        "pred1":"The Chinese Tiger is a magnetic creature and few animals can resist your raw, seductive appeal when you’re on the prowl. Although the Tiger is not the King of the Jungle, you are most certainly Queen of all you survey and your authoritative manner generally ensures that you stay in control. You don’t deal with failure well, though, and demonstrate a Uery temper if challenged. Tigers are smart and inventive in business, and you’re very good at taking the initiative and winning. While you are a powerful force to be reckoned with sexually, snaring your prey with your seductive charms, you hate being caged yourself and retreat if you sense an emotional trap.",
+        "pred1":"The Chinese Tiger is a magnetic creature and few can resist the raw, seductive appeal when they are on the prowl. Although the Tiger is not the king of the jungle, they are most certainly queen of all they survey and their authoritative manner generally ensures that they stay in control. Tigers don’t deal well with failure, and demonstrate a temper if challenged. Tigers are smart and inventive in business, and are very good at taking the initiative and winning. While you are a powerful force to be reckoned with sexually, snaring your prey with your seductive charms, you hate being caged yourself and retreat if you sense an emotional trap.",
         "pred2":"Although the Tiger is not the King of the Jungle, you are most certainly Queen of all you survey and your authoritative manner generally ensures that you stay in control. You don’t deal with failure well, though, and demonstrate a Uery temper if challenged. ",
         "pred3":"Tigers are smart and inventive in business, and you’re very good at taking the initiative and winning. ",
         "pred4":"",
