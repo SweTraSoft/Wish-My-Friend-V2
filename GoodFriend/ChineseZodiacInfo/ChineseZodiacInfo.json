@@ -84,26 +84,26 @@
         "id": 10,
         "name":"Rooster",
         "pred1":"The Rooster is the most stylish animal in the Chinese Zodiac. Roosters are are very visual and delight in material goods and aesthetic perfection. ",
-        "pred2":"Roosters remain calm and always try to keep their composure in  public. That said, they can be theatrical and over-dramatic if the perfect world they strive for is threatened. ",
-        "pred3":"Combined with their keen eye for detail, their love of wealth and material possessions means that roosters are likely to spend a great deal of time and investment on perfecting their dream home. ",
+        "pred2":"Roosters remain calm and always try to keep their composure in  public. That said, they can be theatrical and over-dramatic if the perfect world they strive for is threatened.",
+        "pred3":"Combined with their keen eye for detail, their love of wealth and material possessions  means that roosters are likely to spend a great deal of time and investment on perfecting their dream home.",
         "pred4":"Naturally, roosters like to rule the roost and, despite their love of physical beauty, will prefer a more subdued mate who will be content to bask in their limelight.",
         "pred5":""
     },
     {
         "id": 11,
         "name":"Dog",
-        "pred1": "The Chinese Dog is as loyal as his western counterpart but can have a sharp bite and a determined bark. Dogs love to please those they love, even if this involves bending the truth ever so slightly to keep the peace. And if your cover is blown, you Dogs hang on to your new version of events like a juicy bone, digging yourselves further and further into trouble. On the other hand, however, you hate superUciality or deceit in others. This, combined with your own underlying emotional insecurity, means you guard your feelings closely and are wary of new people. You prefer to stick to your pack and those who have earned your trust. Dogs are sticklers for issues and are swift to judge those they see as unethical. You will Uercely protect your values and stand your ground against anyone who attacks your beliefs.",
-        "pred2":"On the other hand, however, you hate superUciality or deceit in others. This, combined with your own underlying emotional insecurity, means you guard your feelings closely and are wary of new people. You prefer to stick to your pack and those who have earned your trust. ",
-        "pred3":"Dogs are sticklers for issues and are swift to judge those they see as unethical. You will Uercely protect your values and stand your ground against anyone who attacks your beliefs. ",
+        "pred1": "The Chinese Dog is as loyal as his western counterpart but can have a sharp bite and a determined bark. Dogs love to please those they love, even if this involves bending the truth ever so slightly to keep the peace. And if their cover is blown, dogs hang on to their new version of events like a juicy bone, digging themselves further and further into trouble.",
+        "pred2":"On the other hand, however, dogs hate it when people are superficial or deceit in others. This, combined with their own underlying emotional insecurity, means they guard their feelings closely and are wary of new people. Dogs prefer to stick to the pack and those who have earned their trust. ",
+        "pred3":"Dogs are sticklers for issues and are swift to judge those they see as unethical. They will fiercely protect their values and stand their ground against anyone who attacks their beliefs. ",
         "pred4":"",
         "pred5":""
     },
     {
         "id": 12,
         "name":"pig",
-        "pred1":"The Chinese Pig is the most honorable animal of the zodiac. Gentle and home-loving, Pigs are generous and indulgent by nature. Unlike the typical view of the Pig, the Chinese Pig is known for its impeccable manners, exquisite taste and gentle disposition. You Pigs love the comfort and prefer to indulge in a luxurious home than in going out. Subsequently, you spend more time with close friends and family than in wider social circles. You hate emotional uncertainty but Pigs are incapable of making hard decisions so you often end up putting up with relationships that don’t entirely satisfy you. You would still rather be with an unsuitable partner than be alone as one of your greatest fears is isolation.",
-        "pred2":"You Pigs love the comfort and prefer to indulge in a luxurious home than in going out. Subsequently, you spend more time with close friends and family than in wider social circles.",
-        "pred3":"You hate emotional uncertainty but Pigs are incapable of making hard decisions so you often end up putting up with relationships that don’t entirely satisfy you. You would still rather be with an unsuitable partner than be alone as one of your greatest fears is isolation. ",
+        "pred1":"The Chinese Pig is the most honorable animal of the zodiac. Gentle and home-loving, Pigs are generous and indulgent by nature. Unlike the typical view of the Pig, the Chinese Pig is known for its impeccable manners, exquisite taste and gentle disposition.",
+        "pred2":"Pigs love comfort and rather prefer to indulge in a luxurious home than in going out. Subsequently, they spend more time with close friends and family than in wider social circles.",
+        "pred3":"Pigs hate emotional uncertainty but they are incapable of making hard decisions so they often end up putting up with relationships that don’t entirely satisfy them. Pigs would still rather be with an unsuitable partner than be alone as one of their greatest fears is isolation. ",
         "pred4":"",
         "pred5":""
     }
