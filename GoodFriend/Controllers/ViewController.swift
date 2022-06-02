@@ -527,12 +527,4 @@ extension Date
     func get(_ component: Calendar.Component, calendar: Calendar = Calendar.current) -> Int {
         return calendar.component(component, from: self)
     }
-    
-    var dayBefore: Date{
-        return Calendar.current.date(byAdding: .day, value: -1, to: self)!
-    }
-    
-    var dayBeforeYesterday: Date{
-        return Calendar.current.date(byAdding: .day, value: -2, to: self)!
-    }
 }

@@ -11,7 +11,8 @@ class ChineseZodiacViewController: UIViewController {
     
     var zodiacContentIndex: Int = -1
     @IBOutlet weak var chineseZodiacText: UITextView!
-    @IBOutlet weak var chineseZodiacTextHeight: NSLayoutConstraint!
+
+    
     @IBOutlet weak var chineseZodiac: UIImageView!
     
     @IBOutlet weak var chineseZodiacLabel: UILabel!
@@ -38,15 +39,48 @@ class ChineseZodiacViewController: UIViewController {
         
         if(zodiacContentIndex != -1)
         {
-            chineseZodiacText.text = chineseZodiacInfo[zodiacContentIndex].pred1
-            chineseZodiacTextHeight.constant = self.chineseZodiacText.contentSize.height
+            var predictionText = ""
+            
+            if chineseZodiacInfo[zodiacContentIndex].pred1 != ""
+            {
+                predictionText = predictionText + chineseZodiacInfo[zodiacContentIndex].pred1
+            }
+  
+            
+            //Prediction 2
+            if chineseZodiacInfo[zodiacContentIndex].pred2 != ""
+            {
+                predictionText = predictionText+"\n"+"\n"+chineseZodiacInfo[zodiacContentIndex].pred2
+            }
+            
+            //Prediction 3
+            if chineseZodiacInfo[zodiacContentIndex].pred3 != ""
+            {
+                predictionText = predictionText+"\n"+"\n"+chineseZodiacInfo[zodiacContentIndex].pred3
+            }
+            
+            //Prediction 4
+            if chineseZodiacInfo[zodiacContentIndex].pred4 != ""
+            {
+                predictionText = predictionText+"\n"+"\n"+chineseZodiacInfo[zodiacContentIndex].pred4
+            }
+
+            //Prediction 5
+            if chineseZodiacInfo[zodiacContentIndex].pred5 != ""
+            {
+                predictionText = predictionText+"\n"+"\n"+chineseZodiacInfo[zodiacContentIndex].pred5
+            }
+            
+            chineseZodiacText.text = predictionText
         }
         else
         {
             chineseZodiacText.text = "Chinese Zodiac sign not available since the year of the birth is not given for this contact"
-            chineseZodiacTextHeight.constant = self.chineseZodiacText.contentSize.height
         }
-            
+        
+        
+        
+        
     }
     
     func setChineseZodiac(index: Int)
@@ -119,5 +153,11 @@ class ChineseZodiacViewController: UIViewController {
                 chineseZodiacLabel.text = "Year of Goat"
             }
         }
+    
+    func adjustUITextViewHeight(arg : UITextView) {
+        arg.translatesAutoresizingMaskIntoConstraints = true
+        arg.sizeToFit()
+        arg.isScrollEnabled = false
+    }
     
 }

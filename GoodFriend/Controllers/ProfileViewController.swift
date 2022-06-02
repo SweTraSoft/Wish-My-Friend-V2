@@ -42,12 +42,21 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
         profileImage.layer.cornerRadius = profileImage.frame.size.width/2
         
         profileImage.image = selectedContact?.contactImage
-        profileName.text = selectedContact?.firstName
+        profileName.text = (selectedContact?.firstName ?? " ")+" "+(selectedContact?.lastName ?? " ")
         
-        profileBirthday.text = "Birthday: "+selectedContact!.weekDay+", "+String(selectedContact!.birthMonth)+" "+dateFormatChange.dateSuperscript(date: selectedContact!.birthday)
+        if selectedContact?.birthYear == 0
+        {
+            profileBirthday.text = "Birthday: "+dateFormatChange.monthFullForm(month: selectedContact!.birthMonth)+" "+dateFormatChange.dateSuperscript(date: selectedContact!.birthday)
+        }
+        else
+        {
+            profileBirthday.text = "Birthday: "+dateFormatChange.monthFullForm(month: selectedContact!.birthMonth)+" "+dateFormatChange.dateSuperscript(date: selectedContact!.birthday)+", "+String(selectedContact!.birthYear)
+        }
+        
+        
         
         zodiacId = setZodiac(month: selectedContact!.birthMonth, date: selectedContact!.birthday)
-        chineseZodiacContent = setChineseZodiac(year: selectedContact?.birthYear ?? 0)
+        chineseZodiacContent = setChineseZodiac(date: selectedContact!.birthday, month: selectedContact!.birthMonth, year: selectedContact?.birthYear ?? 0)
         
         westernZodiacInfo.setTitle("", for: .normal)
         chineseZodiacInfo.setTitle("", for: .normal)
@@ -263,93 +272,166 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
     
     //To set chinese zodiac picture and text
     //Function returns the index of the array that has the text content of chinese zodiac view
-    func setChineseZodiac(year: Int) -> Int
+    func setChineseZodiac(date: Int, month: Int, year: Int) -> Int
         {
+            var chineseZodiacSign = ""
+            if year != 0
+            {
+                chineseZodiacSign = zodiacFrom(date: normalDate(fromYear: year, month: month, day: date))
+            }
+            
+            print("Log:: Actual chinese zodiac sign is "+chineseZodiacSign)
+            
             if(year == 0)
             {
                 chineseZodiacLabel.text = ""
                 chineseZodiac.image = UIImage(named: "notAvailable")
                 return -1
             }
-            else if(year % 12 == 0)
+            else if(chineseZodiacSign == "monkey")
             {
                 chineseZodiac.image = UIImage(named: "monkey")
-                chineseZodiacLabel.text = "Year of Monkey - \(year)"
+                chineseZodiacLabel.text = "Year of Monkey"
                 return 8
             }
-            else if(year % 12 == 1)
+            else if(chineseZodiacSign == "rooster")
             {
                 chineseZodiac.image = UIImage(named: "rooster")
-                chineseZodiacLabel.text = "Year of Rooster - \(year)"
+                chineseZodiacLabel.text = "Year of Rooster"
                 return 9
             }
-            else if(year % 12 == 2)
+            else if(chineseZodiacSign == "dog")
             {
                 chineseZodiac.image = UIImage(named: "dog")
-                chineseZodiacLabel.text = "Year of Dog - \(year)"
+                chineseZodiacLabel.text = "Year of Dog"
                 return 10
                 
             }
-            else if(year % 12 == 3)
+            else if(chineseZodiacSign == "pig")
             {
                 chineseZodiac.image = UIImage(named: "roar")
-                chineseZodiacLabel.text = "Year of Pig - \(year)"
+                chineseZodiacLabel.text = "Year of Pig"
                 return 11
             }
-            else if(year % 12 == 4)
+            else if(chineseZodiacSign == "rat")
             {
                 chineseZodiac.image = UIImage(named: "rat")
-                chineseZodiacLabel.text = "Year of Rat - \(year)"
+                chineseZodiacLabel.text = "Year of Rat"
                 return 12
             }
-            else if(year % 12 == 5)
+            else if(chineseZodiacSign == "ox")
             {
                 chineseZodiac.image = UIImage(named: "ox")
-                chineseZodiacLabel.text = "Year of Ox - \(year)"
+                chineseZodiacLabel.text = "Year of Ox"
                 return 1
             }
-            else if(year % 12 == 6)
+            else if(chineseZodiacSign == "tiger")
             {
                 chineseZodiac.image = UIImage(named: "tiger")
-                chineseZodiacLabel.text = "Year of Tiger - \(year)"
+                chineseZodiacLabel.text = "Year of Tiger"
                 return 2
             }
-            else if(year % 12 == 7)
+            else if(chineseZodiacSign == "rabbit")
             {
                 chineseZodiac.image = UIImage(named: "rabbit")
-                chineseZodiacLabel.text = "Year of rabbit - \(year)"
+                chineseZodiacLabel.text = "Year of rabbit"
                 return 3
                 
             }
-            else if(year % 12 == 8)
+            else if(chineseZodiacSign == "dragon")
             {
                 chineseZodiac.image = UIImage(named: "dragon")
-                chineseZodiacLabel.text = "Year of dragon - \(year)"
+                chineseZodiacLabel.text = "Year of dragon"
                 return 4
             }
-            else if(year % 12 == 9)
+            else if(chineseZodiacSign == "snake")
             {
                 chineseZodiac.image = UIImage(named: "snake")
-                chineseZodiacLabel.text = "Year of Snake - \(year)"
+                chineseZodiacLabel.text = "Year of Snake"
                 return 5
             }
-            else if(year % 12 == 10)
+            else if(chineseZodiacSign == "horse")
             {
                 chineseZodiac.image = UIImage(named: "horse")
-                chineseZodiacLabel.text = "Year of Horse - \(year)"
+                chineseZodiacLabel.text = "Year of Horse"
                 return 6
             }
-            else if(year % 12 == 11)
+            else if(chineseZodiacSign == "goat")
             {
                 chineseZodiac.image = UIImage(named: "goat")
-                chineseZodiacLabel.text = "Year of Goat - \(year)"
+                chineseZodiacLabel.text = "Year of Goat"
                 return 7
             }
             else
             {
                 return -1
             }
+            
+            
         }
+    
+    
+    func normalDate(fromYear year: Int, month: Int, day: Int) -> Date {
+      var normalCalendarDateComponents = DateComponents()
+      normalCalendarDateComponents.year = year
+      normalCalendarDateComponents.month = month
+      normalCalendarDateComponents.day = day
+      
+      let normalCalendar = Calendar(identifier: .gregorian)
+      let normalDate = normalCalendar.date(from: normalCalendarDateComponents)!
+      return normalDate
+    }
 
+    func zodiacFrom(date normalDate: Date) -> String {
+      let chineseDateString = convertToChineseDate(from: normalDate)
+      return zodiacFrom(chineseDate: chineseDateString)
+    }
+
+    func convertToChineseDate(from normalDate: Date) -> String {
+      let chineseCalendar = Calendar(identifier: .chinese)
+      let formatter = DateFormatter()
+      formatter.calendar = chineseCalendar
+      formatter.dateStyle = .full
+      let chineseDate = formatter.string(from: normalDate)
+      return chineseDate
+    }
+
+    func zodiacFrom(chineseDate: String) -> String {
+      let branchExtracted = extractBranchFrom(chineseDate: chineseDate)
+      if let zodiac = branchNameToZodiac(branchExtracted) {
+        return zodiac
+      }
+      fatalError("Cannot convert \(chineseDate) to a zodiac sign")
+    }
+
+    func extractBranchFrom(chineseDate: String) -> String {
+      guard let hyphen = chineseDate.firstIndex(of: "-") else {
+        fatalError("\(chineseDate) is not correctly formatted, use DateFormatter.Style.full")
+      }
+      
+      let startIndex = chineseDate.index(after: hyphen)
+      let endIndex = chineseDate.index(chineseDate.endIndex, offsetBy: -2)
+      let branchExtracted = chineseDate[startIndex ... endIndex]
+      
+      return String(branchExtracted)
+    }
+
+    func branchNameToZodiac(_ branch: String) -> String? {
+      let dict = [
+        "zi": "rat",
+        "chou": "ox",
+        "yin": "tiger",
+        "mao": "rabbit",
+        "chen": "dragon",
+        "si": "snake",
+        "wu": "horse",
+        "wei": "goat",
+        "shen": "monkey",
+        "you": "rooster",
+        "xu": "dog",
+        "hai": "pig"
+      ]
+      return dict[branch]
+    }
 }
 
