@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name":"Wood",
+        "pred1":"Wood people are hardworking and are always looking for ways to grow and improve. They strive to be constantly busy and believe that work is the best way to use their strength. Self-confidence and stability are some of their best features.",
+        "pred2":"Wood people can become very competitive and even obsessed with success. They can disrespect other people’s boundaries when they become too focused on expansion and opportunity. They have a strong vision, but need to make sure that it is not harming other people.",
+    },
+    {
+        "id": 2,
+        "name":"Fire",
+        "pred1":"Fire people strive for adventure and new impressions and will hardly refuse exploring something new. They are highly active and energetic individuals with leadership qualities that love to compete and win.",
+        "pred2":"Fire people are attractive and charming. They cannot stand loneliness, preferring to surround themselves with people. They are very attached to their loved ones and highly dedicated to family ties. Fire people are distinguished by high self-esteem and self-confidence, they are smart, friendly, eloquent, and decisive.",
+    },
+    {
+        "id": 3,
+        "name":"Earth",
+        "pred1":"People whose Chinese birth element is Earth are patient and reliable. They are responsible and committed to their family and loved ones. They are ambitious but idealistic at the same time. Earth types rely on a “moral compass” that helps them interact with the world around them.",
+        "pred2":"Earth people are conservative, maintain ethics and discipline, and know how to use their own resources to the best effect but are restrained in their emotions. Earth people are likable but may lack spontaneity and adventurousness.",
+    },
+    {
+        "id": 4,
+        "name":"Water",
+        "pred1":"People whose element is water are sensitive and can often withdraw to take time out and understand themselves better. Water people tend to have a great imagination and are not afraid to use it.",
+        "pred2":"Water people have good communication skills and can be very  eloquent. They have a strong intuition and often notice details that other people are missing. Water people people are good at noticing  special talents of people around them.",
+    },
+    {
+        "id": 5,
+        "name":"Metal",
+        "pred1":"Metal people are most tenacious, independent, and self-reliant, which is due to their powerful strength of character. They are self-centered, but they know how to care for and respect others. Metal people distinguish themselves by their reliability and decisiveness, although sometimes they keep a little distance, trying not to be part of the crowd.",
+        "pred2":"They aren’t afraid of being alone, and the most important thing they want from society is recognition of their achievements and successes.",
+    },
+]

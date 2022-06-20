@@ -119,7 +119,9 @@
       "Weaknesses":"Distrusting, jealous, manipulative, violent",
       "Likes":"Truth, facts, being right, talents, teasing, passion",
       "Dislikes":"Dishonesty, revealing secrets, superficiality, small talk",
-      "Text":"Scorpios are passionate and assertive people with determination and focus you rarely see in other zodiac signs. They will turn to in-depth research to reach the truth behind anything they find important. Great leaders and guides, Scorpios are resourceful, dedicated and fearless when there is a challenge to be overcome. They will hold on to other people’s secrets, even when they aren’t very fond of them to begin with and do anything they can for those they tie themselves to."
+      "pred1":"Passionate, independent, and unafraid to blaze their own trail no matter what others think, Scorpios make a statement wherever they go. They aren't afraid of controversy, and won't back down from a debate. They also hate people who aren't genuine, and are all about being authentic—even if authentic isn't pretty.",
+      "pred2":"Because of these traits, Scorpios can seem intimidating and somewhat closed off to those who don't know them well. Even though Scorpios may seem brusque they also are very in tune with their emotions, and sometimes may find themselves caught up in their feelings.This leads Scorpio's central conflict: Their feelings are what drives them and strengthens them, but their mutability can scare them and make them feel vulnerable and out of control. Because of this conflict, Scorpios, like their namesake, the scorpion, put up an outer shell and may seem prickly.",
+      "pred3":"But once people get beyond the shell, they find a loyal, loving person whose passion knows no bounds. Scorpios dive into all, life has to offer with 100% enthusiasm. A Scorpio will be your most loyal friend, most dedicated employee—and your worst enemy, if they want to be."
    },
    {
       "id":11,
@@ -129,7 +131,9 @@
       "Weaknesses":"Promises more than can deliver, very impatient, will say anything no matter how undiplomatic",
       "Likes":"Freedom, travel, philosophy, being outdoors",
       "Dislikes":"Clingy people, being constrained, off-the-wall theories, details",
-      "Text":"Curious and energetic, Sagittarius are the travelers of the zodiac. Their open mind and philosophical view motivate them to wander around the world in search of the meaning of life. Sagittarius is an extrovert, always optimistic, full of enthusiasm, and ready for changes. This is a Sun sign of individuals who are often preoccupied with mental work, but when they find grounding, they show their ability to transform visions and thoughts into concrete actions and circumstances."
+      "pred1":"Independent and strong-willed, Sagittarius personalities are all about going off the beaten path. Sagittarius aren’t afraid to step away from the pack, and are natural born leaders who go after what they want, regardless of what other people think. Sagittarius are  born adventurers, and love solo travel and exploration. Sagittarius also love exploring the inner workings of their minds, and love stretching their horizons through a good book or movie.",
+      "pred2":"Sagittarius are open-hearted, generous, and big-spirited.  Sagittarius are always truthful and because of this, they may hurt others’ feelings, or may be called out for not having tact or empathy. The latter is not true. With their keen imagination, Sagittarius are adept at putting themselves in another person’s shoes. You can  trust a Sagittarius, period. Unlike other signs, they won’t spill any secrets.",
+      "pred3":"Sagittarius are steadfast friends and creative thinkers; great persons to have on a work team, as they have infectious energy and enthusiasm. They aren’t looking for constant feedback, and can take a project and run with it. A Sagittarius can also be an adept entrepreneur or CEO. They are smart, capable, and true trailblazers."
    },
    {
       "id":12,
@@ -139,6 +143,9 @@
       "Weaknesses":"Know-it-all, unforgiving, condescending, expecting the worst",
       "Likes":"Family, tradition, music, understated status, quality craftsmanship",
       "Dislikes":"Almost everything at some point",
-      "Text":"Capricorn is a sign that represents time and responsibility, and its representatives are traditional and often very serious by nature. These individuals possess an inner state of independence that enables significant progress both in their personal and professional lives. They are masters of self-control and have the ability to lead the way, make solid and realistic plans, and manage many people who work for them at any time. They will learn from their mistakes and get to the top based solely on their experience and expertise. "
+      "pred1":"Smart, hardworking, and fully in control of their destiny, Capricorns will get what they set their mind to, in both personal and professional life. Capricorns may have a reputation as stubborn, but they simply know what they want, and also know how they wish other people would behave.",
+      "pred2":"Natural rule-followers, Capricorns thrive on order and love strict rules, hierarchies, and set ways to do things. Can Capricorns think outside the box? Yes, they can, but they prefer when they have strict boundaries to constrain against—free reign can make them feel paralyzed by choice. Capricorns are great at climbing the corporate ladder, and especially adept at making (and investing) money. Capricorns love family, and put a lot of stock in traditions. Capricorns might stress themselves out trying to do everything perfectly. Capricorns believe presentation is important, and their homes are usually very representative. A Capricorn sometimes is overly focused on what things look like, instead of how things feel, which could cause them to feel stifled and unhappy.",
+      "pred3":"Capricorns need to find a sense of self beyond how others perceive them, and recognize that racking up achievements is only a part of their personality.",
+      "pred4":"Capricorns are loyal friends, and have a funny and sly sense of humor when you get to know them. Capricorns will dive into a relationship like a job, and believes that hard work can help make a bond as strong as possible. While sometimes a romantic conversation may veer toward feeling a bit like a board meeting, especially with action items and improvement plans, but if you roll with it, they have a point: Your bond will be stronger."
    }
 ]
