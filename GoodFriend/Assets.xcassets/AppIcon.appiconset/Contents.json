@@ -125,20 +125,6 @@
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
-    },
-    {
-      "filename" : "icon-1025.png",
-      "idiom" : "ios-marketing",
-      "scale" : "1x",
-      "size" : "1024x1024",
-      "unassigned" : true
-    },
-    {
-      "filename" : "icon-512.png",
-      "idiom" : "mac",
-      "scale" : "1x",
-      "size" : "512x512",
-      "unassigned" : true
     }
   ],
   "info" : {
