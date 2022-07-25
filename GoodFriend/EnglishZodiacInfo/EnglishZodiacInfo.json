@@ -1,151 +1,226 @@
-[
-   {
-      "id":1,
-      "Name":"Aquarius",
-      "Date":"Jan 20 - Feb 18",
-      "Strengths":"Progressive, original, independent, humanitarian",
-      "Weaknesses":"Runs from emotional expression, temperamental, uncompromising, aloof",
-      "Likes":"Fun with friends, risky business, fighting for causes, intellectual conversations",
-      "Dislikes":"Limitations, broken promises, being lonely, dull or boring situations",
-      "pred1":"Independent and enigmatical, Aquarians are unique. There is no one quite like an Aquarius, and because each is so incredibly individual, it can be tough to describe them as a group. Aquarians don't like labels, and may shy away from any adjective—even the good ones you might bestow upon them. Aquarians believe in the nature of change and evolution, and even though they're a fixed sign, they may not necessarily believe they are the 'same' people they were when they were born.",
-      "pred2":"Aquarians have a strong sense of social justice and making the world a better place, and see themselves as just one link in an endless human chain. They are very concerned about others, not because of how others treat them or how they want others to treat them."
-         },
-   {
-      "id":2,
-      "Name":"Pisces",
-      "Date":"Feb 19 - Mar 20",
-      "Strengths":"Compassionate, artistic, intuitive, gentle, wise, musical",
-      "Weaknesses":"Fearful, overly trusting, sad, desire to escape reality, can be a victim or a martyr",
-      "Likes":"Being alone, love, sleeping, music, romance, swimming, spiritual themes",
-      "Dislikes":"Know-it-all, being criticized, the past coming back to haunt, cruelty of any kind",
-      "pred1":"Smart, creative, and deeply intuitive, Pisces can be close to psychic. Pisces feel things deeply, and have incredibly strong gut reactions. A Pisces 'knows' things from deep within, and can often judge whether a person or situation is good or bad. That doesn't mean a Pisces ignores the logical part of their brain, though. Deeply intelligent, Pisces have a profound respect for the power of the human mind.",
-      "pred2":"Pisces signs are sensitive, and get along well in small groups of people. Sometimes, a Pisces may feel like they have an internal and external self, and they may need to spend a lot of time solo to recalibrate those two halves of themselves. A Pisces is rarely lonely when they are by themselves, and have an active imagination. Creative, Pisces love spending time reading, exploring or creating art or music, and understanding their emotions through art.",
-      "pred3":"Those with the Pisces sign may seem quiet but they are incredibly strong and have a very strong sense of right and wrong. Their moral compass, along with their gut, guides them well. When a Pisces speaks up, people listen. Pisces tend to take in everything around them, and they are great people to ask for advice on pretty much anything. While Pisces has strong convictions about the best way for them to live, they have a 'live and let live' approach when it comes to others, and are accepting and nonjudgmental of all."
-   },
-   {
-      "id":3,
-      "Name":"Aries",
-      "Date":"Mar 21 - Apr 19",
-      "Strengths":"Courageous, determined, confident, enthusiastic, optimistic, honest, passionate",
-      "Weaknesses":"IImpatient, moody, short-tempered, impulsive, aggressive",
-      "Likes":"Comfortable clothes, taking on leadership roles, physical challenges, individual sports",
-      "Dislikes":"Inactivity, delays, work that does not use one's talents",
-      "pred1":"Aries are the trailblazers. Passionate and independent, Aries will never do something just because everyone else is doing it. They need to be 100 percent committed to the task at hand. Competitive to the max, the best way to motivate an Aries is to turn something into a contest. Aries will put everything they have into winning. Loyal, smart, and impulsive, they always have multiple projects on their mind, and won't be satisfied until their work, social life, and personal lives line up exactly with the dream life they've envisioned. Those who are drawn to magnetic Aries may have trouble keeping up — but if they can, they'll have a friend for life.",
-      "pred2":"An Aries sign will always tell you what they're thinking, with a frankness that may occasionally border on rudeness. But even if an Aries seems overly blunt with their opinion, that's only because they value honesty above all else. And it works both ways. While an Aries may be the first to say if they think that you just phoned in a project, they'll also be the first to compliment you for a job well done. An Aries may also have a short fuse. That fiery temper can be an asset. When an Aries is angry, they'll never play the passive-aggressive card. But for people who don't know them well, their temper can be a turn off. Learning how to work out their anger—whether by going to the gym every day, taking some deep breaths, or learning to chill before they tell their thoughts to the world — is a lifelong process for them."
-   },
-   {
-      "id":4,
-      "Name":"Taurus",
-      "Date":"Apr 20 - May 20",
-      "Strengths":"Reliable, patient, practical, devoted, responsible, stable",
-      "Weaknesses":"Stubborn, possessive, uncompromising",
-      "Likes":"Gardening, cooking, music, romance, high quality clothes, working with hands",
-      "Dislikes":"Sudden changes, complications, insecurity of any kind, synthetic fabrics",
-      "pred1":"Smart, ambitious, and trustworthy, Taurus is the anchor of the Zodiac. Amazing friends, colleagues, and partners, Taureans value honesty above all else and are proud that their personal relationships tend to be drama free. Bulls get the reputation of being stubborn, but they're not always stuck in their ways. This searching sign is willing to see another point of view, but they won't flip-flop on an opinion just to make someone else happy. They will shift their thinking only if they truly have a change of heart.",
-      "pred2":"With a rep as one of the hardest-working signs in the Zodiac, a Bull is never afraid to roll up those sleeves and get to work, and won't blink an eye at pulling an all-nighter to get the job done. But it's not all work for a Taurus sign. Anchored by the earth, this passionate sign is all about sensuality, and is always seeking out pleasure. Whether they're indulging in luxurious massages, spending hours in bed with their lover, or going on a long run, Taureans love feeling present in their body and frequently need to get in touch with their physical self.",
-      "pred3":"While Taurus signs have an intense internal drive, they sometimes have trouble respecting authority, especially if asked to do something they think is pointless or should be done differently. Learning to be flexible and go with the flow can be an advantage to Taurus. And while Taureans have a rich internal life, they value external attributes and may overlook someone who doesn't have the perfect outfit, car, or resume. Learning the benefits of getting to know someone before writing them off can be a lifelong lesson to a Taurean"
-   },
-   {
-      "id":5,
-      "Name":"Gemini",
-      "Date":"May 21 - Jun 20",
-      "Strengths":"Gentle, affectionate, curious, adaptable, ability to learn quickly and exchange ideas",
-      "Weaknesses":"Nervous, inconsistent, indecisive",
-      "Likes":"Music, books, magazines, chats with nearly anyone, short trips around the town",
-      "Dislikes":"Being alone, being confined, repetition and routine",
-      "pred1":"Expressive and quick-witted, Gemini represents two different personalities in one and you will never be sure which one you will face. They are sociable, communicative and ready for fun, with a tendency to suddenly get serious, thoughtful and restless. They are fascinated with the world itself, extremely curious, with a constant feeling that there is not enough time to experience everything they want to see.",
-      "pred2":"Gemini never gets stuck in the past and doesn't ruminate on what might have been. Instead, they move forward with glass-half-full optimism and an ability to always look on the bright side—and land on their feet—in nearly any situation. With a mind that's constantly racing, even when they're just quietly hanging out, the Twins never get bored. In fact, Gemini are happy keeping their own company, and can often turn their solitary daydreams into reality.",
-      "pred3":"Despite their unfair reputation for being two-faced, once a Gemini is in your life, they're loyal for life—but they aren't afraid to voice their opinion if they feel you're doing something they disagree with or if they perceive you as not being loyal to them. Always a sign to see all sides of the situation, Gemini may seek input from friends before going to the root of the problem. It's not gossiping—it's gathering information.",
-      "pred4":"And even though Gemini is easily the life of the party without trying, the Twins also have a deep emotional side that needs care and feeding. Gemini like time by themselves to read, create, daydream, and come up with other ways of sharing their gifts with the world. When a Gemini can truly tap in and share their gifts, they're an unstoppable force of energy that can motivate, inspire, and enchant the rest of the Zodiac."
-   },
-   {
-      "id":6,
-      "Name":"Cancer",
-      "Date":"Jun 21 - Jul 22",
-      "Strengths":"Tenacious, highly imaginative, loyal, emotional, sympathetic, persuasive",
-      "Weaknesses":"Moody, pessimistic, suspicious, manipulative, insecure",
-      "Likes":"Art, home-based hobbies, relaxing near or in water, helping loved ones, a good meal with friends",
-      "Dislikes":"Strangers, any criticism of Mom, revealing of personal life",
-      "pred1":"Deeply intuitive and sentimental, Cancer can be one of the most challenging zodiac signs to get to know. They are very emotional and sensitive and care deeply about matters of the family and their home. Cancer is sympathetic and attached to people they keep close. Cancer are very loyal and able to empathize with other people's pain and suffering.",
-      "pred2":"Cancer loves creating and needs some type of creative outlet, whether it's painting, writing, or even just reading. Cancer also loves connecting to a higher power, and may find comfort in religion or spiritual practices. And even though Crabs can be intense, they also have a funny side with a wry sense of humor, and they're adept at observing and mimicking people around them.",
-      "pred3":"Cancer is incredibly loyal, sometimes to a fault. Cancers will go to the ends of the earth and even against their own beliefs to help someone they love. Learning how to step up for what they believe in—even if it means turning down or against a friend—is a lifelong lesson for Cancer."
-   },
-   {
-      "id":7,
-      "Name":"Leo",
-      "Date":"Jul 23 - Aug 22",
-      "Strengths":"Creative, passionate, generous, warm-hearted, cheerful, humorous",
-      "Weaknesses":"Arrogant, stubborn, self-centered, lazy, inflexible",
-      "Likes":"Theater, taking holidays, being admired, expensive things, bright colors, fun with friends",
-      "Dislikes":"Being ignored, facing difficult reality, not being treated like a king or queen",
-      "pred1":"Bold, intelligent, warm, and courageous, fire sign Leo is a natural leader of the Zodiac, ready to blaze a trail, vanquish injustice, and make a name for themselves along the way. Blessed with high self-esteem, Lions know that they possess enviable traits—and they're proud of them. They don't believe in false modesty and will be the first to praise themselves for a job well done. But Leo isn't self-aggrandizing or unwilling to roll up those sleeves and do the work: this sign knows that in order to be respected and admired, he or she needs to put in the effort worthy of a leader.",
-      "pred2":"But it's not all hard work for Lions. Intense and energetic, Leos thrive on social interactions and have no problem making friends—although pinning them down to spend time with you is another story. Leos put themselves first, and will turn down a plan that doesn't fit with their agenda or idea of fun. This trait has gained them an unfair reputation for arrogance. But on the flip side, when a Lion chooses to spend time with you, it's genuinely because he or she wants to.",
-      "pred3":"Leo signs are passionate in all pursuits, including relationships, and take it upon themselves to be the best partner you've ever had. They love grand gestures, and they want to show the world how attentive and caring they can be. They also can't resist flashiness and often buy their partner the biggest and best presents. Leo is an adventurer, seeking to balance an intense life of social obligations and travel with plenty of downtime to relax and luxuriate. Work and outward appearances matter to this sign, and they're willing to do whatever it takes to gain a job title or workplace status, even if it means temporarily sacrificing their precious leisure time.",
-      "pred4":"Benevolent with their time and attention, Leos are never cliquey, always showing friendliness and politeness to everyone. While almost everyone else is entranced by the Leonine personality, Leos are their own harshest critic and consider each day a challenge to be the best, brightest, and boldest Lion they can be."
-   },
-   {
-      "id":8,
-      "Name":"Virgo",
-      "Date":"Aug 23 - Sep 22",
-      "Strengths":"Loyal, analytical, kind, hardworking, practical",
-      "Weaknesses":"Shyness, worry, overly critical of self and others, all work and no play",
-      "Likes":"Animals, healthy food, books, nature, cleanliness",
-      "Dislikes":"Rudeness, asking for help, taking center stage",
-      "pred1":"Smart, sophisticated, and kind, Virgo gets the job done without complaining. Virgos are amazing friends, always there to lend a hand and also lend advice. Practical Virgos are incredibly adept at big picture thinking, and planning out their life, their vacations, and what they're going to do today isn't a drag it makes them feel in control and secure.",
-      "pred2":"Virgo has a rich inner life, and can sometimes seem shy at first meeting. A Virgo won't spill secrets right away, and it's important to earn a Virgo's trust. But once you do, that Virgin will be a friend for life.",
-      "pred3":"Virgos expect perfection from themselves, and they may project those high standards on the other people in their life. A Virgo hates when someone lets him or her down, even if it's minor and unavoidable, like a last-minute cancellation. Virgo signs never want to disappoint the people in their lives, so they may spread themselves too thin put themselves last.",
-      "pred4":"Virgos love and are inspired by beauty. They consider what they wear and how they decorate their house to be an extension of their personality. They thrive when everything in their life looks Pinterest-perfect, and although their friends make fun of their penchant for organizing, it truly is the anchor that makes Virgo's life run smoothly.",
-      "pred5":"Intelligent and a lifelong learner, Virgo loves trying new things, reading books, and learning about the world. They'll happily sign up for an adult-education course, and they consider an afternoon in bed with a book pretty much ideal. A Virgo prefers an evening with good friends to a huge party, and values downtime just as much as socializing. This sign doesn't need to fill their calendar to be content."
-   },
-   {
-      "id":9,
-      "Name":"Libra",
-      "Date":"Sep 23 - Oct 22",
-      "Strengths":"Cooperative,diplomatic, gracious, fair-minded, social",
-      "Weaknesses":"Indecisive, avoids confrontations, will carry a grudge, self-pity",
-      "Likes":"Harmony, gentleness, sharing with others, the outdoors",
-      "Dislikes":"Violence, injustice, loudmouths, conformity",
-      "pred1":"Libras are peaceful, fair, and they hate being alone. A partnership is very important for them, seeking someone with the ability to be the mirror to themselves. These individuals are fascinated by balance and symmetry, they are in a constant chase for justice and equality, realizing through life that the only thing that should be truly important to themselves in their inner core of personality. This is someone ready to do nearly anything to avoid conflict, keeping the peace whenever possible. Therefore, Libras are adept at seeing all points of view, and excel at crafting compromises and effecting mediation between others. This sign has a rich inner life yet loves other people, and they're always happiest with a large group of friends, family, and coworkers on whom they can count.",
-      "pred2":"Libras can often be 'up in the clouds,* and while they are amazing at making big plans, following them through can be tricky. Working with detail-oriented signs, like Virgos or Capricorns, can help Libras actually manifest their dreams into reality, especially in the workspace. But don't call out Librans for daydreaming—their imagination is one of their biggest assets, and they often put their imagination to work by finding careers in the arts or in literature.",
-      "pred3":"Libras believe that they're directing their own lives, and they take a big-picture approach in making that life look and feel the best it can be. They spend a lot of time figuring out what's missing from that big picture, and they may feel unhappy if they become too focused on one thing, whether it's work, a partner, or a family member. Librans are at their best when they balance their schedule to include plenty of time for self-care rituals and personal pursuits, and when they give themselves enough flexibility to change focus.",
-      "pred4":"Although Libra appears self-confident to outsiders, he or she might struggle with insecurity, especially as it relates to personal identity, which sometimes feels mutable. This sign's lifelong question is: 'Who am I?' They may find their identity shifting based on where they are in their lives and who they're spending time with. In order to feel more confident in their identity, social Libras need to get comfortable spending time with themselves and getting to know their gut and their internal voice."
-      
-   },
-   {
-      "id":10,
-      "Name":"Scorpio",
-      "Date":"Oct 23 - Nov 21",
-      "Strengths":"Resourceful, powerful, brave, passionate, a true friend",
-      "Weaknesses":"Distrusting, jealous, manipulative, violent",
-      "Likes":"Truth, facts, being right, talents, teasing, passion",
-      "Dislikes":"Dishonesty, revealing secrets, superficiality, small talk",
-      "pred1":"Passionate, independent, and unafraid to blaze their own trail no matter what others think, Scorpios make a statement wherever they go. They aren't afraid of controversy, and won't back down from a debate. They also hate people who aren't genuine, and are all about being authentic—even if authentic isn't pretty.",
-      "pred2":"Because of these traits, Scorpios can seem intimidating and somewhat closed off to those who don't know them well. Even though Scorpios may seem brusque they also are very in tune with their emotions, and sometimes may find themselves caught up in their feelings.This leads Scorpio's central conflict: Their feelings are what drives them and strengthens them, but their mutability can scare them and make them feel vulnerable and out of control. Because of this conflict, Scorpios, like their namesake, the scorpion, put up an outer shell and may seem prickly.",
-      "pred3":"But once people get beyond the shell, they find a loyal, loving person whose passion knows no bounds. Scorpios dive into all, life has to offer with 100% enthusiasm. A Scorpio will be your most loyal friend, most dedicated employee—and your worst enemy, if they want to be."
-   },
-   {
-      "id":11,
-      "Name":"Sagittarius",
-      "Date":"Nov 22 - Dec 21",
-      "Strengths":"Generous, idealistic, great sense of humor",
-      "Weaknesses":"Promises more than can deliver, very impatient, will say anything no matter how undiplomatic",
-      "Likes":"Freedom, travel, philosophy, being outdoors",
-      "Dislikes":"Clingy people, being constrained, off-the-wall theories, details",
-      "pred1":"Independent and strong-willed, Sagittarius personalities are all about going off the beaten path. Sagittarius aren’t afraid to step away from the pack, and are natural born leaders who go after what they want, regardless of what other people think. Sagittarius are  born adventurers, and love solo travel and exploration. Sagittarius also love exploring the inner workings of their minds, and love stretching their horizons through a good book or movie.",
-      "pred2":"Sagittarius are open-hearted, generous, and big-spirited.  Sagittarius are always truthful and because of this, they may hurt others’ feelings, or may be called out for not having tact or empathy. The latter is not true. With their keen imagination, Sagittarius are adept at putting themselves in another person’s shoes. You can  trust a Sagittarius, period. Unlike other signs, they won’t spill any secrets.",
-      "pred3":"Sagittarius are steadfast friends and creative thinkers; great persons to have on a work team, as they have infectious energy and enthusiasm. They aren’t looking for constant feedback, and can take a project and run with it. A Sagittarius can also be an adept entrepreneur or CEO. They are smart, capable, and true trailblazers."
-   },
-   {
-      "id":12,
-      "Name":"Capricorn",
-      "Date":"Dec 22 - Jan 19",
-      "Strengths":"Responsible, disciplined, self-control, good managers",
-      "Weaknesses":"Know-it-all, unforgiving, condescending, expecting the worst",
-      "Likes":"Family, tradition, music, understated status, quality craftsmanship",
-      "Dislikes":"Almost everything at some point",
-      "pred1":"Smart, hardworking, and fully in control of their destiny, Capricorns will get what they set their mind to, in both personal and professional life. Capricorns may have a reputation as stubborn, but they simply know what they want, and also know how they wish other people would behave.",
-      "pred2":"Natural rule-followers, Capricorns thrive on order and love strict rules, hierarchies, and set ways to do things. Can Capricorns think outside the box? Yes, they can, but they prefer when they have strict boundaries to constrain against—free reign can make them feel paralyzed by choice. Capricorns are great at climbing the corporate ladder, and especially adept at making (and investing) money. Capricorns love family, and put a lot of stock in traditions. Capricorns might stress themselves out trying to do everything perfectly. Capricorns believe presentation is important, and their homes are usually very representative. A Capricorn sometimes is overly focused on what things look like, instead of how things feel, which could cause them to feel stifled and unhappy.",
-      "pred3":"Capricorns need to find a sense of self beyond how others perceive them, and recognize that racking up achievements is only a part of their personality.",
-      "pred4":"Capricorns are loyal friends, and have a funny and sly sense of humor when you get to know them. Capricorns will dive into a relationship like a job, and believes that hard work can help make a bond as strong as possible. While sometimes a romantic conversation may veer toward feeling a bit like a board meeting, especially with action items and improvement plans, but if you roll with it, they have a point: Your bond will be stronger."
-   }
-]
+{
+  "Western Zodiac": [
+    {
+      "id": "1",
+      "Name": "Aquarius",
+      "Date": "Jan 20 - Feb 18",
+      "Strengths": "Progressive, original, independent, humanitarian",
+      "Weaknesses": "Runs from emotional expression, temperamental, uncompromising, aloof",
+      "Likes": "Fun with friends, risky business, fighting for causes, intellectual conversations",
+      "Dislikes": "Limitations, broken promises, being lonely, dull or boring situations",
+      "Short description": "Friendship, found family, companionship; the new, the strange, breaking norms; rebellion, change, revolution.",
+      "pred1": "Independent and enigmatical, Aquarians are unique. There is no one quite like an Aquarius, and because each is so incredibly individual, it can be tough to describe them as a group. Aquarians don't like labels, and may shy away from any adjective—even the good ones you might bestow upon them. Aquarians believe in the nature of change and evolution, and even though they're a fixed sign, they may not necessarily believe they are the 'same' people they were when they were born.",
+      "pred2": "Aquarians have a strong sense of social justice and making the world a better place, and see themselves as just one link in an endless human chain. They are very concerned about others, not because of how others treat them or how they want others to treat them.",
+      "pred3": "",
+      "pred4": "",
+      "pred5": ""
+    },
+    {
+      "id": "2",
+      "Name": "Pisces",
+      "Date": "Feb 19 - Mar 20",
+      "Strengths": "Compassionate, artistic, intuitive, gentle, wise, musical",
+      "Weaknesses": "Fearful, overly trusting, sad, desire to escape reality, can be a victim or a martyr",
+      "Likes": "Being alone, love, sleeping, music, romance, swimming, spiritual themes",
+      "Dislikes": "Know-it-all, being criticized, the past coming back to haunt, cruelty of any kind",
+      "Short description": "Spirituality, the occult, deep mysteries; servitude and self",
+      "pred1": "Smart, creative, and deeply intuitive, Pisces can be close to psychic. Pisces feel things deeply, and have incredibly strong gut reactions. A Pisces 'knows' things from deep within, and can often judge whether a person or situation is good or bad. That doesn't mean a Pisces ignores the logical part of their brain, though. Deeply intelligent, Pisces have a profound respect for the power of the human mind.",
+      "pred2": "Pisces signs are sensitive, and get along well in small groups of people. Sometimes, a Pisces may feel like they have an internal and external self, and they may need to spend a lot of time solo to recalibrate those two halves of themselves. A Pisces is rarely lonely when they are by themselves, and have an active imagination. Creative, Pisces love spending time reading, exploring or creating art or music, and understanding their emotions through art.",
+      "pred3": "Those with the Pisces sign may seem quiet but they are incredibly strong and have a very strong sense of right and wrong. Their moral compass, along with their gut, guides them well. When a Pisces speaks up, people listen. Pisces tend to take in everything around them, and they are great people to ask for advice on pretty much anything. While Pisces has strong convictions about the best way for them to live, they have a 'live and let live' approach when it comes to others, and are accepting and nonjudgmental of all.",
+      "pred4": "",
+      "pred5": ""
+    },
+    {
+      "id": "3",
+      "Name": "Aries",
+      "Date": "Mar 21 - Apr 19",
+      "Strengths": "Courageous, determined, confident, enthusiastic, optimistic, honest, passionate",
+      "Weaknesses": "IImpatient, moody, short-tempered, impulsive, aggressive",
+      "Likes": "Comfortable clothes, taking on leadership roles, physical challenges, individual sports",
+      "Dislikes": "Inactivity, delays, work that does not use one's talents",
+      "Short description": "Carries themes of the self, the identity; personal power and initiative; energy and forcefulness.",
+      "pred1": "Aries are the trailblazers. Passionate and independent, Aries will never do something just because everyone else is doing it. They need to be 100 percent committed to the task at hand. Competitive to the max, the best way to motivate an Aries is to turn something into a contest. Aries will put everything they have into winning. Loyal, smart, and impulsive, they always have multiple projects on their mind, and won't be satisfied until their work, social life, and personal lives line up exactly with the dream life they've envisioned. Those who are drawn to magnetic Aries may have trouble keeping up — but if they can, they'll have a friend for life.",
+      "pred2": "An Aries sign will always tell you what they're thinking, with a frankness that may occasionally border on rudeness. But even if an Aries seems overly blunt with their opinion, that's only because they value honesty above all else. And it works both ways. While an Aries may be the first to say if they think that you just phoned in a project, they'll also be the first to compliment you for a job well done. An Aries may also have a short fuse. That fiery temper can be an asset. When an Aries is angry, they'll never play the passive-aggressive card. But for people who don't know them well, their temper can be a turn off. Learning how to work out their anger—whether by going to the gym every day, taking some deep breaths, or learning to chill before they tell their thoughts to the world — is a lifelong process for them.",
+      "pred3": "",
+      "pred4": "",
+      "pred5": ""
+    },
+    {
+      "id": "4",
+      "Name": "Taurus",
+      "Date": "Apr 20 - May 20",
+      "Strengths": "Reliable, patient, practical, devoted, responsible, stable",
+      "Weaknesses": "Stubborn, possessive, uncompromising",
+      "Likes": "Gardening, cooking, music, romance, high quality clothes, working with hands",
+      "Dislikes": "Sudden changes, complications, insecurity of any kind, synthetic fabrics",
+      "Short description": "Themes of physical enjoyment; patience and stubbornness; a sort of paradise or Garden of Eden, Land of Plenty.",
+      "pred1": "Smart, ambitious, and trustworthy, Taurus is the anchor of the Zodiac. Amazing friends, colleagues, and partners, Taureans value honesty above all else and are proud that their personal relationships tend to be drama free. Bulls get the reputation of being stubborn, but they're not always stuck in their ways. This searching sign is willing to see another point of view, but they won't flip-flop on an opinion just to make someone else happy. They will shift their thinking only if they truly have a change of heart.",
+      "pred2": "With a rep as one of the hardest-working signs in the Zodiac, a Bull is never afraid to roll up those sleeves and get to work, and won't blink an eye at pulling an all-nighter to get the job done. But it's not all work for a Taurus sign. Anchored by the earth, this passionate sign is all about sensuality, and is always seeking out pleasure. Whether they're indulging in luxurious massages, spending hours in bed with their lover, or going on a long run, Taureans love feeling present in their body and frequently need to get in touch with their physical self.",
+      "pred3": "While Taurus signs have an intense internal drive, they sometimes have trouble respecting authority, especially if asked to do something they think is pointless or should be done differently. Learning to be flexible and go with the flow can be an advantage to Taurus. And while Taureans have a rich internal life, they value external attributes and may overlook someone who doesn't have the perfect outfit, car, or resume. Learning the benefits of getting to know someone before writing them off can be a lifelong lesson to a Taurean",
+      "pred4": "",
+      "pred5": ""
+    },
+    {
+      "id": "5",
+      "Name": "Gemini",
+      "Date": "May 21 - Jun 20",
+      "Strengths": "Gentle, affectionate, curious, adaptable, ability to learn quickly and exchange ideas",
+      "Weaknesses": "Nervous, inconsistent, indecisive",
+      "Likes": "Music, books, magazines, chats with nearly anyone, short trips around the town",
+      "Dislikes": "Being alone, being confined, repetition and routine",
+      "Short description": "Multiplicity; enjoyable movement and experimentation; communication, travel, and language.",
+      "pred1": "Expressive and quick-witted, Gemini represents two different personalities in one and you will never be sure which one you will face. They are sociable, communicative and ready for fun, with a tendency to suddenly get serious, thoughtful and restless. They are fascinated with the world itself, extremely curious, with a constant feeling that there is not enough time to experience everything they want to see.",
+      "pred2": "Gemini never gets stuck in the past and doesn't ruminate on what might have been. Instead, they move forward with glass-half-full optimism and an ability to always look on the bright side—and land on their feet—in nearly any situation. With a mind that's constantly racing, even when they're just quietly hanging out, the Twins never get bored. In fact, Gemini are happy keeping their own company, and can often turn their solitary daydreams into reality.",
+      "pred3": "Despite their unfair reputation for being two-faced, once a Gemini is in your life, they're loyal for life—but they aren't afraid to voice their opinion if they feel you're doing something they disagree with or if they perceive you as not being loyal to them. Always a sign to see all sides of the situation, Gemini may seek input from friends before going to the root of the problem. It's not gossiping—it's gathering information.",
+      "pred4": "And even though Gemini is easily the life of the party without trying, the Twins also have a deep emotional side that needs care and feeding. Gemini like time by themselves to read, create, daydream, and come up with other ways of sharing their gifts with the world. When a Gemini can truly tap in and share their gifts, they're an unstoppable force of energy that can motivate, inspire, and enchant the rest of the Zodiac.",
+      "pred5": ""
+    },
+    {
+      "id": "6",
+      "Name": "Cancer",
+      "Date": "Jun 21 - Jul 22",
+      "Strengths": "Tenacious, highly imaginative, loyal, emotional, sympathetic, persuasive",
+      "Weaknesses": "Moody, pessimistic, suspicious, manipulative, insecure",
+      "Likes": "Art, home-based hobbies, relaxing near or in water, helping loved ones, a good meal with friends",
+      "Dislikes": "Strangers, any criticism of Mom, revealing of personal life",
+      "Short description": "Home, family life, patriotism; emotions and moodiness; the past and nostalgia for childhood.",
+      "pred1": "Deeply intuitive and sentimental, Cancer can be one of the most challenging zodiac signs to get to know. They are very emotional and sensitive and care deeply about matters of the family and their home. Cancer is sympathetic and attached to people they keep close. Cancer are very loyal and able to empathize with other people's pain and suffering.",
+      "pred2": "Cancer loves creating and needs some type of creative outlet, whether it's painting, writing, or even just reading. Cancer also loves connecting to a higher power, and may find comfort in religion or spiritual practices. And even though Crabs can be intense, they also have a funny side with a wry sense of humor, and they're adept at observing and mimicking people around them.",
+      "pred3": "Cancer is incredibly loyal, sometimes to a fault. Cancers will go to the ends of the earth and even against their own beliefs to help someone they love. Learning how to step up for what they believe in—even if it means turning down or against a friend—is a lifelong lesson for Cancer.",
+      "pred4": "",
+      "pred5": ""
+    },
+    {
+      "id": "7",
+      "Name": "Leo",
+      "Date": "Jul 23 - Aug 22",
+      "Strengths": "Creative, passionate, generous, warm-hearted, cheerful, humorous",
+      "Weaknesses": "Arrogant, stubborn, self-centered, lazy, inflexible",
+      "Likes": "Theater, taking holidays, being admired, expensive things, bright colors, fun with friends",
+      "Dislikes": "Being ignored, facing difficult reality, not being treated like a king or queen",
+      "Short description": "Wealth and generosity; passing on wisdom and wealth (children, heirs); attention and the limelight.",
+      "pred1": "Bold, intelligent, warm, and courageous, fire sign Leo is a natural leader of the Zodiac, ready to blaze a trail, vanquish injustice, and make a name for themselves along the way. Blessed with high self-esteem, Lions know that they possess enviable traits—and they're proud of them. They don't believe in false modesty and will be the first to praise themselves for a job well done. But Leo isn't self-aggrandizing or unwilling to roll up those sleeves and do the work: this sign knows that in order to be respected and admired, he or she needs to put in the effort worthy of a leader.",
+      "pred2": "But it's not all hard work for Lions. Intense and energetic, Leos thrive on social interactions and have no problem making friends—although pinning them down to spend time with you is another story. Leos put themselves first, and will turn down a plan that doesn't fit with their agenda or idea of fun. This trait has gained them an unfair reputation for arrogance. But on the flip side, when a Lion chooses to spend time with you, it's genuinely because he or she wants to.",
+      "pred3": "Leo signs are passionate in all pursuits, including relationships, and take it upon themselves to be the best partner you've ever had. They love grand gestures, and they want to show the world how attentive and caring they can be. They also can't resist flashiness and often buy their partner the biggest and best presents. Leo is an adventurer, seeking to balance an intense life of social obligations and travel with plenty of downtime to relax and luxuriate. Work and outward appearances matter to this sign, and they're willing to do whatever it takes to gain a job title or workplace status, even if it means temporarily sacrificing their precious leisure time.",
+      "pred4": "Benevolent with their time and attention, Leos are never cliquey, always showing friendliness and politeness to everyone. While almost everyone else is entranced by the Leonine personality, Leos are their own harshest critic and consider each day a challenge to be the best, brightest, and boldest Lion they can be.",
+      "pred5": ""
+    },
+    {
+      "id": "8",
+      "Name": "Virgo",
+      "Date": "Aug 23 - Sep 22",
+      "Strengths": "Loyal, analytical, kind, hardworking, practical",
+      "Weaknesses": "Shyness, worry, overly critical of self and others, all work and no play",
+      "Likes": "Animals, healthy food, books, nature, cleanliness",
+      "Dislikes": "Rudeness, asking for help, taking center stage",
+      "Short description": "Health, cleanliness, and nursing; mathematical precision; neuroticism and attention to detail.",
+      "pred1": "Smart, sophisticated, and kind, Virgo gets the job done without complaining. Virgos are amazing friends, always there to lend a hand and also lend advice. Practical Virgos are incredibly adept at big picture thinking, and planning out their life, their vacations, and what they're going to do today isn't a drag it makes them feel in control and secure.",
+      "pred2": "Virgo has a rich inner life, and can sometimes seem shy at first meeting. A Virgo won't spill secrets right away, and it's important to earn a Virgo's trust. But once you do, that Virgin will be a friend for life.",
+      "pred3": "Virgos expect perfection from themselves, and they may project those high standards on the other people in their life. A Virgo hates when someone lets him or her down, even if it's minor and unavoidable, like a last-minute cancellation. Virgo signs never want to disappoint the people in their lives, so they may spread themselves too thin put themselves last.",
+      "pred4": "Virgos love and are inspired by beauty. They consider what they wear and how they decorate their house to be an extension of their personality. They thrive when everything in their life looks Pinterest-perfect, and although their friends make fun of their penchant for organizing, it truly is the anchor that makes Virgo's life run smoothly.",
+      "pred5": "Intelligent and a lifelong learner, Virgo loves trying new things, reading books, and learning about the world. They'll happily sign up for an adult-education course, and they consider an afternoon in bed with a book pretty much ideal. A Virgo prefers an evening with good friends to a huge party, and values downtime just as much as socializing. This sign doesn't need to fill their calendar to be content."
+    },
+    {
+      "id": "9",
+      "Name": "Libra",
+      "Date": "Sep 23 - Oct 22",
+      "Strengths": "Cooperative,diplomatic, gracious, fair-minded, social",
+      "Weaknesses": "Indecisive, avoids confrontations, will carry a grudge, self-pity",
+      "Likes": "Harmony, gentleness, sharing with others, the outdoors",
+      "Dislikes": "Violence, injustice, loudmouths, conformity",
+      "Short description": "Seeking completion and a spiritual “other half;” sociability, chattiness, and diplomacy; justice and peace.",
+      "pred1": "Libras are peaceful, fair, and they hate being alone. A partnership is very important for them, seeking someone with the ability to be the mirror to themselves. These individuals are fascinated by balance and symmetry, they are in a constant chase for justice and equality, realizing through life that the only thing that should be truly important to themselves in their inner core of personality. This is someone ready to do nearly anything to avoid conflict, keeping the peace whenever possible. Therefore, Libras are adept at seeing all points of view, and excel at crafting compromises and effecting mediation between others. This sign has a rich inner life yet loves other people, and they're always happiest with a large group of friends, family, and coworkers on whom they can count.",
+      "pred2": "Libras can often be 'up in the clouds,* and while they are amazing at making big plans, following them through can be tricky. Working with detail-oriented signs, like Virgos or Capricorns, can help Libras actually manifest their dreams into reality, especially in the workspace. But don't call out Librans for daydreaming—their imagination is one of their biggest assets, and they often put their imagination to work by finding careers in the arts or in literature.",
+      "pred3": "Libras believe that they're directing their own lives, and they take a big-picture approach in making that life look and feel the best it can be. They spend a lot of time figuring out what's missing from that big picture, and they may feel unhappy if they become too focused on one thing, whether it's work, a partner, or a family member. Librans are at their best when they balance their schedule to include plenty of time for self-care rituals and personal pursuits, and when they give themselves enough flexibility to change focus.",
+      "pred4": "Although Libra appears self-confident to outsiders, he or she might struggle with insecurity, especially as it relates to personal identity, which sometimes feels mutable. This sign's lifelong question is: 'Who am I?' They may find their identity shifting based on where they are in their lives and who they're spending time with. In order to feel more confident in their identity, social Libras need to get comfortable spending time with themselves and getting to know their gut and their internal voice.",
+      "pred5": ""
+    },
+    {
+      "id": "10",
+      "Name": "Scorpio",
+      "Date": "Oct 23 - Nov 21",
+      "Strengths": "Resourceful, powerful, brave, passionate, a true friend",
+      "Weaknesses": "Distrusting, jealous, manipulative, violent",
+      "Likes": "Truth, facts, being right, talents, teasing, passion",
+      "Dislikes": "Dishonesty, revealing secrets, superficiality, small talk",
+      "Short description": "Secrecy, the profane or improper; sexuality, death, and altered states of consciousness; psychology, business, people-smarts.",
+      "pred1": "Passionate, independent, and unafraid to blaze their own trail no matter what others think, Scorpios make a statement wherever they go. They aren't afraid of controversy, and won't back down from a debate. They also hate people who aren't genuine, and are all about being authentic—even if authentic isn't pretty.",
+      "pred2": "Because of these traits, Scorpios can seem intimidating and somewhat closed off to those who don't know them well. Even though Scorpios may seem brusque they also are very in tune with their emotions, and sometimes may find themselves caught up in their feelings.This leads Scorpio's central conflict: Their feelings are what drives them and strengthens them, but their mutability can scare them and make them feel vulnerable and out of control. Because of this conflict, Scorpios, like their namesake, the scorpion, put up an outer shell and may seem prickly.",
+      "pred3": "But once people get beyond the shell, they find a loyal, loving person whose passion knows no bounds. Scorpios dive into all, life has to offer with 100% enthusiasm. A Scorpio will be your most loyal friend, most dedicated employee—and your worst enemy, if they want to be.",
+      "pred4": "",
+      "pred5": ""
+    },
+    {
+      "id": "11",
+      "Name": "Sagittarius",
+      "Date": "Nov 22 - Dec 21",
+      "Strengths": "Generous, idealistic, great sense of humor",
+      "Weaknesses": "Promises more than can deliver, very impatient, will say anything no matter how undiplomatic",
+      "Likes": "Freedom, travel, philosophy, being outdoors",
+      "Dislikes": "Clingy people, being constrained, off-the-wall theories, details",
+      "Short description": "Travel and curiosity; teaching and learning, scholarship; spiritual seeking and questing.",
+      "pred1": "Independent and strong-willed, Sagittarius personalities are all about going off the beaten path. Sagittarius aren’t afraid to step away from the pack, and are natural born leaders who go after what they want, regardless of what other people think. Sagittarius are  born adventurers, and love solo travel and exploration. Sagittarius also love exploring the inner workings of their minds, and love stretching their horizons through a good book or movie.",
+      "pred2": "Sagittarius are open-hearted, generous, and big-spirited.  Sagittarius are always truthful and because of this, they may hurt others’ feelings, or may be called out for not having tact or empathy. The latter is not true. With their keen imagination, Sagittarius are adept at putting themselves in another person’s shoes. You can  trust a Sagittarius, period. Unlike other signs, they won’t spill any secrets.",
+      "pred3": "Sagittarius are steadfast friends and creative thinkers; great persons to have on a work team, as they have infectious energy and enthusiasm. They aren’t looking for constant feedback, and can take a project and run with it. A Sagittarius can also be an adept entrepreneur or CEO. They are smart, capable, and true trailblazers.",
+      "pred4": "",
+      "pred5": ""
+    },
+    {
+      "id": "12",
+      "Name": "Capricorn",
+      "Date": "Dec 22 - Jan 19",
+      "Strengths": "Responsible, disciplined, self-control, good managers",
+      "Weaknesses": "Know-it-all, unforgiving, condescending, expecting the worst",
+      "Likes": "Family, tradition, music, understated status, quality craftsmanship",
+      "Dislikes": "Almost everything at some point",
+      "Short description": "Miserliness or lack of material resources; ambition and forward drive; discipline, knowledge from suffering.",
+      "pred1": "Smart, hardworking, and fully in control of their destiny, Capricorns will get what they set their mind to, in both personal and professional life. Capricorns may have a reputation as stubborn, but they simply know what they want, and also know how they wish other people would behave.",
+      "pred2": "Natural rule-followers, Capricorns thrive on order and love strict rules, hierarchies, and set ways to do things. Can Capricorns think outside the box? Yes, they can, but they prefer when they have strict boundaries to constrain against—free reign can make them feel paralyzed by choice. Capricorns are great at climbing the corporate ladder, and especially adept at making (and investing) money. Capricorns love family, and put a lot of stock in traditions. Capricorns might stress themselves out trying to do everything perfectly. Capricorns believe presentation is important, and their homes are usually very representative. A Capricorn sometimes is overly focused on what things look like, instead of how things feel, which could cause them to feel stifled and unhappy.",
+      "pred3": "Capricorns need to find a sense of self beyond how others perceive them, and recognize that racking up achievements is only a part of their personality.",
+      "pred4": "Capricorns are loyal friends, and have a funny and sly sense of humor when you get to know them. Capricorns will dive into a relationship like a job, and believes that hard work can help make a bond as strong as possible. While sometimes a romantic conversation may veer toward feeling a bit like a board meeting, especially with action items and improvement plans, but if you roll with it, they have a point: Your bond will be stronger.",
+      "pred5": ""
+    }
+  ],
+  "Chinese Zodiac": [
+    {
+      "Chine": "Chinese astrology is based on the traditional astronomy. The development of Chinese astrology is tied to that of astronomy which came to flourish during the Han Dynasty. The Chinese Zodiac is one of the oldest known horoscope system in the world and consists of twelve animals that represent a certain year. According to Chinese astrology, the year of a person's birth is represented by one of these animals. The twelve animal signs or zodiac symbols are Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Sheep, Monkey, Rooster, Dog, and Pig. Chinese astrology also has five elements of nature namely: water, wood, fire, earth and metal. According to Chinese astrology, a person's destiny can be determined by the position of the planets and the positions of the Sun and Moon at the person's time of birth. Chinese believe that our birth year can determine our attitude and potential and that animal birth signs have symbolism and represent a specific behavior."
+    },
+    {
+      "Chine": "Rat"
+    },
+    {
+      "Chine": "Ox"
+    },
+    {
+      "Chine": "Tiger"
+    },
+    {
+      "Chine": "Rabbit"
+    },
+    {
+      "Chine": "Dragon"
+    },
+    {
+      "Chine": "Snake"
+    },
+    {
+      "Chine": "Horse"
+    },
+    {
+      "Chine": "Goat"
+    },
+    {
+      "Chine": "Monkey"
+    },
+    {
+      "Chine": "Rooster"
+    },
+    {
+      "Chine": "Dog"
+    },
+    {
+      "Chine": "Pig"
+    }
+  ]
+}
+
