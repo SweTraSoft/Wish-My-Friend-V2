@@ -1,110 +1,123 @@
-[
+{
+  "Chinese Zodiac": [
     {
-        "id": 1,
-        "name":"Rat",
-        "pred1":"In China and Japan, the rat is a symbol of good luck and wealth, unlike the western gutter-dwelling counterpart. But in both east and west, rats are most often behind the scenes, curiously observing and then taking opportunities that come their way.",
-        "pred2":"Characteristically, rats are ingenious at overcoming adversity and are skilled at using charm and persuasive powers to ensure that their own goals are met without seeming manipulative.",
-        "pred3":"Rats love socializing, and are happiest surrounded by close-knit friends. To those in their pack they are generous and  loyal, but are often defensive and uptight with outsiders.",
-        "pred4":"Professionally, rats detest bureaucracy and tight deadlines. Luckily, they can usually charm their way around such limitations.",
-        "pred5":"In love, rats are adventurous pleasure-seekers and monotony is their worst fear."
+      "id": "1",
+      "name": "Rat",
+      "Short description": "quick-witted, smart, charming, and persuasive",
+      "pred1": "In China and Japan, the rat is a symbol of good luck and wealth, unlike the western gutter-dwelling counterpart. But in both east and west, rats are most often behind the scenes, curiously observing and then taking opportunities that come their way.",
+      "pred2": "Characteristically, rats are ingenious at overcoming adversity and are skilled at using charm and persuasive powers to ensure that their own goals are met without seeming manipulative.",
+      "pred3": "Rats love socializing, and are happiest surrounded by close-knit friends. To those in their pack they are generous and  loyal, but are often defensive and uptight with outsiders.",
+      "pred4": "Professionally, rats detest bureaucracy and tight deadlines. Luckily, they can usually charm their way around such limitations.",
+      "pred5": "In love, rats are adventurous pleasure-seekers and monotony is their worst fear."
     },
     {
-        "id": 2,
-        "name":"Ox",
-        "pred1":"The Chinese ox is sturdy and steadfast, a born leader and a great practical thinker. They are ruled by their head and achieve results through hard work.",
-        "pred2":"Unlike the western image of a bull in a china shop, the Chinese Ox is more refined,and have a good eye for the smaller details. ",
-        "pred3":"Oxen are honorable creatures and have a strong moral code. However, they can be dogmatic and traditional in their approach, respond not well to change and can be obstructive if others force situations upon them. ",
-        "pred4":"Oxen detest stress, preferring to work or think at their own pace but you are swift to judge. Oxen generally keep their views to themselves, though, and are more likely to hold silent grudges than air grievances as they dislike public arguments. ",
-        "pred5":"Oxen are loyal and protective of those near them and would rather work out problems in private, even if that takes time, than move on to new pastures. "
+      "id": "2",
+      "name": "Ox",
+      "Short description": "patient, kind, stubborn, and conservative",
+      "pred1": "The Chinese ox is sturdy and steadfast, a born leader and a great practical thinker. They are ruled by their head and achieve results through hard work.",
+      "pred2": "Unlike the western image of a bull in a china shop, the Chinese Ox is more refined,and have a good eye for the smaller details. ",
+      "pred3": "Oxen are honorable creatures and have a strong moral code. However, they can be dogmatic and traditional in their approach, respond not well to change and can be obstructive if others force situations upon them. ",
+      "pred4": "Oxen detest stress, preferring to work or think at their own pace but you are swift to judge. Oxen generally keep their views to themselves, though, and are more likely to hold silent grudges than air grievances as they dislike public arguments. ",
+      "pred5": "Oxen are loyal and protective of those near them and would rather work out problems in private, even if that takes time, than move on to new pastures. "
     },
     {
-        "id": 3,
-        "name":"Tiger",
-        "pred1":"The Chinese Tiger is a magnetic creature and few can resist the raw, seductive appeal when they are on the prowl.",
-        "pred2":"Although the Tiger is not the king of the jungle, they are most certainly queen of all they survey and their authoritative manner generally ensures that they stay in control. Tigers don’t deal well with failure, and demonstrate a temper if challenged.",
-        "pred3":"Tigers are smart and inventive in business, and are very good at taking the initiative and winning.",
-        "pred4":"While Tigers are a powerful force to be reckoned with sexually, snaring  prey with  seductive charms, they hate being caged and retreat if they sense an emotional trap.",
-        "pred5":""
+      "id": "3",
+      "name": "Tiger",
+      "Short description": "authoritative, emotional, courageous, and intense",
+      "pred1": "The Chinese Tiger is a magnetic creature and few can resist the raw, seductive appeal when they are on the prowl.",
+      "pred2": "Although the Tiger is not the king of the jungle, they are most certainly queen of all they survey and their authoritative manner generally ensures that they stay in control. Tigers don’t deal well with failure, and demonstrate a temper if challenged.",
+      "pred3": "Tigers are smart and inventive in business, and are very good at taking the initiative and winning.",
+      "pred4": "While Tigers are a powerful force to be reckoned with sexually, snaring  prey with  seductive charms, they hate being caged and retreat if they sense an emotional trap.",
+      "pred5": ""
     },
     {
-        "id": 4,
-        "name":"Rabbit",
-        "pred1":"The Chinese Rabbit is popular for its warm nature and sensitivity.",
-        "pred2":"Vulnerable creatures, Bunny Girls need love and protection to thrive. ",
-        "pred3":"Rabbits feel most comfortable in the hub of a large group of close friends or family. They don’t deal well with isolation or loneliness and depend on others for emotional support and validation.",
-        "pred4":"Rabbits are not great at fighting alone, so they tend to bolt if faced with problems or arguments. Sometimes, even minor decision-making can be traumatic for them. ",
-        "pred5":"Rabbits have keen senses of smell but this goes beyond the physical – they are very sensitive to people and situations and their intuition is seldom wrong."
+      "id": "4",
+      "name": "Rabbit",
+      "Short description": "popular, compassionate, and sincere",
+      "pred1": "The Chinese Rabbit is popular for its warm nature and sensitivity.",
+      "pred2": "Vulnerable creatures, rabbits need love and protection to thrive. ",
+      "pred3": "Rabbits feel most comfortable in the hub of a large group of close friends or family. They don’t deal well with isolation or loneliness and depend on others for emotional support and validation.",
+      "pred4": "Rabbits are not great at fighting alone, so they tend to bolt if faced with problems or arguments. Sometimes, even minor decision-making can be traumatic for them. ",
+      "pred5": "Rabbits have keen senses of smell but this goes beyond the physical – they are very sensitive to people and situations and their intuition is seldom wrong."
     },
     {
-        "id": 5,
-        "name":"Dragon",
-        "pred1":"The Chinese Dragon is one of the most powerful animals that uses its fiery energy to achieve greatness. ",
-        "pred2":"Dragons are charismatic creatures and breathe warmth and energy into all that they do. This makes dragons infectiously charming and generally popular. They love to be in charge and spark enthusiasm in others for whatever project they're working on.  ",
-        "pred3":"Dragons can be self-important, however, and their impatient streak can mean they live up to their name.   ",
-        "pred4":"With all that fire, dragons are passionate, sexy and blessed with a great deal of luck in love. They are hot on emotions and can get frustrated by those who take a cooler approach.",
-        "pred5":"Dragons are champions of the weak, even though they can be insensitive to those who don’t do things their way."
+      "id": "5",
+      "name": "Dragon",
+      "Short description": "energetic, fearless, warm-hearted, and charismatic",
+      "pred1": "The Chinese Dragon is one of the most powerful animals that uses its fiery energy to achieve greatness. ",
+      "pred2": "Dragons are charismatic creatures and breathe warmth and energy into all that they do. This makes dragons infectiously charming and generally popular. They love to be in charge and spark enthusiasm in others for whatever project they're working on.  ",
+      "pred3": "Dragons can be self-important, however, and their impatient streak can mean they live up to their name.   ",
+      "pred4": "With all that fire, dragons are passionate, sexy and blessed with a great deal of luck in love. They are hot on emotions and can get frustrated by those who take a cooler approach.",
+      "pred5": "Dragons are champions of the weak, even though they can be insensitive to those who don’t do things their way."
     },
     {
-        "id": 6,
-        "name":"Snake",
-        "pred1":"The Chinese Snake is the most seductive animal of the zodiac, oozing sensual power with an air of mystery. ",
-        "pred2":"Snakes tend to be extravagant creatures and love beautiful clothes and possessions. Luckily, they have a stout financial mind so they are gifted at making their money go a long way. ",
-        "pred3":"Although the Chinese Snake is not as sly as the western stereotype, they tend to enjoy being party to gossip and are very skilful at eliciting people’s secrets.",
-        "pred4":"Snakes have a deep-rooted scepticism and jealousy. Distrust can mar relationships if snakes don’t loosen their reins of control occasionally.",
-        "pred5":""
+      "id": "6",
+      "name": "Snake",
+      "Short description": "charming, gregarious, introverted, generous, and smart",
+      "pred1": "The Chinese Snake is the most seductive animal of the zodiac, oozing sensual power with an air of mystery. ",
+      "pred2": "Snakes tend to be extravagant creatures and love beautiful clothes and possessions. Luckily, they have a stout financial mind so they are gifted at making their money go a long way. ",
+      "pred3": "Although the Chinese Snake is not as sly as the western stereotype, they tend to enjoy being party to gossip and are very skilful at eliciting people’s secrets.",
+      "pred4": "Snakes have a deep-rooted scepticism and jealousy. Distrust can mar relationships if snakes don’t loosen their reins of control occasionally.",
+      "pred5": ""
     },
     {
-        "id": 7,
-        "name":"Horse",
-        "pred1":"The Chinese Horse is a true thoroughbred – naturally elegant and graceful, but with an untamable wild and tempest streak. ",
-        "pred2":"Horses prize their independence and have an unquenchable passion for travel. They tend towards a minimalistic way of life with few material possessions. ",
-        "pred3":"Horses are pioneering spirits and are often the first to discover new territory. They thrive in less disciplined environments where they are free to explore own methods of doing things. ",
-        "pred4":"The wild temperament means horses hunger for physical intimacy and closeness, yet they are afraid of being emotionally fettered. Horses love the buzz of new faces, places and hot gossip.",
-        "pred5":""
+      "id": "7",
+      "name": "Horse",
+      "Short description": "charming, gregarious, introverted, generous, and smart",
+      "pred1": "The Chinese Horse is a true thoroughbred – naturally elegant and graceful, but with an untamable wild and tempest streak. ",
+      "pred2": "Horses prize their independence and have an unquenchable passion for travel. They tend towards a minimalistic way of life with few material possessions. ",
+      "pred3": "Horses are pioneering spirits and are often the first to discover new territory. They thrive in less disciplined environments where they are free to explore own methods of doing things. ",
+      "pred4": "The wild temperament means horses hunger for physical intimacy and closeness, yet they are afraid of being emotionally fettered. Horses love the buzz of new faces, places and hot gossip.",
+      "pred5": ""
     },
     {
-        "id": 8,
-        "name":"Goat",
-        "pred1":"The Chinese Goat is an independent, introspective creature, preferring the interior world of its own imagination to the drudgery of the materialistic world. ",
-        "pred2":"Goats are hugely creative, great lovers of tranquility and beautiful places. In fact, goats love nothing better than time for themselves to indulge in daydreaming. Any kind of monotonous reality gets them down. Goats are at their best when allowed to experiment with their own, typically non-linear approach.",
-        "pred3":"Goats detest emotional scenes and public shows of affection and keep their personal life and feelings close to themselves. ",
-        "pred4":"Although goats are not materialistic and shun power or responsibility, they enjoy luxury and like to have the means to be generous to those they love. ",
-        "pred5":""
+      "id": "8",
+      "name": "Goat",
+      "Short description": "mild-mannered, shy, kind, and peace-loving",
+      "pred1": "The Chinese Goat is an independent, introspective creature, preferring the interior world of its own imagination to the drudgery of the materialistic world. ",
+      "pred2": "Goats are hugely creative, great lovers of tranquility and beautiful places. In fact, goats love nothing better than time for themselves to indulge in daydreaming. Any kind of monotonous reality gets them down. Goats are at their best when allowed to experiment with their own, typically non-linear approach.",
+      "pred3": "Goats detest emotional scenes and public shows of affection and keep their personal life and feelings close to themselves. ",
+      "pred4": "Although goats are not materialistic and shun power or responsibility, they enjoy luxury and like to have the means to be generous to those they love. ",
+      "pred5": ""
     },
     {
-        "id": 9,
-        "name":"Monkey",
-        "pred1":"True to its name, the Chinese Monkey is a cheeky creature. Popular and sociable, monkeys are where the party’s at. ",
-        "pred2":"Their great energy allows monkeys to swing from group to group and they like to keep up with a wide selection of friends rather than a close group of intimates, not least because of their love of gossip! Monkeys are great at lightening the mood and laugh in the face of adversity. Sometimes, however, monkeys don’t know when the joke’s over and it’s time to be serious. ",
-        "pred3":"In relationships, Monkeys hate commitment and rebel against anything or anyone who tries to compromise their independence.",
-        "pred4":"",
-        "pred5":""
+      "id": "9",
+      "name": "Monkey",
+      "Short description": "fun, energetic, and active",
+      "pred1": "True to its name, the Chinese Monkey is a cheeky creature. Popular and sociable, monkeys are where the party’s at. ",
+      "pred2": "Their great energy allows monkeys to swing from group to group and they like to keep up with a wide selection of friends rather than a close group of intimates, not least because of their love of gossip! Monkeys are great at lightening the mood and laugh in the face of adversity. Sometimes, however, monkeys don’t know when the joke’s over and it’s time to be serious. ",
+      "pred3": "In relationships, Monkeys hate commitment and rebel against anything or anyone who tries to compromise their independence.",
+      "pred4": "",
+      "pred5": ""
     },
     {
-        "id": 10,
-        "name":"Rooster",
-        "pred1":"The Rooster is the most stylish animal in the Chinese Zodiac. Roosters are are very visual and delight in material goods and aesthetic perfection. ",
-        "pred2":"Roosters remain calm and always try to keep their composure in  public. That said, they can be theatrical and over-dramatic if the perfect world they strive for is threatened.",
-        "pred3":"Combined with their keen eye for detail, their love of wealth and material possessions  means that roosters are likely to spend a great deal of time and investment on perfecting their dream home.",
-        "pred4":"Naturally, roosters like to rule the roost and, despite their love of physical beauty, will prefer a more subdued mate who will be content to bask in their limelight.",
-        "pred5":""
+      "id": "10",
+      "name": "Rooster",
+      "Short description": "independent, practical, hard-working, and observant",
+      "pred1": "The Rooster is the most stylish animal in the Chinese Zodiac. Roosters are are very visual and delight in material goods and aesthetic perfection. ",
+      "pred2": "Roosters remain calm and always try to keep their composure in  public. That said, they can be theatrical and over-dramatic if the perfect world they strive for is threatened.",
+      "pred3": "Combined with their keen eye for detail, their love of wealth and material possessions  means that roosters are likely to spend a great deal of time and investment on perfecting their dream home.",
+      "pred4": "Naturally, roosters like to rule the roost and, despite their love of physical beauty, will prefer a more subdued mate who will be content to bask in their limelight.",
+      "pred5": ""
     },
     {
-        "id": 11,
-        "name":"Dog",
-        "pred1": "The Chinese Dog is as loyal as his western counterpart but can have a sharp bite and a determined bark. Dogs love to please those they love, even if this involves bending the truth ever so slightly to keep the peace. And if their cover is blown, dogs hang on to their new version of events like a juicy bone, digging themselves further and further into trouble.",
-        "pred2":"On the other hand, however, dogs hate it when people are superficial or deceit in others. This, combined with their own underlying emotional insecurity, means they guard their feelings closely and are wary of new people. Dogs prefer to stick to the pack and those who have earned their trust. ",
-        "pred3":"Dogs are sticklers for issues and are swift to judge those they see as unethical. They will fiercely protect their values and stand their ground against anyone who attacks their beliefs. ",
-        "pred4":"",
-        "pred5":""
+      "id": "11",
+      "name": "Dog",
+      "Short description": "patient, diligent, generous, faithful, and kind",
+      "pred1": "The Chinese Dog is as loyal as his western counterpart but can have a sharp bite and a determined bark. Dogs love to please those they love, even if this involves bending the truth ever so slightly to keep the peace. And if their cover is blown, dogs hang on to their new version of events like a juicy bone, digging themselves further and further into trouble.",
+      "pred2": "On the other hand, however, dogs hate it when people are superficial or deceit in others. This, combined with their own underlying emotional insecurity, means they guard their feelings closely and are wary of new people. Dogs prefer to stick to the pack and those who have earned their trust. ",
+      "pred3": "Dogs are sticklers for issues and are swift to judge those they see as unethical. They will fiercely protect their values and stand their ground against anyone who attacks their beliefs. ",
+      "pred4": "",
+      "pred5": ""
     },
     {
-        "id": 12,
-        "name":"pig",
-        "pred1":"The Chinese Pig is the most honorable animal of the zodiac. Gentle and home-loving, Pigs are generous and indulgent by nature. Unlike the typical view of the Pig, the Chinese Pig is known for its impeccable manners, exquisite taste and gentle disposition.",
-        "pred2":"Pigs love comfort and rather prefer to indulge in a luxurious home than in going out. Subsequently, they spend more time with close friends and family than in wider social circles.",
-        "pred3":"Pigs hate emotional uncertainty but they are incapable of making hard decisions so they often end up putting up with relationships that don’t entirely satisfy them. Pigs would still rather be with an unsuitable partner than be alone as one of their greatest fears is isolation. ",
-        "pred4":"",
-        "pred5":""
+      "id": "12",
+      "name": "pig",
+      "Short description": "loving, tolerant, honest, and appreciative of luxury",
+      "pred1": "The Chinese Pig is the most honorable animal of the zodiac. Gentle and home-loving, Pigs are generous and indulgent by nature. Unlike the typical view of the Pig, the Chinese Pig is known for its impeccable manners, exquisite taste and gentle disposition.",
+      "pred2": "Pigs love comfort and rather prefer to indulge in a luxurious home than in going out. Subsequently, they spend more time with close friends and family than in wider social circles.",
+      "pred3": "Pigs hate emotional uncertainty but they are incapable of making hard decisions so they often end up putting up with relationships that don’t entirely satisfy them. Pigs would still rather be with an unsuitable partner than be alone as one of their greatest fears is isolation. ",
+      "pred4": "",
+      "pred5": ""
     }
-]
+  ]
